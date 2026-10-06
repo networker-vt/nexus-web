@@ -1868,7 +1868,7 @@ async function main() {
     schema: 1,
     generatedAt: (/* @__PURE__ */ new Date()).toISOString(),
     stale,
-    schedule: "alle 3 Stunden (GitHub Actions) + manuell",
+    schedule: process.env.NEXUS_SYNC_SCHEDULE || "manuell",
     note: "Nur \xF6ffentliche Bekanntmachungen aktueller Verfahren. Abgelaufene Fristen werden entfernt.",
     liveAdapters: reports.filter((r) => r.live).length,
     liveAdaptersOk: liveOk,

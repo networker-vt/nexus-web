@@ -32,6 +32,8 @@ jobs:
           node-version: 20
 
       - name: Öffentliche Ausschreibungen abrufen (Portal-Adapter)
+        env:
+          NEXUS_SYNC_SCHEDULE: alle 3 Stunden (automatisch)
         run: node sync/fetch-tenders.mjs docs/data/tenders.json https://networker-vt.github.io/nexus-web/data/tenders.json
 
       - name: Datei veröffentlichen
