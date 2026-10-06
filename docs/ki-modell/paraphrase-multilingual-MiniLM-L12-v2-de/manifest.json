@@ -1,0 +1,15 @@
+{
+ "model": "paraphrase-multilingual-MiniLM-L12-v2-de",
+ "files": {
+  "model_quantized.onnx": 45716766,
+  "tokenizer.json": 2183303,
+  "tokenizer_config.json": 469,
+  "ort-wasm-simd-threaded.wasm": 14239897
+ },
+ "hashes": {
+  "model_quantized.onnx": "8e5e2a5b08d9",
+  "tokenizer.json": "2b9cd4421482",
+  "tokenizer_config.json": "4381543169ed",
+  "ort-wasm-simd-threaded.wasm": "81e64570ee54"
+ }
+}
