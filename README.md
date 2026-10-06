@@ -10,4 +10,6 @@ Nexus im Browser: öffentliche Ausschreibungen für Medientechnik finden, übern
 
 Dieses Repository enthält nur die fertig gebaute Webseite (`docs/`, über GitHub Pages veröffentlicht), die Ausschreibungsdaten (`docs/data/tenders.json`) und den gebündelten Abruf (`sync/fetch-tenders.mjs`). Der Quellcode liegt im privaten Repository.
 
+Verbesserungsvorschläge aus der App („Vorschlag senden“) kommen als Issues mit dem Label `vorschlag` an – siehe [docs/feedback.md](docs/feedback.md).
+
 [Impressum](https://networker-vt.github.io/nexus-web/impressum.html) · [Datenschutz](https://networker-vt.github.io/nexus-web/datenschutz.html)
