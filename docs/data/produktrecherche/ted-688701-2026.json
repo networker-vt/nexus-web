@@ -6,15 +6,63 @@
   "01.01.001": {
    "kurztext": "48 Port Medien-Switch PoE+",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "NETGEAR",
+    "model": "M4350-48G4XF (GSM4352)",
+    "productUrl": "https://www.netgear.com/de/business/wired/switches/fully-managed/m4350-48g4xf/",
+    "datasheetUrl": "https://www.downloads.netgear.com/files/GDC/M4350/M4350_Datasheet.pdf",
+    "datenblattDatei": "datenblaetter/NETGEAR_M4350-48G4XF_GSM4352_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "48 PoE+ Ports 1G",
+      "status": "ok",
+      "evidence": "48 ports PoE+"
+     },
+     {
+      "criterion": "4x SFP+",
+      "status": "ok",
+      "evidence": "M4350-48G4XF: 4x 10G SFP+"
+     },
+     {
+      "criterion": "19\" Rack",
+      "status": "ok",
+      "evidence": "Rackmount"
+     },
+     {
+      "criterion": "IGMP für AV over IP / Dante / AES67",
+      "status": "ok",
+      "evidence": "„IGMP Plus™ means AV-over-IP multicasting will work“"
+     },
+     {
+      "criterion": "QoS mit mehreren Queues",
+      "status": "ok",
+      "evidence": "Seven (7) queues, L2/L3/L4 classifier"
+     },
+     {
+      "criterion": "OSI Layer 2",
+      "status": "unknown",
+      "evidence": "Layer 2/3/4-Switch – kann als L2 betrieben werden, LV-Formulierung klären"
+     }
+    ],
+    "met": 5,
+    "total": 6,
+    "percent": 83,
+    "treffer": false,
+    "failed": false
+   },
+   "preis": {
+    "net": 4670.2,
+    "url": "https://www.mediatec.de/netgear-m4350-48g4xf-gsm4352-100nes/",
+    "shop": "mediatec",
+    "note": "Shoppreis netto (brutto 5.557,54 €)",
+    "gross": 5557.54,
+    "date": "2026-10-07"
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=48+Port+Medien-Switch+PoE%2B"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=48+Port+Medien-Switch+PoE%2B+Datenblatt+filetype%3Apdf"
+     "name": "mediatec (Shop, DE)",
+     "url": "https://www.mediatec.de/netgear-m4350-48g4xf-gsm4352-100nes/",
+     "typ": "shop"
     }
    ]
   },
@@ -383,15 +431,40 @@
   "01.01.011": {
    "kurztext": "KNX-Schnittstelle",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "Weinzierl",
+    "model": "KNX IP Interface 731",
+    "productUrl": "https://weinzierl.de/de/products/731/",
+    "datasheetUrl": "https://weinzierl.de/images/download/products/731/weinzierl-731-knx-ip-interface-5242-datasheet-de.pdf",
+    "datenblattDatei": "datenblaetter/Weinzierl_KNX_IP_Interface_731_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "KNX ↔ LAN/IP Schnittstelle",
+      "status": "ok",
+      "evidence": "Verbindung LAN/Ethernet und KNX-Bus, Tunneling"
+     },
+     {
+      "criterion": "Einbau 19\"-Schrank",
+      "status": "unknown",
+      "evidence": "Hutschiene 1 TE – im Rack nur mit Hutschienen-Träger"
+     },
+     {
+      "criterion": "Ansteuerung Licht/Jalousie",
+      "status": "unknown",
+      "evidence": "abhängig von Programmierung, nicht Gerät"
+     }
+    ],
+    "met": 1,
+    "total": 3,
+    "percent": 33,
+    "treffer": false,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=KNX-Schnittstelle"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=KNX-Schnittstelle+Datenblatt+filetype%3Apdf"
+     "name": "my-knx-shop (Shop)",
+     "url": "https://my-knx-shop.net/Weinzierl-KNX-IP-Interface-731",
+     "typ": "shop"
     }
    ]
   },
@@ -428,15 +501,55 @@
   "01.01.014": {
    "kurztext": "50 Zoll Monitor Ratssaal",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "Samsung",
+    "model": "QM50C (LH50QMCEPGCXEN)",
+    "productUrl": "https://www.samsung.com/de/business/displays/4k-uhd/qmc/",
+    "datasheetUrl": "https://images.samsung.com/is/content/samsung/assets/de/business/displays/pdf/Datenblatt_Smart_Signage_LH50QMCEPGCXEN.pdf",
+    "datenblattDatei": "datenblaetter/Samsung_QM50C_LH50QMCEPGCXEN_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "Auflösung 4K 3840x2160, 16:9",
+      "status": "ok",
+      "evidence": "3.840 x 2.160 Pixel"
+     },
+     {
+      "criterion": "min. 2x HDMI bzw. DisplayPort",
+      "status": "ok",
+      "evidence": "3x HDMI (HDCP 2.2), 1x DP 1.2"
+     },
+     {
+      "criterion": "Helligkeit min. 440 cd/m²",
+      "status": "ok",
+      "evidence": "500 cd/m²"
+     },
+     {
+      "criterion": "Kontrast über 1 Million",
+      "status": "fail",
+      "evidence": "1.200:1 statisch"
+     },
+     {
+      "criterion": "IR-Fernbedienung",
+      "status": "unknown",
+      "evidence": "im Datenblatt nicht eindeutig"
+     },
+     {
+      "criterion": "ca. 50\"",
+      "status": "ok",
+      "evidence": "49,5 Zoll"
+     }
+    ],
+    "met": 4,
+    "total": 6,
+    "percent": 67,
+    "treffer": false,
+    "failed": true
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=50+Zoll+Monitor+Ratssaal"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=50+Zoll+Monitor+Ratssaal+Datenblatt+filetype%3Apdf"
+     "name": "Bechtle (Shop)",
+     "url": "https://www.bechtle.com/shop/samsung-qm50c-smart-signage-display--4750224--p",
+     "typ": "shop"
     }
    ]
   },
@@ -538,15 +651,35 @@
   "01.02.006": {
    "kurztext": "Hören und Ring-Loop Tester / Empfänger",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "Ampetronic",
+    "model": "ILR3",
+    "productUrl": "https://www.ampetronic.com/products/ilr3/",
+    "datasheetUrl": "https://www.ampetronic.com/wp-content/uploads/2020/03/UP31901-14_datasheet_ILR3.pdf",
+    "datenblattDatei": "datenblaetter/Ampetronic_ILR3_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "Testgerät für Induktionsschleife",
+      "status": "ok",
+      "evidence": "loop receiver, immediate confirmation that the loop is running"
+     },
+     {
+      "criterion": "Kopfhörer 3,5 mm",
+      "status": "ok",
+      "evidence": "stereo headphones supplied"
+     }
+    ],
+    "met": 2,
+    "total": 2,
+    "percent": 100,
+    "treffer": true,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=H%C3%B6ren+und+Ring-Loop+Tester+%2F+Empf%C3%A4nger"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=H%C3%B6ren+und+Ring-Loop+Tester+%2F+Empf%C3%A4nger+Datenblatt+filetype%3Apdf"
+     "name": "Ampetronic Distributoren",
+     "url": "https://www.ampetronic.com/distributors/",
+     "typ": "hersteller-haendlerliste"
     }
    ]
   },
@@ -1270,15 +1403,55 @@
   "01.06.002": {
    "kurztext": "75\" Monitor",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "Samsung",
+    "model": "QM75C (LH75QMCEBGCXEN)",
+    "productUrl": "https://www.samsung.com/de/business/displays/4k-uhd/qmc/",
+    "datasheetUrl": "https://images.samsung.com/is/content/samsung/assets/de/business/displays/pdf/Datenblatt_Smart_Signage_LH75QMCEBGCXEN.pdf",
+    "datenblattDatei": "datenblaetter/Samsung_QM75C_LH75QMCEBGCXEN_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "Auflösung 4K 3840x2160, 16:9",
+      "status": "ok",
+      "evidence": "3.840 x 2.160 Pixel"
+     },
+     {
+      "criterion": "min. 2x HDMI bzw. DisplayPort",
+      "status": "ok",
+      "evidence": "3x HDMI (HDCP 2.2), 1x DP 1.2"
+     },
+     {
+      "criterion": "ca. 75\"",
+      "status": "ok",
+      "evidence": "74,5 Zoll"
+     },
+     {
+      "criterion": "Breite ca. 170 / Höhe ca. 96 cm",
+      "status": "unknown",
+      "evidence": "im Datenblatt nicht angegeben"
+     },
+     {
+      "criterion": "inkl. Wandhalter",
+      "status": "unknown",
+      "evidence": "Wandhalter nicht im Lieferumfang laut Datenblatt"
+     },
+     {
+      "criterion": "IR-Fernbedienung",
+      "status": "unknown",
+      "evidence": "im Datenblatt nicht angegeben"
+     }
+    ],
+    "met": 3,
+    "total": 6,
+    "percent": 50,
+    "treffer": false,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=75%22+Monitor"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=75%22+Monitor+Datenblatt+filetype%3Apdf"
+     "name": "Bechtle (Shop)",
+     "url": "https://www.bechtle.com/de-en/shop/samsung-qm75c-smart-signage-display--4740325--p",
+     "typ": "shop"
     }
    ]
   },
@@ -1315,120 +1488,414 @@
   "01.06.005": {
    "kurztext": "HDMI Splitter im Doppelboden verbauen",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "38235 2 Port HDMI 18G Splitter",
+    "productUrl": "https://www.reichelt.de/de/de/shop/produkt/hdmi_splitter_2_port_4k_60_hz-372115",
+    "datasheetUrl": "https://shop.omegacom.at/content/orders/Lindy/pdf/LIN38235.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_38235_2_Port_HDMI_18G_Splitter_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "4K fähig",
+      "status": "ok",
+      "evidence": "bis 4K@60Hz 4:4:4, HDR"
+     },
+     {
+      "criterion": "1x HDMI IN auf 2x HDMI OUT",
+      "status": "ok",
+      "evidence": "1 Eingang, 2 Displays"
+     },
+     {
+      "criterion": "mit Netzteil",
+      "status": "unknown",
+      "evidence": "Lieferumfang im Datenblatt nicht genannt"
+     }
+    ],
+    "met": 2,
+    "total": 3,
+    "percent": 67,
+    "treffer": false,
+    "failed": false
+   },
+   "preis": {
+    "net": 46.18,
+    "url": "https://www.reichelt.de/de/de/shop/produkt/hdmi_splitter_2_port_4k_60_hz-372115",
+    "shop": "reichelt",
+    "note": "Shoppreis 54,95 € inkl. MwSt., netto umgerechnet",
+    "gross": 54.95,
+    "date": "2026-10-07"
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI+Splitter+im+Doppelboden+verbauen"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI+Splitter+im+Doppelboden+verbauen+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Shop)",
+     "url": "https://www.reichelt.de/de/de/shop/produkt/hdmi_splitter_2_port_4k_60_hz-372115",
+     "typ": "shop"
     }
    ]
   },
   "01.06.006": {
    "kurztext": "HDMI 15m 4K fähiges HDMI Patchkabel",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37867 HDMI Kabel Gold Line 15 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "unknown",
+      "evidence": "über 7,5 m nur als Standard-HDMI klassifiziert – 4K-Tauglichkeit im Raum testen"
+     },
+     {
+      "criterion": "Länge 15 m",
+      "status": "ok",
+      "evidence": "Länge im Familien-Datenblatt verfügbar"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 4,
+    "total": 5,
+    "percent": 80,
+    "treffer": false,
+    "failed": false
+   },
+   "preis": {
+    "net": 109.16,
+    "url": "https://www.reichelt.de/de/de/shop/produkt/hdmi_kabel_-_gold_line_4k60hz_15_0_m-369851",
+    "shop": "reichelt",
+    "note": "Shoppreis 129,90 € inkl. MwSt., netto umgerechnet",
+    "gross": 129.9,
+    "date": "2026-10-07"
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI+15m+4K+f%C3%A4higes+HDMI+Patchkabel"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI+15m+4K+f%C3%A4higes+HDMI+Patchkabel+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Shop)",
+     "url": "https://www.reichelt.de/de/de/shop/produkt/hdmi_kabel_-_gold_line_4k60hz_15_0_m-369851",
+     "typ": "shop"
     }
    ]
   },
   "01.06.007": {
    "kurztext": "HDMI 1m Patchkabel 4K fähig",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37861 HDMI Kabel Gold Line 1 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "ok",
+      "evidence": "bis 4K@60Hz, 32-Kanal-Audio"
+     },
+     {
+      "criterion": "Länge 1 m",
+      "status": "ok",
+      "evidence": "Länge im Familien-Datenblatt verfügbar"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 5,
+    "total": 5,
+    "percent": 100,
+    "treffer": true,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI+1m+Patchkabel+4K+f%C3%A4hig"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI+1m+Patchkabel+4K+f%C3%A4hig+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Suche)",
+     "url": "https://www.reichelt.de/index.html?ACTION=446&SEARCH=LINDY+37861",
+     "typ": "shop"
     }
    ]
   },
   "01.06.008": {
    "kurztext": "HDMI 7 m 4K fähiges HDMI Patchkabel",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37865 HDMI Kabel Gold Line 7,5 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "ok",
+      "evidence": "bis 4K@60Hz, 32-Kanal-Audio"
+     },
+     {
+      "criterion": "Länge 7 m",
+      "status": "unknown",
+      "evidence": "nächste Länge 7,5 m"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 4,
+    "total": 5,
+    "percent": 80,
+    "treffer": false,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI+7+m+4K+f%C3%A4higes+HDMI+Patchkabel"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI+7+m+4K+f%C3%A4higes+HDMI+Patchkabel+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Suche)",
+     "url": "https://www.reichelt.de/index.html?ACTION=446&SEARCH=LINDY+37865",
+     "typ": "shop"
     }
    ]
   },
   "01.07.001": {
    "kurztext": "HDMI 7 m 4K fähiges HDMI Patchkabel",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37865 HDMI Kabel Gold Line 7,5 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "ok",
+      "evidence": "bis 4K@60Hz, 32-Kanal-Audio"
+     },
+     {
+      "criterion": "Länge 7 m",
+      "status": "unknown",
+      "evidence": "nächste Länge 7,5 m"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 4,
+    "total": 5,
+    "percent": 80,
+    "treffer": false,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI+7+m+4K+f%C3%A4higes+HDMI+Patchkabel"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI+7+m+4K+f%C3%A4higes+HDMI+Patchkabel+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Suche)",
+     "url": "https://www.reichelt.de/index.html?ACTION=446&SEARCH=LINDY+37865",
+     "typ": "shop"
     }
    ]
   },
   "01.07.002": {
    "kurztext": "HDMI 10 m 4K fähiges HDMI Patchkabel",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37866 HDMI Kabel Gold Line 10 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "unknown",
+      "evidence": "über 7,5 m nur als Standard-HDMI klassifiziert – 4K-Tauglichkeit im Raum testen"
+     },
+     {
+      "criterion": "Länge 10 m",
+      "status": "ok",
+      "evidence": "Länge im Familien-Datenblatt verfügbar"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 4,
+    "total": 5,
+    "percent": 80,
+    "treffer": false,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI+10+m+4K+f%C3%A4higes+HDMI+Patchkabel"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI+10+m+4K+f%C3%A4higes+HDMI+Patchkabel+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Suche)",
+     "url": "https://www.reichelt.de/index.html?ACTION=446&SEARCH=LINDY+37866",
+     "typ": "shop"
     }
    ]
   },
   "01.07.003": {
    "kurztext": "HDMI-Kabel 1 m",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37861 HDMI Kabel Gold Line 1 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "ok",
+      "evidence": "bis 4K@60Hz, 32-Kanal-Audio"
+     },
+     {
+      "criterion": "Länge 1 m",
+      "status": "ok",
+      "evidence": "Länge im Familien-Datenblatt verfügbar"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 5,
+    "total": 5,
+    "percent": 100,
+    "treffer": true,
+    "failed": false
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI-Kabel+1+m"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI-Kabel+1+m+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Suche)",
+     "url": "https://www.reichelt.de/index.html?ACTION=446&SEARCH=LINDY+37861",
+     "typ": "shop"
     }
    ]
   },
   "01.07.004": {
    "kurztext": "HDMI-Kabel 2 m",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "37862 HDMI Kabel Gold Line 2 m",
+    "productUrl": "https://www.lindy.de/Action-61/1m-High-Speed-HDMI-Kabel-Gold-Line",
+    "datasheetUrl": "https://asset.conrad.com/media10/add/160267/c1/-/de/001847580DS01/tehnicni-podatki-1847580-lindy-hdmi-prikljucni-kabel-hdmi-a-vtic-hdmi-a-vtic-750-m-siva-37865-4k-uhd-hdmi-kabel.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_HDMI_Gold_Line_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "flexibel, verlustarm",
+      "status": "ok",
+      "evidence": "Familien-Datenblatt: 3-fach geschirmt, OFC-Kupfer 24 AWG"
+     },
+     {
+      "criterion": "vergoldete HDMI-Stecker beidseitig",
+      "status": "ok",
+      "evidence": "24K vergoldete Kontakte und Steckerhülsen"
+     },
+     {
+      "criterion": "überträgt 4K mit Audio",
+      "status": "ok",
+      "evidence": "bis 4K@60Hz, 32-Kanal-Audio"
+     },
+     {
+      "criterion": "Länge 2 m",
+      "status": "ok",
+      "evidence": "Länge im Familien-Datenblatt verfügbar"
+     },
+     {
+      "criterion": "konfektioniert Stecker–Stecker",
+      "status": "ok",
+      "evidence": "HDMI-A Stecker/Stecker"
+     }
+    ],
+    "met": 5,
+    "total": 5,
+    "percent": 100,
+    "treffer": true,
+    "failed": false
+   },
+   "preis": {
+    "net": 36.09,
+    "url": "https://www.reichelt.de/de/de/shop/produkt/hdmi_kabel_-_gold_line_4k60hz_2_0_m-369846",
+    "shop": "reichelt",
+    "note": "Shoppreis 42,95 € inkl. MwSt., netto umgerechnet",
+    "gross": 42.95,
+    "date": "2026-10-07"
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=HDMI-Kabel+2+m"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=HDMI-Kabel+2+m+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Shop)",
+     "url": "https://www.reichelt.de/de/de/shop/produkt/hdmi_kabel_-_gold_line_4k60hz_2_0_m-369846",
+     "typ": "shop"
     }
    ]
   },
@@ -1495,15 +1962,43 @@
   "01.07.009": {
    "kurztext": "2 m Patchkabel CAT 6e Rj 45",
    "art": "produkt",
-   "hinweis": "Kein Produkt mit geprüftem Datenblatt gefunden. Bitte über die Suchlinks prüfen.",
-   "suche": [
+   "kandidat": {
+    "brand": "LINDY",
+    "model": "47704 Cat.6 S/FTP 2 m",
+    "productUrl": "https://www.reichelt.de/de/de/shop/produkt/patchkabel_s_ftp_cat_6_2_m_grau-283646",
+    "datasheetUrl": "https://cdn-reichelt.de/documents/datenblatt/E910/LINDY_47704_DB-DE.pdf",
+    "datenblattDatei": "datenblaetter/LINDY_47704_Cat.6_S-FTP_2_m_Datenblatt.pdf",
+    "checks": [
+     {
+      "criterion": "Patchkabel RJ45, 2 m",
+      "status": "ok",
+      "evidence": "Länge 2 m, RJ45"
+     },
+     {
+      "criterion": "CAT 6e",
+      "status": "unknown",
+      "evidence": "Cat.6 S/FTP – „6e“ ist keine Norm, Cat.6 klären"
+     }
+    ],
+    "met": 1,
+    "total": 2,
+    "percent": 50,
+    "treffer": false,
+    "failed": false
+   },
+   "preis": {
+    "net": 4.12,
+    "url": "https://www.reichelt.de/de/de/shop/produkt/patchkabel_s_ftp_cat_6_2_m_grau-283646",
+    "shop": "reichelt",
+    "note": "Shoppreis 4,90 € inkl. MwSt., netto umgerechnet",
+    "gross": 4.9,
+    "date": "2026-10-07"
+   },
+   "haendler": [
     {
-     "name": "Produkt suchen",
-     "url": "https://www.google.com/search?q=2+m+Patchkabel+CAT+6e+Rj+45"
-    },
-    {
-     "name": "Datenblatt suchen",
-     "url": "https://www.google.com/search?q=2+m+Patchkabel+CAT+6e+Rj+45+Datenblatt+filetype%3Apdf"
+     "name": "reichelt (Shop)",
+     "url": "https://www.reichelt.de/de/de/shop/produkt/patchkabel_s_ftp_cat_6_2_m_grau-283646",
+     "typ": "shop"
     }
    ]
   },
