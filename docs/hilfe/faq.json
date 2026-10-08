@@ -723,7 +723,7 @@
   "id": "hilfe-ki-geplant",
   "kategorie": "Nexus nutzen",
   "frage": "Gibt es eine Hilfe-Funktion mit KI?",
-  "antwort": "Ja. Oben rechts öffnet **„Hilfe“** den Rundgang, die Schritt-für-Schritt-Anleitung und Antworten aus diesen Hilfetexten, kostenlos. Unter **Einstellungen → Hilfe & KI** können Sie zusätzlich die **KI-Hilfe mit eigenem Schlüssel** von xAI oder OpenAI einschalten: freie Fragen, Formulierungsentwürfe, Zeichnungen und Produktsuche. Die Kosten berechnet der Anbieter direkt. Eine Variante mit Guthaben direkt bei Nexus ist in Vorbereitung und noch nicht verfügbar. Die Suche im Markt nutzt ein kleines KI-Modell, das in Ihrem Browser läuft.",
+  "antwort": "Ja, in zwei Stufen. Oben rechts öffnet **„Hilfe“** den Rundgang, die Schritt-für-Schritt-Anleitung und Antworten aus diesen Hilfetexten – kostenlos und ohne KI-Dienst im Internet. Eine KI für freie Fragen, Formulierungsentwürfe, Zeichnungen und Produktsuche können Sie nur mit Ihrem **eigenen Schlüssel** von xAI oder OpenAI nutzen (Einstellungen → Hilfe & KI). Die Kosten berechnet der Anbieter direkt mit Ihnen. Ein KI-Guthaben direkt bei Nexus ist noch nicht verfügbar. Die Suche im Markt nutzt zusätzlich ein kleines Suchmodell, das vollständig in Ihrem Browser läuft und nichts verschickt.",
   "suchbegriffe": [
    "ausschreibungen finden mit ki",
    "ausschreibungen ki",
@@ -760,14 +760,16 @@
   "id": "vertraulichkeit-preise",
   "kategorie": "Datenschutz & Sicherheit",
   "frage": "Kann jemand meine Preise und Kalkulation sehen?",
-  "antwort": "Ihre Preise, Margen und Bieterakten werden nur lokal in Ihrem Browser gespeichert und nicht mit anderen Nutzern geteilt. Die Produktrecherche lädt nur vorbereitete Daten von der Nexus-Seite, Ihr Browser fragt dabei keine Shops an. Ausnahme ist die **KI-Hilfe mit eigenem Schlüssel**: Dann gehen Ihre Frage und Auszüge der geöffneten Ausschreibung an xAI oder OpenAI, und für die Produktprüfung ruft Ihr Browser die genannten Datenblätter direkt ab. Exporte (Excel, GAEB, ZIP) verlassen Ihren Rechner nur, wenn Sie sie weitergeben.",
+  "antwort": "Ihre Preise, Margen und Bieterakten werden nur lokal in Ihrem Browser gespeichert (im Browser-Speicher „IndexedDB“ auf Ihrem Rechner) und nicht mit anderen Nutzern geteilt. Nexus hat keinen eigenen Server für Ihre Daten: Nexus speichert und protokolliert keine Inhalte Ihrer Ausschreibungen, Preise oder Angebote. Die Produktrecherche lädt nur vorbereitete Daten von der Nexus-Seite, Ihr Browser fragt dabei keine Shops an. Ausnahme ist die **KI-Hilfe mit eigenem Schlüssel**: Dann gehen Ihre Frage und Auszüge der geöffneten Ausschreibung direkt von Ihrem Browser an xAI oder OpenAI, und für die Produktprüfung ruft Ihr Browser die genannten Datenblätter direkt ab. Was dort mit den Daten geschieht, regelt der jeweilige Anbieter. Exporte (Excel, GAEB, ZIP) verlassen Ihren Rechner nur, wenn Sie sie weitergeben. Wenn Sie die Browserdaten löschen, sind auch Ihre Angaben weg – sichern Sie wichtige Stände als Export.",
   "suchbegriffe": [
    "angebot vertraulich",
    "kalkulation vertraulich",
    "shops",
    "ki-hilfe",
    "xai",
-   "openai"
+   "openai",
+   "indexeddb",
+   "lokal gespeichert"
   ],
   "app_ziel": "einstellungen"
  }
