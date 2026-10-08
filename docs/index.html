@@ -1,16 +1,247 @@
 <!DOCTYPE html>
-<html lang="de" data-theme="hell" data-density="einfach">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nexus – öffentliche Ausschreibungen finden und auswerten</title>
-    <meta name="description" content="Nexus: öffentliche Ausschreibungen finden, übernehmen, LV auswerten und exportieren. Ihre Daten bleiben in diesem Browser." />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%232563eb%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22%3EN%3C/text%3E%3C/svg%3E" />
-    <script type="module" crossorigin src="/nexus-web/assets/index-DX1NI9VL.js"></script>
-    <link rel="stylesheet" crossorigin href="/nexus-web/assets/index-OyMPpfWW.css">
+    <title>Lospilot – Ausschreibungen finden, Angebote vorbereiten, selbst ausschreiben</title>
+    <meta name="description" content="Lospilot hilft Bietern, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten – und Auftraggebern, eine eigene Ausschreibung mit Leistungsverzeichnis, Kriterien und Fristen vorzubereiten. Ohne Anmeldung, Ihre Daten bleiben im Browser." />
+    <meta name="robots" content="noindex, follow" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%232563eb%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22%3EL%3C/text%3E%3C/svg%3E" />
+    <script>
+      // Alte Lesezeichen der App (…/nexus-web/#/meine usw.) führen weiter in den Bieter-Bereich – mit allen gespeicherten Daten.
+      ;(function () {
+        var weiter = function () { if (/^#\//.test(location.hash)) location.replace('bieter/' + location.hash) }
+        weiter()
+        addEventListener('hashchange', weiter)
+      })()
+    </script>
+    <script type="module" crossorigin src="/nexus-web/assets/startseite-CrZWFzN4.js"></script>
+    <link rel="modulepreload" crossorigin href="/nexus-web/assets/preload-helper-BjLlLVzV.js">
+    <link rel="stylesheet" crossorigin href="/nexus-web/assets/startseite-vrG8XzfA.css">
+    <link rel="stylesheet" crossorigin href="/nexus-web/assets/latin-700-RM8OdJ9p.css">
   </head>
-  <body style="margin:0;background:#f5f6f8;color:#1b2230" class="antialiased">
-    <div id="root"><div style="font-family:system-ui,sans-serif;color:#545e70;font-size:18px;text-align:center;margin-top:30vh">Nexus wird geladen …</div></div>
-    <noscript>Nexus benötigt JavaScript.</noscript>
+  <body class="lp">
+    <a class="lp-skip" href="#inhalt">Zum Inhalt springen</a>
+    <div class="lp-beta" role="note" data-testid="beta-hinweis">
+      <div class="lp-wrap lp-beta-in">
+        <span class="lp-beta-label" data-testid="beta-label">Beta – Testversion</span>
+        <span class="lp-beta-text">Lospilot ist eine Testversion. Funktionen können Fehler enthalten und laufen noch nicht optimal. Prüfen Sie alle Ergebnisse, bevor Sie ein Angebot abgeben oder eine Ausschreibung veröffentlichen.</span>
+        <button type="button" class="lp-beta-link" data-lp-fehler data-testid="fehler-melden">Fehler melden</button>
+      </div>
+    </div>
+    <header class="lp-header" id="kopf">
+      <div class="lp-wrap lp-header-in">
+        <a class="lp-logo" href="./" aria-label="Lospilot – Startseite">
+          <span class="lp-logo-mark" aria-hidden="true">L</span>
+          <span>Lospilot</span>
+          <span class="lp-logo-beta">Beta</span>
+        </a>
+        <button class="lp-menu-btn" type="button" aria-expanded="false" aria-controls="lp-nav" data-lp-menu>
+          <span class="lp-menu-icon" aria-hidden="true"></span>
+          <span>Menü</span>
+        </button>
+        <nav class="lp-nav" id="lp-nav" aria-label="Hauptmenü">
+          <a href="#so-gehts">So funktioniert’s</a>
+          <a href="#funktionen">Funktionen</a>
+          <a href="#fragen">Fragen</a>
+          <a href="hilfe/">Hilfe</a>
+          <span class="lp-nav-cta">
+            <a class="lp-btn lp-btn-bieter lp-btn-sm" href="bieter/">Für Bieter</a>
+            <a class="lp-btn lp-btn-ag lp-btn-sm" href="ausschreiben/">Für Auftraggeber</a>
+          </span>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inhalt">
+      <section class="lp-hero">
+        <div class="lp-wrap">
+          <p class="lp-eyebrow">Öffentliche und private Ausschreibungen</p>
+          <h1>Ausschreibungen einfach meistern –<br class="lp-br-desk" /> als Bieter und als Auftraggeber.</h1>
+          <p class="lp-lead">
+            Lospilot findet passende Ausschreibungen, liest das Leistungsverzeichnis, prüft Produkte gegen das Datenblatt und hilft beim Kalkulieren und Abgeben.
+            Wer selbst ausschreibt, bereitet mit Lospilot Leistungsverzeichnis, Kriterien und Fristen vor.
+          </p>
+          <ul class="lp-chips" aria-label="Das gilt für Lospilot">
+            <li><span class="lp-chip-dot" aria-hidden="true"></span>Ohne Anmeldung</li>
+            <li><span class="lp-chip-dot" aria-hidden="true"></span>Ihre Daten bleiben in Ihrem Browser</li>
+            <li><span class="lp-chip-dot" aria-hidden="true"></span>Keine Cookies, kein Tracking</li>
+          </ul>
+
+          <div class="lp-welcome" data-lp-welcome hidden>
+            <p><strong>Willkommen zurück!</strong> Sie haben Lospilot in diesem Browser schon genutzt – Ihre Daten sind weiter gespeichert.</p>
+            <a class="lp-btn lp-btn-bieter" href="bieter/#/meine">Weiter zu „Meine Ausschreibungen“</a>
+          </div>
+
+          <h2 class="lp-choose">Was möchten Sie tun?</h2>
+          <div class="lp-paths">
+            <a class="lp-path lp-path-bieter" href="bieter/" data-testid="weg-bieter">
+              <span class="lp-path-kicker">Für Bieter</span>
+              <span class="lp-path-title">Ich möchte mich bewerben und Angebote abgeben</span>
+              <span class="lp-path-text">Für Firmen, die an Ausschreibungen teilnehmen.</span>
+              <ul class="lp-path-list">
+                <li>Ausschreibungen aus Vergabeportalen finden</li>
+                <li>Leistungsverzeichnis einlesen (GAEB, PDF)</li>
+                <li>Produkte mit Datenblatt-Abgleich</li>
+                <li>Kalkulieren, Bieterakte, Abgabe-Prüfung</li>
+              </ul>
+              <span class="lp-path-go">Zum Bieter-Bereich <span aria-hidden="true">→</span></span>
+            </a>
+            <a class="lp-path lp-path-ag" href="ausschreiben/" data-testid="weg-auftraggeber">
+              <span class="lp-path-kicker">Für Auftraggeber</span>
+              <span class="lp-path-title">Ich möchte eine Ausschreibung veröffentlichen</span>
+              <span class="lp-path-text">Für Unternehmen, Veranstalter, Agenturen und öffentliche Stellen, die etwas ausschreiben (Anbieter einer Ausschreibung).</span>
+              <ul class="lp-path-list">
+                <li>Leistung und Lose beschreiben</li>
+                <li>Leistungsverzeichnis anlegen oder importieren</li>
+                <li>Eignung, Zuschlag und Fristen festlegen</li>
+                <li>Export als GAEB X83, Excel und PDF</li>
+              </ul>
+              <span class="lp-path-go">Ausschreibung vorbereiten <span aria-hidden="true">→</span></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="lp-section" id="so-gehts" aria-labelledby="so-gehts-h">
+        <div class="lp-wrap">
+          <h2 class="lp-h2" id="so-gehts-h">So funktioniert’s</h2>
+          <p class="lp-sub">Zwei Wege, jeweils in vier Schritten.</p>
+          <div class="lp-steps-grid">
+            <div class="lp-steps lp-steps-bieter">
+              <h3><span class="lp-tag lp-tag-bieter">Für Bieter</span></h3>
+              <ol>
+                <li><strong>Finden.</strong> Im Markt passende Ausschreibungen suchen – oder eigene Unterlagen als Ordner oder ZIP importieren.</li>
+                <li><strong>Auswerten.</strong> Lospilot liest das Leistungsverzeichnis, trennt Positionen, Formblätter und Pläne und schlägt Produkte vor.</li>
+                <li><strong>Kalkulieren.</strong> Preise, Marge, MwSt. und Eigenleistung eintragen. Export als Excel und GAEB X84.</li>
+                <li><strong>Abgeben.</strong> Bieterakte mit Checkliste und Abgabe-Prüfung. Das Angebot laden Sie selbst im Vergabeportal hoch.</li>
+              </ol>
+              <a class="lp-btn lp-btn-bieter" href="bieter/">Zum Bieter-Bereich</a>
+            </div>
+            <div class="lp-steps lp-steps-ag">
+              <h3><span class="lp-tag lp-tag-ag">Für Auftraggeber</span></h3>
+              <ol>
+                <li><strong>Beschreiben.</strong> Wer schreibt aus, was wird gebraucht, und soll es Lose geben?</li>
+                <li><strong>LV anlegen.</strong> Positionen mit Menge, Einheit und Langtext – oder ein vorhandenes LV importieren.</li>
+                <li><strong>Kriterien und Fristen.</strong> Eignung, Zuschlag, Angebotsfrist, Bieterfragen und Bindefrist festlegen.</li>
+                <li><strong>Exportieren.</strong> Bekanntmachung und LV als GAEB X83, Excel und PDF in einem ZIP. Veröffentlichen in Lospilot: demnächst.</li>
+              </ol>
+              <a class="lp-btn lp-btn-ag" href="ausschreiben/">Ausschreibung vorbereiten</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lp-section lp-section-alt" id="funktionen" aria-labelledby="funktionen-h">
+        <div class="lp-wrap">
+          <h2 class="lp-h2" id="funktionen-h">Die wichtigsten Funktionen</h2>
+          <p class="lp-sub">Echte Ansichten aus Lospilot (Testversion): Bieter-Teil mit öffentlichen Ausschreibungen, z. B. Medientechnik im Rathaus Bocholt; Auftraggeber-Teil mit erfundenen Musterdaten.</p>
+
+          <div class="lp-feature">
+            <figure class="lp-shot"><img src="start/bieter-markt.webp" width="1200" height="750" loading="lazy" alt="Lospilot Markt: Liste öffentlicher Ausschreibungen mit Filtern nach Fachgebiet, Ort und Frist" /></figure>
+            <div class="lp-feature-text">
+              <span class="lp-tag lp-tag-bieter">Für Bieter</span>
+              <h3>Markt: Ausschreibungen an einem Ort</h3>
+              <p>Lospilot ruft Bekanntmachungen aus mehreren Vergabeportalen ab. Sie filtern nach Fachgebiet, Ort und Frist und merken sich passende Verfahren mit einem Klick.</p>
+            </div>
+          </div>
+
+          <div class="lp-feature lp-feature-rev">
+            <figure class="lp-shot"><img src="start/bieter-lv.webp" width="1200" height="750" loading="lazy" alt="Leistungsverzeichnis mit Produktvorschlägen, Datenblatt-Abgleich und Preisen" /></figure>
+            <div class="lp-feature-text">
+              <span class="lp-tag lp-tag-bieter">Für Bieter</span>
+              <h3>Leistungsverzeichnis und Produktabgleich</h3>
+              <p>Jede Position mit vollem Langtext. Lospilot prüft jedes Kriterium gegen das Herstellerdatenblatt. <strong>„Treffer“</strong> steht nur, wenn alle Kriterien belegt sind – sonst „Nächstbester Vorschlag – x von y belegt“.</p>
+            </div>
+          </div>
+
+          <div class="lp-feature">
+            <figure class="lp-shot"><img src="start/bieter-pruefung.webp" width="1200" height="750" loading="lazy" alt="Bieterakte und Checkliste vor der Abgabe" /></figure>
+            <div class="lp-feature-text">
+              <span class="lp-tag lp-tag-bieter">Für Bieter</span>
+              <h3>Bieterakte, Checkliste und Abgabe-Prüfung</h3>
+              <p>Alle Unterlagen in einer festen Ordnerstruktur, eine Checkliste für die Abgabe und Exporte als Excel, GAEB X84 und ZIP. Lospilot gibt nichts für Sie ab – Sie behalten die Kontrolle.</p>
+            </div>
+          </div>
+
+          <div class="lp-feature lp-feature-rev">
+            <figure class="lp-shot"><img src="start/ag-lv.webp" width="1200" height="750" loading="lazy" alt="Auftraggeber-Assistent: Leistungsverzeichnis mit Positionen, Menge, Einheit und Langtext anlegen" /></figure>
+            <div class="lp-feature-text">
+              <span class="lp-tag lp-tag-ag">Für Auftraggeber</span>
+              <h3>Ausschreibung Schritt für Schritt vorbereiten</h3>
+              <p>Ein Assistent führt durch sieben kurze Schritte: Auftraggeber, Leistung, Lose, Leistungsverzeichnis, Kriterien, Fristen und Vorschau. Ihr Entwurf wird in Ihrem Browser gespeichert.</p>
+            </div>
+          </div>
+
+          <div class="lp-feature">
+            <figure class="lp-shot"><img src="start/ag-vorschau.webp" width="1200" height="750" loading="lazy" alt="Vorschau der Bekanntmachung mit Export-Paket als ZIP" /></figure>
+            <div class="lp-feature-text">
+              <span class="lp-tag lp-tag-ag">Für Auftraggeber</span>
+              <h3>Vorschau und Export-Paket</h3>
+              <p>Sie sehen die Bekanntmachung, bevor sie jemand anderes sieht. Das Export-Paket enthält Bekanntmachung, LV als GAEB X83, Excel und PDF sowie Kriterien und Fristen.</p>
+              <p class="lp-note">Veröffentlichen direkt in Lospilot und eingehende Angebote kommen später. Öffentliche Auftraggeber machen ab den EU-Schwellenwerten über die offiziellen Wege bekannt.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lp-section" id="vertrauen" aria-labelledby="vertrauen-h">
+        <div class="lp-wrap">
+          <h2 class="lp-h2" id="vertrauen-h">Ehrlich und sicher</h2>
+          <div class="lp-trust">
+            <div><h3>Ihre Daten bleiben bei Ihnen</h3><p>Ausschreibungen, Preise und Entwürfe speichert Lospilot nur in Ihrem Browser. Es gibt keinen Server für Ihre Daten.</p></div>
+            <div><h3>Ohne Konto, ohne Tracking</h3><p>Keine Anmeldung, keine Cookies, keine Werbe- oder Statistik-Dienste. Schriften und Programmteile kommen von dieser Seite.</p></div>
+            <div><h3>Sie behalten die Kontrolle</h3><p>Lospilot meldet sich in keinem Portal an, lädt nichts hoch und sendet nichts in Ihrem Namen.</p></div>
+            <div><h3>Treffer nur mit Beleg</h3><p>Ein Produkt heißt nur dann „Treffer“, wenn das Datenblatt alle Anforderungen belegt. Unsichere Vorschläge sind als solche markiert.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lp-section lp-section-alt" id="fragen" aria-labelledby="fragen-h">
+        <div class="lp-wrap lp-wrap-narrow">
+          <h2 class="lp-h2" id="fragen-h">Häufige Fragen</h2>
+          <h3 class="lp-faq-group">Für Bieter</h3>
+          <div class="lp-faq"><details class="lp-faq-item" id="faq-was-ist-app"><summary>Was ist Lospilot?</summary><div class="lp-faq-body"><p>Lospilot hilft Ihnen, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten. Es bündelt Bekanntmachungen im <strong>Markt</strong>, lädt und sortiert Vergabeunterlagen, liest das Leistungsverzeichnis ein, recherchiert Produkte mit Datenblattprüfung und kalkuliert Preise. Außerdem erstellt es Bieterakte, Checkliste, Excel und GAEB X84. Die verbindliche Abgabe machen Sie selbst im Vergabeportal.</p></div></details>
+<details class="lp-faq-item" id="faq-abgabe-durch-app"><summary>Gibt Lospilot mein Angebot im Vergabeportal ab?</summary><div class="lp-faq-body"><p>Nein. Lospilot <strong>bereitet vor</strong>: GAEB-Datei, Excel, Formblätter, Checkliste und Bieterakte. Es meldet sich in keinem Portal an, lädt nichts hoch und gibt keine verbindliche Erklärung ab. Das Angebot laden Sie selbst im Vergabeportal hoch und senden es vor Fristende ab. Danach markieren Sie die Ausschreibung in Lospilot als „Abgegeben“.</p></div></details>
+<details class="lp-faq-item" id="faq-treffer-naechstbester"><summary>Was bedeuten „Treffer“ und „Nächstbester“ bei den Produktvorschlägen?</summary><div class="lp-faq-body"><p>Lospilot prüft jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben. <strong>Treffer</strong> heißt, dass alle Kriterien belegt sind. Sonst steht dort <strong>„Nächstbester Vorschlag – x von y belegt“</strong>. Sie bekommen Links zu Produkt, Datenblatt und Händler, und das Datenblatt wird in der Bieterakte abgelegt. Nicht jede Position erhält einen Produktvorschlag.</p></div></details>
+<details class="lp-faq-item" id="faq-lv-import-formate"><summary>Welche LV-Formate kann Lospilot einlesen?</summary><div class="lp-faq-body"><p>Lospilot liest Leistungsverzeichnisse aus <strong>GAEB-Dateien (X83, D83)</strong> und aus <strong>PDF</strong> ein. Danach sehen Sie jede Position mit Menge, Langtext und Preisfeldern. Bedarfs- und Alternativpositionen trennt Lospilot vom Hauptangebot, damit sie nicht versehentlich in die Summe einfließen. Prüfen Sie bei PDF-LVs die erkannten Positionen kurz gegen das Original.</p></div></details>
+<details class="lp-faq-item" id="faq-daten-speicherort"><summary>Wo werden meine Daten gespeichert?</summary><div class="lp-faq-body"><p>Ihre Ausschreibungen, Kalkulationen und Bieterakten bleiben <strong>in Ihrem Browser</strong> auf Ihrem Rechner. Löschen Sie die Browserdaten oder wechseln Sie den Rechner, sind sie dort nicht mehr vorhanden. Sichern Sie Ihre Daten deshalb regelmäßig unter <strong>Einstellungen → Daten</strong> mit „Daten sichern“ als Datei. Mit „Daten laden“ stellen Sie sie wieder her.</p></div></details>
+<details class="lp-faq-item" id="faq-keine-rechtsberatung"><summary>Sind diese Antworten eine Rechtsberatung?</summary><div class="lp-faq-body"><p>Nein. Die Hilfetexte von Lospilot sind <strong>allgemeine Informationen</strong> zum Vergaberecht, Stand Oktober 2026, und ersetzen keine Rechtsberatung. Maßgeblich sind immer die konkreten Vergabeunterlagen und die geltenden Gesetze von Bund und Land. Bei Fragen im Einzelfall wenden Sie sich an einen Fachanwalt für Vergaberecht, an eine Auftragsberatungsstelle oder an Ihre Kammer (IHK, HWK).</p></div></details></div>
+          <h3 class="lp-faq-group">Für Auftraggeber</h3>
+          <div class="lp-faq"><details class="lp-faq-item" id="faq-ag-veroeffentlichen"><summary>Kann ich meine Ausschreibung direkt in Lospilot veröffentlichen?</summary><div class="lp-faq-body"><p>Noch nicht. Lospilot hat zurzeit keinen Server, auf dem andere Nutzer Ihre Ausschreibung sehen könnten. Sie können heute Ihre Ausschreibung <strong>vorbereiten</strong>: Leistung, Lose, Leistungsverzeichnis, Kriterien und Fristen. Ihren Entwurf speichert Lospilot in Ihrem Browser. Als Export-Paket (ZIP) bekommen Sie den Bekanntmachungstext und das LV als GAEB X83, Excel und PDF. Das Veröffentlichen in Lospilot kommt später.</p></div></details>
+<details class="lp-faq-item" id="faq-ag-oeffentlich"><summary>Ich bin ein öffentlicher Auftraggeber. Ersetzt Lospilot die offizielle Bekanntmachung?</summary><div class="lp-faq-body"><p>Nein. Ab den EU-Schwellenwerten ist die Bekanntmachung über die offiziellen Wege Pflicht (eForms an TED, in Deutschland über den Bekanntmachungsservice bzw. Ihre Vergabeplattform). Auch darunter gelten die Regeln von Bund und Land. Lospilot hilft beim Vorbereiten der Unterlagen und ersetzt weder die Vergabeplattform noch eine Rechtsberatung.</p></div></details></div>
+          <p class="lp-faq-more"><a href="hilfe/">Alle Fragen und Antworten</a> · <a href="hilfe/anleitung/">Anleitung</a> · <a href="hilfe/glossar/">Glossar A–Z</a></p>
+        </div>
+      </section>
+
+      <section class="lp-cta">
+        <div class="lp-wrap">
+          <h2>Bereit? Wählen Sie Ihren Weg.</h2>
+          <div class="lp-cta-btns">
+            <a class="lp-btn lp-btn-bieter lp-btn-lg" href="bieter/">Ich bin Bieter</a>
+            <a class="lp-btn lp-btn-ag lp-btn-lg" href="ausschreiben/">Ich schreibe aus</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="lp-footer">
+      <div class="lp-wrap lp-footer-in">
+        <div>
+          <a class="lp-logo lp-logo-foot" href="./"><span class="lp-logo-mark" aria-hidden="true">L</span><span>Lospilot</span></a>
+          <p>Ausschreibungen finden, Angebote vorbereiten, selbst ausschreiben.<br />Testversion · Allgemeine Informationen, keine Rechtsberatung.</p>
+        </div>
+        <nav aria-label="Fußzeile">
+          <a href="bieter/">Für Bieter</a>
+          <a href="ausschreiben/">Für Auftraggeber</a>
+          <a href="hilfe/">Hilfe</a>
+          <a href="hilfe/anleitung/">Anleitung</a>
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <button type="button" class="lp-foot-fehler" data-lp-fehler>Fehler melden</button>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>

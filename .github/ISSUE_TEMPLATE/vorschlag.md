@@ -1,6 +1,6 @@
 ---
 name: Verbesserungsvorschlag
-about: Vorschlag aus Nexus Web (wird normalerweise direkt aus der App ausgefüllt)
+about: Vorschlag aus Lospilot (wird normalerweise direkt aus der App ausgefüllt)
 title: "Vorschlag: "
 labels: vorschlag
 ---

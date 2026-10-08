@@ -11,7 +11,7 @@
  {
   "id": "schritt-markt",
   "titel": "2. Markt: Ausschreibungen finden und filtern",
-  "text": "<a id=\"schritt-markt\"></a> <sub>App-Ziel: `markt`</sub>\n\n1. Öffnen Sie den **Markt**. Hier sammelt Nexus öffentliche Bekanntmachungen von derzeit 11 Vergabeportalen. Der Abruf läuft automatisch alle paar Stunden.\n2. Grenzen Sie mit **Filtern** (Ort, Frist, Stichwort) und der **Suche** ein.\n3. Sortieren Sie **nach Frist**, damit Sie knappe Termine zuerst sehen.\n4. Öffnen Sie eine Ausschreibung und lesen Sie die Zusammenfassung: Auftraggeber, Leistung, Verfahrensart, Fristen und Eignung.\n\n**Hinweis:** Maßgeblich ist immer die Bekanntmachung im Vergabeportal. Über **„Im Portal öffnen“** gelangen Sie direkt dorthin.",
+  "text": "<a id=\"schritt-markt\"></a> <sub>App-Ziel: `markt`</sub>\n\n1. Öffnen Sie den **Markt**. Hier sammelt Lospilot öffentliche Bekanntmachungen von derzeit 11 Vergabeportalen. Der Abruf läuft automatisch alle paar Stunden.\n2. Grenzen Sie mit **Filtern** (Ort, Frist, Stichwort) und der **Suche** ein.\n3. Sortieren Sie **nach Frist**, damit Sie knappe Termine zuerst sehen.\n4. Öffnen Sie eine Ausschreibung und lesen Sie die Zusammenfassung: Auftraggeber, Leistung, Verfahrensart, Fristen und Eignung.\n\n**Hinweis:** Maßgeblich ist immer die Bekanntmachung im Vergabeportal. Über **„Im Portal öffnen“** gelangen Sie direkt dorthin.",
   "app_ziel": [
    "markt"
   ]
@@ -27,7 +27,7 @@
  {
   "id": "schritt-unterlagen",
   "titel": "4. Vergabeunterlagen laden oder importieren",
-  "text": "<a id=\"schritt-unterlagen\"></a> <sub>App-Ziel: `import`</sub>\n\n- **Portal ohne Anmeldung:** Klicken Sie auf **„Unterlagen laden“**. Nexus holt die Unterlagen mit einem Klick, sofern das Portal den Download öffentlich erlaubt.\n- **Portal mit Anmeldung:** Nexus zeigt nur den Link. Melden Sie sich selbst im Portal an, laden Sie die Unterlagen herunter (meist als ZIP) und ziehen Sie den **Ordner oder die ZIP-Datei** in Nexus („Unterlagen hier importieren“).\n\nNexus sortiert die Dateien automatisch in **LV**, **Formblätter**, **Pläne/Zeichnungen**, **Bekanntmachung** und **Zusatzinfos**. Prüfen Sie die Zuordnung kurz in der Liste.",
+  "text": "<a id=\"schritt-unterlagen\"></a> <sub>App-Ziel: `import`</sub>\n\n- **Portal ohne Anmeldung:** Klicken Sie auf **„Unterlagen laden“**. Lospilot holt die Unterlagen mit einem Klick, sofern das Portal den Download öffentlich erlaubt.\n- **Portal mit Anmeldung:** Lospilot zeigt nur den Link. Melden Sie sich selbst im Portal an, laden Sie die Unterlagen herunter (meist als ZIP) und ziehen Sie den **Ordner oder die ZIP-Datei** in Lospilot („Unterlagen hier importieren“).\n\nLospilot sortiert die Dateien automatisch in **LV**, **Formblätter**, **Pläne/Zeichnungen**, **Bekanntmachung** und **Zusatzinfos**. Prüfen Sie die Zuordnung kurz in der Liste.",
   "app_ziel": [
    "import"
   ]
@@ -35,7 +35,7 @@
  {
   "id": "schritt-lv",
   "titel": "5. Leistungsverzeichnis prüfen",
-  "text": "<a id=\"schritt-lv\"></a> <sub>App-Ziel: `lv`</sub>\n\n1. Nexus liest das LV aus der **GAEB-Datei (X83/D83)** oder aus dem **PDF** ein.\n2. In der **LV-Auswertung** sehen Sie jede Position mit Menge, Einheit und Langtext (aufklappen mit ▸).\n3. **Bedarfs- und Alternativpositionen** stehen getrennt vom Hauptangebot. Sie zählen nicht zur Angebotssumme, brauchen aber meist trotzdem einen Einheitspreis.\n4. Gleichen Sie bei PDF-LVs die erkannten Positionen kurz mit dem Original ab.",
+  "text": "<a id=\"schritt-lv\"></a> <sub>App-Ziel: `lv`</sub>\n\n1. Lospilot liest das LV aus der **GAEB-Datei (X83/D83)** oder aus dem **PDF** ein.\n2. In der **LV-Auswertung** sehen Sie jede Position mit Menge, Einheit und Langtext (aufklappen mit ▸).\n3. **Bedarfs- und Alternativpositionen** stehen getrennt vom Hauptangebot. Sie zählen nicht zur Angebotssumme, brauchen aber meist trotzdem einen Einheitspreis.\n4. Gleichen Sie bei PDF-LVs die erkannten Positionen kurz mit dem Original ab.",
   "app_ziel": [
    "lv"
   ]
@@ -43,7 +43,7 @@
  {
   "id": "schritt-kalkulation",
   "titel": "6. Produkte, Preise und Kalkulation",
-  "text": "<a id=\"schritt-kalkulation\"></a> <sub>App-Ziel: `produkte`, `kalkulation`, `partner`</sub>\n\n**Produktvorschläge mit Datenblattprüfung**\n- Für Positionen mit Produkten prüft Nexus jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben.\n- **„Treffer“** erscheint nur, wenn **alle** Kriterien belegt sind. Sonst steht **„Nächstbester Vorschlag – x von y belegt“**. Prüfen Sie die offenen Punkte dann selbst.\n- Sie erhalten Links zu Produkt, Datenblatt und Händler. Das Datenblatt legt Nexus in der Bieterakte ab.\n- Nicht jede Position bekommt einen Produktvorschlag.\n\n**Preise**\n- Marktpreise stehen nur **mit Quelle und Datum** da. Ohne belegbaren Preis steht „Preis prüfen“.\n- Ihr eigener Preis hat immer Vorrang. Tragen Sie ihn über „ändern“ ein.\n\n**Kalkulation**\n- Marge, MwSt. und Stundensatz stellen Sie in der Übersicht der Ausschreibung ein. Alle Preise rechnen sofort neu.\n- Dienstleistungen, Montage und Programmierung kalkulieren Sie als **Eigenleistung**: Stunden je Einheit × €/h, dann „Übernehmen“.\n\n**B2B-Partner**\n- Ihre eigenen Lieferanten (Einstellungen → B2B-Partner) erscheinen bei passenden Positionen. Ohne eigene Partner zeigt Nexus die Händler, bei denen das Produkt online gefunden wurde.",
+  "text": "<a id=\"schritt-kalkulation\"></a> <sub>App-Ziel: `produkte`, `kalkulation`, `partner`</sub>\n\n**Produktvorschläge mit Datenblattprüfung**\n- Für Positionen mit Produkten prüft Lospilot jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben.\n- **„Treffer“** erscheint nur, wenn **alle** Kriterien belegt sind. Sonst steht **„Nächstbester Vorschlag – x von y belegt“**. Prüfen Sie die offenen Punkte dann selbst.\n- Sie erhalten Links zu Produkt, Datenblatt und Händler. Das Datenblatt legt Lospilot in der Bieterakte ab.\n- Nicht jede Position bekommt einen Produktvorschlag.\n\n**Preise**\n- Marktpreise stehen nur **mit Quelle und Datum** da. Ohne belegbaren Preis steht „Preis prüfen“.\n- Ihr eigener Preis hat immer Vorrang. Tragen Sie ihn über „ändern“ ein.\n\n**Kalkulation**\n- Marge, MwSt. und Stundensatz stellen Sie in der Übersicht der Ausschreibung ein. Alle Preise rechnen sofort neu.\n- Dienstleistungen, Montage und Programmierung kalkulieren Sie als **Eigenleistung**: Stunden je Einheit × €/h, dann „Übernehmen“.\n\n**B2B-Partner**\n- Ihre eigenen Lieferanten (Einstellungen → B2B-Partner) erscheinen bei passenden Positionen. Ohne eigene Partner zeigt Lospilot die Händler, bei denen das Produkt online gefunden wurde.",
   "app_ziel": [
    "produkte",
    "kalkulation",
@@ -53,7 +53,7 @@
  {
   "id": "schritt-bieterfragen",
   "titel": "7. Bieterfragen vorbereiten",
-  "text": "<a id=\"schritt-bieterfragen\"></a>\n\n1. Sind Abgabe- oder Signaturform in den Unterlagen widersprüchlich, schlägt Nexus eine **Bieterfrage als Entwurf** vor. Mit der KI-Hilfe (eigener Schlüssel) können Sie auch andere Fragen als Entwurf formulieren lassen, etwa zu Leitfabrikat oder Mengen.\n2. Prüfen und ergänzen Sie den Text.\n3. Stellen Sie die Frage **selbst im Vergabeportal**, rechtzeitig vor der Fragefrist. Nexus sendet nichts.",
+  "text": "<a id=\"schritt-bieterfragen\"></a>\n\n1. Sind Abgabe- oder Signaturform in den Unterlagen widersprüchlich, schlägt Lospilot eine **Bieterfrage als Entwurf** vor. Mit der KI-Hilfe (eigener Schlüssel) können Sie auch andere Fragen als Entwurf formulieren lassen, etwa zu Leitfabrikat oder Mengen.\n2. Prüfen und ergänzen Sie den Text.\n3. Stellen Sie die Frage **selbst im Vergabeportal**, rechtzeitig vor der Fragefrist. Lospilot sendet nichts.",
   "app_ziel": []
  },
  {
@@ -67,7 +67,7 @@
  {
   "id": "schritt-abgabe",
   "titel": "9. Unterschreiben und selbst im Vergabeportal abgeben",
-  "text": "<a id=\"schritt-abgabe\"></a> <sub>App-Ziel: `checkliste`</sub>\n\n1. Bei **„Abgabe“** zeigt Nexus die geforderte Form, mit Quelle aus den Unterlagen: Textform, fortgeschrittene oder qualifizierte elektronische Signatur.\n2. **Textform:** Nutzen Sie **„Unterschreiben“** in Nexus (einfache elektronische Signatur). Die Dokumente landen im Abgabe-Ordner der Bieterakte.\n3. **Qualifizierte elektronische Signatur (QES):** Signieren Sie mit Ihrer eigenen Signaturkarte oder über einen externen Vertrauensdiensteanbieter.\n4. **Geben Sie selbst ab:** Melden Sie sich im Vergabeportal an, laden Sie GAEB-Datei, Formblätter und Nachweise hoch und senden Sie das Angebot **vor Fristende** ab. Planen Sie Puffer für Upload und Signatur ein.\n\n> **Sie geben ab, nicht Nexus.** Nexus lädt nichts hoch und sendet nichts.",
+  "text": "<a id=\"schritt-abgabe\"></a> <sub>App-Ziel: `checkliste`</sub>\n\n1. Bei **„Abgabe“** zeigt Lospilot die geforderte Form, mit Quelle aus den Unterlagen: Textform, fortgeschrittene oder qualifizierte elektronische Signatur.\n2. **Textform:** Nutzen Sie **„Unterschreiben“** in Lospilot (einfache elektronische Signatur). Die Dokumente landen im Abgabe-Ordner der Bieterakte.\n3. **Qualifizierte elektronische Signatur (QES):** Signieren Sie mit Ihrer eigenen Signaturkarte oder über einen externen Vertrauensdiensteanbieter.\n4. **Geben Sie selbst ab:** Melden Sie sich im Vergabeportal an, laden Sie GAEB-Datei, Formblätter und Nachweise hoch und senden Sie das Angebot **vor Fristende** ab. Planen Sie Puffer für Upload und Signatur ein.\n\n> **Sie geben ab, nicht Lospilot.** Lospilot lädt nichts hoch und sendet nichts.",
   "app_ziel": [
    "checkliste"
   ]
