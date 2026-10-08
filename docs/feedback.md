@@ -12,7 +12,7 @@ So kommen die Vorschläge an:
   Fehlermeldungen bekommen das Label **`fehler`** (Vorlage `.github/ISSUE_TEMPLATE/fehler.md`), Vorschläge das Label **`vorschlag`** (Vorlage `.github/ISSUE_TEMPLATE/vorschlag.md`).
   Der Nutzer braucht dafür ein GitHub-Konto und muss auf GitHub noch „Submit new issue“ klicken.
 - **„Per E-Mail senden“** öffnet das E-Mail-Programm mit derselben Nachricht an die Impressum-Adresse
-  (mirco.kuessner@gmail.com). Auch hier muss der Nutzer selbst auf „Senden“ klicken.
+  (mk@rentalmania.de). Auch hier muss der Nutzer selbst auf „Senden“ klicken.
 
 LV Mania hat dafür keinen Server und speichert keine Zugangsdaten. Die App zeigt deshalb nur „Danke, Vorschlag
 geöffnet“ – nicht „gesendet“. Eine Liste „Meine Vorschläge“ bleibt lokal im Browser (IndexedDB) des Nutzers.
