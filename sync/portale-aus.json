@@ -1,0 +1,9 @@
+{
+  "hinweis": "Abgeschaltete Portale (Legal Weappon, verbindlich ab 08.10.2026: Nutzungsbedingungen schränken Übernahme/kommerzielle Nutzung ein). Wirkung: (1) abruf-schutz.mjs ruft die Hosts nie auf (wie sperrliste.json), (2) nachbereitung.mjs entfernt alle Einträge dieser Portale aus docs/data/tenders.json und ki-embeddings.json, auch Altbestand. Schlüssel: id = sourceId in tenders.json, host = Host von source/sourceUrl (inkl. Subdomains). Wieder einschalten: Eintrag entfernen. Pflege: Legal Weappon / Mirco.",
+  "stand": "2026-10-08",
+  "aus": [
+    { "id": "vergabe-koeln", "host": "vergabeplattform.stadt-koeln.de", "name": "Vergabe Stadt Köln", "grund": "Nutzungsbedingungen: keine kommerzielle Nutzung der Inhalte" },
+    { "id": "vergabe-frankfurt", "host": "vergabe.stadt-frankfurt.de", "name": "Vergabe Stadt Frankfurt", "grund": "Nutzungsbedingungen: nur private Nutzung" },
+    { "id": "vergabe-berlin", "host": "vergabekooperation.berlin", "name": "Vergabekooperation Berlin", "grund": "Nutzungsbedingungen: Übernahme auf andere Websites nur mit schriftlicher Zustimmung" }
+  ]
+}

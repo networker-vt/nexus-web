@@ -3,6 +3,7 @@
 //  - nur öffentliche Bekanntmachungen, keine Vergabeunterlagen / Dateien / Datenblätter herunterladen
 //  - robots.txt jedes Hosts beachten
 //  - Sperrliste (sync/sperrliste.json) beachten
+//  - abgeschaltete Portale (sync/portale-aus.json, Feld host) genauso sperren – eine Quelle für Abruf UND Nachbereitung
 //  - langsam abrufen (Mindestabstand je Host)
 import { readFileSync } from 'node:fs';
 
@@ -15,6 +16,15 @@ try {
   sperrHosts = (s.hosts || []).map((h) => String(h.host || h).toLowerCase().replace(/^\.+/, '')).filter(Boolean);
 } catch (e) {
   console.log('Abruf-Schutz: Sperrliste nicht lesbar –', e instanceof Error ? e.message : e);
+}
+try {
+  const a = JSON.parse(readFileSync(new URL('./portale-aus.json', import.meta.url), 'utf8'));
+  for (const e of a.aus || []) {
+    const h = String(e?.host || '').toLowerCase().replace(/^\.+/, '');
+    if (h && !sperrHosts.includes(h)) sperrHosts.push(h);
+  }
+} catch (e) {
+  if (e?.code !== 'ENOENT') console.log('Abruf-Schutz: portale-aus.json nicht lesbar –', e instanceof Error ? e.message : e);
 }
 
 // Alles, was nach Unterlagen-/Datei-Download, Anmeldung oder Bieterbereich aussieht, wird nicht abgerufen.
