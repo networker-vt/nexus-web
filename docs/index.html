@@ -3,39 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lospilot – Ausschreibungen finden, Angebote vorbereiten, selbst ausschreiben</title>
-    <meta name="description" content="Lospilot hilft Bietern, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten – und Auftraggebern, eine eigene Ausschreibung mit Leistungsverzeichnis, Kriterien und Fristen vorzubereiten. Ohne Anmeldung, Ihre Daten bleiben im Browser." />
+    <title>LV Mania – Ausschreibungen finden, LV prüfen, Angebot fertig machen</title>
+    <link rel="preload" href="/nexus-web/assets/roboto-latin-700-normal-BZpUvMxY.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/nexus-web/assets/roboto-latin-400-normal-BqEyEoaF.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/nexus-web/assets/palanquin-dark-latin-400-normal-Do9PHCxH.woff2" as="font" type="font/woff2" crossorigin>
+    <meta name="description" content="LV Mania – eine Marke der Rentalmania GmbH – hilft Bietern, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten – und Auftraggebern, eine eigene Ausschreibung mit Leistungsverzeichnis, Kriterien und Fristen vorzubereiten. Ohne Anmeldung, Eingaben nur im Browser gespeichert." />
     <meta name="robots" content="noindex, follow" />
-    <meta name="theme-color" content="#1d4ed8" />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%232563eb%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2216%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial%22%3EL%3C/text%3E%3C/svg%3E" />
+    <meta name="theme-color" content="#5979B9" />
+    <link rel="canonical" href="https://networker-vt.github.io/nexus-web/" />
+    <meta property="og:site_name" content="LV Mania" />
+    <meta property="og:title" content="LV Mania – Ausschreibungen finden, LV prüfen, Angebot fertig machen" />
+    <meta property="og:url" content="https://networker-vt.github.io/nexus-web/" />
+    <meta name="author" content="Rentalmania GmbH" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Ctitle%3ELV Mania%3C/title%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%235979B9%22/%3E%3Ctext x=%2216%22 y=%2222.5%22 font-size=%2216%22 font-weight=%22700%22 text-anchor=%22middle%22 fill=%22white%22 font-family=%22Arial,sans-serif%22%3ELV%3C/text%3E%3C/svg%3E" />
     <script>
-      // Alte Lesezeichen der App (…/nexus-web/#/meine usw.) führen weiter in den Bieter-Bereich – mit allen gespeicherten Daten.
+      // Alte Lesezeichen der App (…/#/meine usw.) führen weiter in den Bieter-Bereich – mit allen gespeicherten Daten.
       ;(function () {
         var weiter = function () { if (/^#\//.test(location.hash)) location.replace('bieter/' + location.hash) }
         weiter()
         addEventListener('hashchange', weiter)
       })()
     </script>
-    <script type="module" crossorigin src="/nexus-web/assets/startseite--Nhwz2ZY.js"></script>
-    <link rel="modulepreload" crossorigin href="/nexus-web/assets/preload-helper-BjLlLVzV.js">
-    <link rel="stylesheet" crossorigin href="/nexus-web/assets/startseite-vrG8XzfA.css">
-    <link rel="stylesheet" crossorigin href="/nexus-web/assets/latin-700-RM8OdJ9p.css">
+    <script type="module" crossorigin src="/nexus-web/assets/startseite-CI4kh55P.js"></script>
+    <link rel="modulepreload" crossorigin href="/nexus-web/assets/preload-helper-BYJ4BkpZ.js">
+    <link rel="modulepreload" crossorigin href="/nexus-web/assets/site-BnU1WiKs.js">
+    <style>@font-face{font-family:Roboto;font-style:normal;font-display:swap;font-weight:400;src:url(/nexus-web/assets/roboto-latin-400-normal-BqEyEoaF.woff2) format("woff2"),url(/nexus-web/assets/roboto-latin-400-normal-D27F5sTu.woff) format("woff")}@font-face{font-family:Roboto;font-style:normal;font-display:swap;font-weight:500;src:url(/nexus-web/assets/roboto-latin-500-normal-7RbcRiD8.woff2) format("woff2"),url(/nexus-web/assets/roboto-latin-500-normal-fsTFPL3E.woff) format("woff")}@font-face{font-family:Roboto;font-style:normal;font-display:swap;font-weight:700;src:url(/nexus-web/assets/roboto-latin-700-normal-BZpUvMxY.woff2) format("woff2"),url(/nexus-web/assets/roboto-latin-700-normal-YuyVweIx.woff) format("woff")}@font-face{font-family:Oswald;font-style:normal;font-display:swap;font-weight:400;src:url(/nexus-web/assets/oswald-latin-400-normal-BAFo8sP8.woff2) format("woff2"),url(/nexus-web/assets/oswald-latin-400-normal-D1wpMXgf.woff) format("woff")}@font-face{font-family:Oswald;font-style:normal;font-display:swap;font-weight:500;src:url(/nexus-web/assets/oswald-latin-500-normal-B-eyT0Dw.woff2) format("woff2"),url(/nexus-web/assets/oswald-latin-500-normal-DM85Di4w.woff) format("woff")}@font-face{font-family:Palanquin Dark;font-style:normal;font-display:swap;font-weight:400;src:url(/nexus-web/assets/palanquin-dark-latin-400-normal-Do9PHCxH.woff2) format("woff2"),url(/nexus-web/assets/palanquin-dark-latin-400-normal-BbIxhlRx.woff) format("woff")}:root{--ci-blau: #5979B9;--ci-blau-80: rgba(89, 121, 185, .8);--ci-blau-25: rgba(89, 121, 185, .25);--ci-blau-12: rgba(89, 121, 185, .12);--ci-blau-tint: #eef1f8;--ci-schwarz: #000000;--ci-weiss: #ffffff;--ci-grau-text: #595959;--ci-grau-rahmen: #73777F;--ci-linie: #DCDEE1;--ci-flaeche: #f5f6f6;--ci-schrift: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;--ci-titel: "Oswald", "Roboto", system-ui, sans-serif;--ci-h1: "Palanquin Dark", "Roboto", system-ui, sans-serif;--st-ok: #1d6f42;--st-ok-soft: #e6f4ec;--st-warn: #8a5300;--st-warn-soft: #fdf3e2;--st-bad: #a42828;--st-bad-soft: #fbeaea}.lvm-logo{display:inline-flex;align-items:center;gap:10px;color:#000!important;text-decoration:none!important;line-height:1}.lvm-logo-wort{display:inline-flex;align-items:baseline;gap:.28em;font-family:var(--ci-titel);font-weight:500;font-size:1.6rem;letter-spacing:.01em}.lvm-logo-lv{font-family:var(--ci-titel);font-weight:500;background:var(--ci-blau);color:#fff;padding:.06em .3em .1em;font-size:1.6rem;line-height:1.15}.lvm-logo-text{display:inline-flex;flex-direction:column;gap:3px}.lvm-logo-sub{font-family:var(--ci-schrift);font-weight:400;font-size:.8rem;color:var(--ci-grau-text);letter-spacing:0}.ci-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:12px 26px;border-radius:0;font-family:var(--ci-schrift);font-size:19px;font-weight:700;line-height:1.25;text-transform:none;letter-spacing:.01em;background:var(--ci-blau);color:#fff!important;border:2px solid var(--ci-blau);text-decoration:none!important;cursor:pointer;transition:background .3s}.ci-btn:hover{background:var(--ci-blau-80)}.ci-btn-zweit{background:#fff;color:#000!important;border:2px solid var(--ci-blau)}.ci-btn-zweit:hover{background:var(--ci-blau-tint)}
+</style>
+    <style>:root{--ink: #000000;--muted: #595959;--line: #DCDEE1;--bg: #ffffff;--bg-alt: var(--ci-flaeche);--blau: var(--ci-blau);--shadow: 0 0 15px -5px rgba(0, 0, 0, .44)}*,*:before,*:after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important}}body.lp{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ci-schrift);font-size:18px;line-height:1.65;-webkit-font-smoothing:antialiased}.lp a{color:var(--ink);text-decoration-color:var(--blau);text-decoration-thickness:2px;text-underline-offset:4px}.lp a:hover{text-decoration-thickness:3px}.lp :focus-visible{outline:3px solid var(--blau);outline-offset:3px}.lp-wrap{max-width:1180px;margin:0 auto;padding:0 28px}.lp-wrap-narrow{max-width:880px}.lp-skip{position:absolute;left:-9999px;top:8px;background:#fff;padding:10px 16px;z-index:100}.lp-skip:focus{left:12px}.lp-nur-handy{display:none}.lp-beta{background:var(--ci-blau-tint);border-bottom:2px solid var(--blau);color:#000}.lp-beta-in{display:flex;align-items:center;gap:6px 16px;padding-top:8px;padding-bottom:8px;font-size:.9375rem;line-height:1.5}.lp-beta-label{font-weight:700;font-size:.95rem;background:#000;color:#fff;padding:4px 12px;white-space:nowrap}.lp-beta-mehr-text{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}.lp-beta-a{font-weight:700;display:inline-block;padding:11px 2px;margin:-11px 0}.lp-beta-aktionen{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}.lp-beta-link{font:inherit;font-weight:700;color:#000;background:none;border:0;min-height:44px;padding:8px 6px;cursor:pointer;text-decoration:underline;text-decoration-color:var(--blau);text-decoration-thickness:2px;text-underline-offset:4px}.lp-beta-mehr{display:none}.lp-umzug{background:#000;color:#fff;padding:12px 0;font-size:1.05rem}.lp-umzug a{color:#fff;text-decoration-color:#fff;display:inline-block;padding:8px 0}.lp-umzug[hidden]{display:none}.lp-header{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--line)}.lp-header-in{display:flex;align-items:center;gap:24px;min-height:76px}.lp-nav{display:flex;align-items:center;gap:2px;margin-left:auto}.lp-nav>a{color:#000;text-decoration:none;font-weight:500;padding:12px;white-space:nowrap;border-bottom:3px solid transparent}.lp-nav>a:hover{border-bottom-color:var(--blau)}.lp-nav>a.lp-nav-bereich{font-weight:700}.lp-menu-btn{display:none}.lp-hero{padding:64px 0 80px;background:#fff;text-align:center}.lp-eyebrow{margin:0 0 14px;color:#000;font-weight:700;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase}.lp-hero h1{font-family:var(--ci-h1);font-weight:400;font-size:clamp(1.95rem,4.4vw,3.2rem);line-height:1.22;letter-spacing:-.01em;margin:0 auto 18px;max-width:980px}.lp-lead{font-size:1.2rem;color:#000;max-width:760px;margin:0 auto 26px}.lp-hero-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:0 0 30px}.lp-chips{list-style:none;padding:0;margin:0 auto 44px;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 26px;color:#000;font-weight:500}.lp-chips li{display:inline-flex;align-items:center;gap:9px}.lp-chip-dot{width:22px;height:22px;background:var(--blau);position:relative;flex:none}.lp-chip-dot:after{content:"";position:absolute;left:8px;top:4px;width:5px;height:10px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}.lp-welcome{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px 20px;max-width:900px;margin:0 auto 36px;padding:16px 20px;background:#fff;border:2px solid var(--blau)}.lp-welcome p{margin:0}.lp-welcome[hidden]{display:none}.lp-choose{font-family:var(--ci-titel);font-weight:400;font-size:1.7rem;margin:0 0 18px}.lp-paths{display:grid;grid-template-columns:1fr 1fr;gap:26px;text-align:left;max-width:1080px;margin:0 auto}.lp-path{position:relative;display:flex;flex-direction:column;gap:10px;padding:32px 32px 28px;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);text-decoration:none!important;color:#000!important;transition:border-color .3s}.lp-path:before{content:"";position:absolute;inset:0 0 auto;height:6px;background:var(--blau)}.lp-path-ag:before{background:#000}.lp-path:hover{border-color:var(--blau)}.lp-path-kicker{align-self:flex-start;font-weight:700;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;color:#000}.lp-path-title{font-family:var(--ci-titel);font-size:1.75rem;line-height:1.25;font-weight:500}.lp-path-text{color:var(--muted)}.lp-path-list{list-style:none;padding:0;margin:6px 0 12px;display:grid;gap:8px}.lp-path-list li{position:relative;padding-left:30px}.lp-path-list li:before{content:"";position:absolute;left:0;top:.45em;width:18px;height:18px;background:var(--blau)}.lp-path-list li:after{content:"";position:absolute;left:6px;top:calc(.45em + 3px);width:4px;height:8px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}.lp-path-go{margin-top:auto;align-self:flex-start}.lp-section{padding:84px 0}.lp-section-alt{background:var(--bg-alt)}.lp-h2{font-family:var(--ci-titel);font-weight:400;font-size:clamp(1.8rem,3vw,2.3rem);line-height:1.3;margin:0 0 10px;text-align:center}.lp-sub{text-align:center;color:#000;margin:0 auto 40px;max-width:760px;font-size:1.08rem}.lp-tag{display:inline-block;font-weight:700;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase;padding:3px 10px;color:#000;border-left:4px solid var(--blau);background:#fff}.lp-tag-ag{border-left-color:#000}.lp-steps-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}.lp-steps{background:#fff;border:1px solid var(--line);padding:30px 32px 32px;box-shadow:var(--shadow)}.lp-steps h3{margin:0 0 14px}.lp-steps ol{list-style:none;counter-reset:s;padding:0;margin:0 0 26px;display:grid;gap:18px}.lp-steps li{counter-increment:s;position:relative;padding-left:58px;min-height:42px}.lp-steps li:before{content:counter(s);position:absolute;left:0;top:-2px;width:42px;height:42px;display:grid;place-items:center;font-family:var(--ci-titel);font-weight:500;font-size:1.3rem;background:var(--ci-blau-tint);color:#000;border:2px solid var(--blau)}.lp-steps-ag li:before{border-color:#000;background:#fff}.lp-feature{display:grid;grid-template-columns:1.35fr 1fr;gap:54px;align-items:center;margin:0 0 76px}.lp-feature:last-child{margin-bottom:0}.lp-feature-rev{grid-template-columns:1fr 1.35fr}.lp-feature-rev .lp-shot{order:2}.lp-shot{margin:0;overflow:hidden;background:#fff;border:4px solid var(--blau);padding:4px}.lp-shot img{display:block;width:100%;height:auto}.lp-feature-text h3{font-family:var(--ci-titel);font-weight:400;font-size:1.75rem;line-height:1.3;margin:14px 0 12px}.lp-feature-text p{color:#000;margin:0 0 12px}.lp-note{font-size:1rem;background:#fff;border-left:4px solid #000;padding:10px 14px}.lp-trust{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:34px}.lp-trust>div{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blau);padding:24px}.lp-trust h3{font-size:1.15rem;margin:0 0 8px;line-height:1.3}.lp-trust p{margin:0;color:#000;font-size:1rem}.lp-daten{display:grid;grid-template-columns:1fr 1fr;gap:22px}.lp-daten-schritt{background:#fff;border:1px solid var(--line);padding:24px 26px 26px;display:flex;flex-direction:column;gap:6px}.lp-daten-schritt h3{margin:0;font-size:1.2rem}.lp-daten-schritt p{margin:0 0 12px}.lp-daten-schritt .ci-btn{margin-top:auto;align-self:flex-start}.lp-faq-group{font-family:var(--ci-titel);font-weight:400;font-size:1.4rem;margin:34px 0 10px;color:#000}.lp-faq{background:#fff;border:1px solid var(--line);padding:4px 24px}.lp-faq-item{border-bottom:1px solid var(--line)}.lp-faq-item:last-child{border-bottom:0}.lp-faq-item summary{cursor:pointer;list-style:none;padding:18px 40px 18px 0;font-weight:700;font-size:1.08rem;position:relative}.lp-faq-item summary::-webkit-details-marker{display:none}.lp-faq-item summary:after{content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);font-size:1.6rem;font-weight:400;color:#000}.lp-faq-item[open] summary:after{content:"–"}.lp-faq-body{padding:0 0 16px;color:#000}.lp-faq-body p{margin:0 0 10px}.lp-faq-more{text-align:center;margin-top:22px;display:flex;flex-wrap:wrap;justify-content:center;gap:0 18px}.lp-faq-more a{display:inline-block;padding:10px 4px;min-height:44px}.lp-cta{padding:72px 0;text-align:center;background:#000;color:#fff}.lp-cta h2{font-family:var(--ci-titel);font-weight:400;font-size:clamp(1.7rem,3vw,2.3rem);margin:0 0 26px}.lp-cta-btns{display:flex;justify-content:center;gap:18px;flex-wrap:wrap}.lp-cta .ci-btn-zweit{background:#fff}.lp-footer{background:#fff;border-top:4px solid var(--blau);color:#000;padding:40px 0 44px;font-size:1rem}.lp-footer-in{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start}.lp-footer p{margin:10px 0 0;color:var(--muted)}.lp-footer p.lp-marke{color:#000;font-weight:700}.lp-footer nav{display:flex;flex-wrap:wrap;gap:0 22px;max-width:660px}.lp-footer nav a{color:#000;padding:11px 0;min-height:44px;display:inline-block}.lp-foot-fehler{background:none;border:0;color:#000;font:inherit;min-height:44px;padding:11px 0;cursor:pointer;text-decoration:underline;text-decoration-color:var(--blau);text-decoration-thickness:2px;text-underline-offset:4px}@media (max-width: 1100px){.lp-nav>a{padding:12px 8px}.lp-trust{grid-template-columns:1fr 1fr}.lp-feature,.lp-feature-rev{grid-template-columns:1fr 1fr;gap:36px}}@media (max-width: 960px){.lp-menu-btn{display:inline-flex;align-items:center;gap:10px;margin-left:auto;min-height:48px;padding:8px 16px;border:2px solid #000;background:#fff;font:inherit;font-weight:700;color:#000;cursor:pointer}.lp-menu-icon,.lp-menu-icon:before,.lp-menu-icon:after{display:block;width:20px;height:2.5px;background:#000;position:relative;content:""}.lp-menu-icon:before{position:absolute;top:-6px}.lp-menu-icon:after{position:absolute;top:6px}.lp-nav{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;padding:8px 20px 18px;background:#fff;border-bottom:2px solid var(--blau)}.lp-nav.open{display:flex}.lp-nav>a{padding:14px 6px;font-size:1.08rem;border-bottom:1px solid var(--line)}.lp-header-in{position:relative}.lp-paths,.lp-steps-grid,.lp-daten{grid-template-columns:1fr}.lp-feature,.lp-feature-rev{grid-template-columns:1fr;gap:22px;margin-bottom:56px}.lp-feature-rev .lp-shot{order:0}}@media (max-width: 760px){.lp-nur-handy{display:inline}.lp-nur-desk{display:none}.lp-beta-in{flex-wrap:wrap;padding-top:2px;padding-bottom:2px;gap:0 8px;font-size:1rem}.lp-beta-label{font-size:.85rem;padding:3px 8px}.lp-beta-mehr{display:inline-block}.lp-beta-aktionen{order:2;gap:2px}.lp-beta-mehr-text{display:none;order:3;flex-basis:100%;padding:0 0 8px}.lp-beta.offen .lp-beta-mehr-text{display:flex;gap:14px}}@media (max-width: 640px){.lp-wrap{padding:0 18px}.lp-header-in{min-height:66px}.lvm-logo-lv,.lvm-logo-wort{font-size:1.4rem}.lp-hero{padding:26px 0 52px}.lp-hero h1{font-size:1.85rem;margin-bottom:14px}.lp-lead{font-size:1.08rem;margin-bottom:20px}.lp-hero-btns{flex-direction:column;align-items:stretch;gap:12px;margin-bottom:26px}.lp-chips{flex-direction:column;align-items:flex-start;width:-moz-fit-content;width:fit-content;margin-bottom:30px}.lp-path{padding:26px 20px 22px}.lp-path-title{font-size:1.5rem}.lp-path-go{width:100%;align-self:stretch}.lp-section{padding:56px 0}.lp-steps{padding:24px 20px}.lp-steps .ci-btn,.lp-daten-schritt .ci-btn,.lp-cta-btns .ci-btn{width:100%;align-self:stretch}.lp-trust{grid-template-columns:1fr}.lp-faq{padding:2px 16px}}
+</style>
   </head>
   <body class="lp">
     <a class="lp-skip" href="#inhalt">Zum Inhalt springen</a>
     <div class="lp-beta" role="note" data-testid="beta-hinweis">
       <div class="lp-wrap lp-beta-in">
-        <span class="lp-beta-label" data-testid="beta-label">Beta – Testversion</span>
-        <span class="lp-beta-text">Lospilot ist eine Testversion. Funktionen können Fehler enthalten und laufen noch nicht optimal. Prüfen Sie alle Ergebnisse, bevor Sie ein Angebot abgeben oder eine Ausschreibung veröffentlichen.</span>
-        <button type="button" class="lp-beta-link" data-lp-fehler data-testid="fehler-melden">Fehler melden</button>
+        <span class="lp-beta-label" data-testid="beta-label"><span class="lp-nur-desk">Beta – Testversion, ohne Gewähr</span><span class="lp-nur-handy">Beta – ohne Gewähr</span></span>
+        <span class="lp-beta-mehr-text" id="lp-beta-mehr" data-testid="beta-mehr-text">
+          <span class="lp-beta-text">Fehler sind möglich, bitte alle Ergebnisse selbst prüfen.</span>
+          <span class="lp-beta-umzug" data-testid="beta-umzug">Bald neue Adresse rentalmania.de/lv-mania – sichern Sie vorher Ihre Daten. <a href="#daten" class="lp-beta-a" data-testid="beta-daten-sichern">Daten sichern</a> · <a href="nutzungshinweise.html" class="lp-beta-a">Nutzungshinweise</a></span>
+        </span>
+        <span class="lp-beta-aktionen">
+          <span class="lp-nur-handy" aria-hidden="true">·</span>
+          <button type="button" class="lp-beta-link" data-lp-fehler data-testid="fehler-melden">Fehler melden</button>
+          <span class="lp-nur-handy" aria-hidden="true">·</span>
+          <button type="button" class="lp-beta-link lp-beta-mehr" aria-expanded="false" aria-controls="lp-beta-mehr" data-lp-beta-mehr data-testid="beta-mehr">mehr</button>
+        </span>
       </div>
+    </div>
+    <div class="lp-umzug" role="alert" data-lp-umzug data-testid="umzug-hinweis" hidden>
+      <div class="lp-wrap"><strong data-lp-umzug-text></strong> <a href="#daten">Daten einlesen</a> · <a data-lp-umzug-alt href="#daten">Daten von der alten Adresse sichern</a></div>
     </div>
     <header class="lp-header" id="kopf">
       <div class="lp-wrap lp-header-in">
-        <a class="lp-logo" href="./" aria-label="Lospilot – Startseite">
-          <span class="lp-logo-mark" aria-hidden="true">L</span>
-          <span>Lospilot</span>
-          <span class="lp-logo-beta">Beta</span>
+        <a class="lvm-logo" href="./" aria-label="LV Mania – Startseite" data-testid="logo">
+          <span class="lvm-logo-lv" aria-hidden="true">LV</span>
+          <span class="lvm-logo-text"><span class="lvm-logo-wort">Mania</span><span class="lvm-logo-sub">eine Marke der Rentalmania GmbH</span></span>
         </a>
         <button class="lp-menu-btn" type="button" aria-expanded="false" aria-controls="lp-nav" data-lp-menu>
           <span class="lp-menu-icon" aria-hidden="true"></span>
@@ -45,11 +66,10 @@
           <a href="#so-gehts">So funktioniert’s</a>
           <a href="#funktionen">Funktionen</a>
           <a href="#fragen">Fragen</a>
+          <a href="#daten">Ihre Daten</a>
           <a href="hilfe/">Hilfe</a>
-          <span class="lp-nav-cta">
-            <a class="lp-btn lp-btn-bieter lp-btn-sm" href="bieter/">Für Bieter</a>
-            <a class="lp-btn lp-btn-ag lp-btn-sm" href="ausschreiben/">Für Auftraggeber</a>
-          </span>
+          <a class="lp-nav-bereich" href="bieter/">Für Bieter</a>
+          <a class="lp-nav-bereich" href="ausschreiben/">Für Auftraggeber</a>
         </nav>
       </div>
     </header>
@@ -58,47 +78,48 @@
       <section class="lp-hero">
         <div class="lp-wrap">
           <p class="lp-eyebrow">Öffentliche und private Ausschreibungen</p>
-          <h1>Ausschreibungen einfach meistern –<br class="lp-br-desk" /> als Bieter und als Auftraggeber.</h1>
-          <p class="lp-lead">
-            Lospilot findet passende Ausschreibungen, liest das Leistungsverzeichnis, prüft Produkte gegen das Datenblatt und hilft beim Kalkulieren und Abgeben.
-            Wer selbst ausschreibt, bereitet mit Lospilot Leistungsverzeichnis, Kriterien und Fristen vor.
-          </p>
-          <ul class="lp-chips" aria-label="Das gilt für Lospilot">
+          <h1>Ausschreibungen finden, LV prüfen, Angebot fertig machen.</h1>
+          <p class="lp-lead">LV Mania hilft Bietern vom Fund bis zur fertigen Abgabe – und Auftraggebern beim Vorbereiten einer eigenen Ausschreibung.</p>
+          <div class="lp-hero-btns">
+            <a class="ci-btn" href="bieter/" data-testid="btn-biete-mit">Ich biete mit <span aria-hidden="true">→</span></a>
+            <a class="ci-btn ci-btn-zweit" href="ausschreiben/" data-testid="btn-schreibe-aus">Ich schreibe aus <span aria-hidden="true">→</span></a>
+          </div>
+          <ul class="lp-chips" aria-label="Das gilt für LV Mania">
             <li><span class="lp-chip-dot" aria-hidden="true"></span>Ohne Anmeldung</li>
-            <li><span class="lp-chip-dot" aria-hidden="true"></span>Ihre Daten bleiben in Ihrem Browser</li>
+            <li><span class="lp-chip-dot" aria-hidden="true"></span>Nur in Ihrem Browser gespeichert</li>
             <li><span class="lp-chip-dot" aria-hidden="true"></span>Keine Cookies, kein Tracking</li>
           </ul>
 
           <div class="lp-welcome" data-lp-welcome hidden>
-            <p><strong>Willkommen zurück!</strong> Sie haben Lospilot in diesem Browser schon genutzt – Ihre Daten sind weiter gespeichert.</p>
-            <a class="lp-btn lp-btn-bieter" href="bieter/#/meine">Weiter zu „Meine Ausschreibungen“</a>
+            <p><strong>Willkommen zurück!</strong> Sie haben LV Mania in diesem Browser schon genutzt – Ihre Daten sind weiter gespeichert.</p>
+            <a class="ci-btn" href="bieter/#/meine">Weiter zu „Meine Ausschreibungen“</a>
           </div>
 
           <h2 class="lp-choose">Was möchten Sie tun?</h2>
           <div class="lp-paths">
             <a class="lp-path lp-path-bieter" href="bieter/" data-testid="weg-bieter">
               <span class="lp-path-kicker">Für Bieter</span>
-              <span class="lp-path-title">Ich möchte mich bewerben und Angebote abgeben</span>
-              <span class="lp-path-text">Für Firmen, die an Ausschreibungen teilnehmen.</span>
+              <span class="lp-path-title">Ich möchte mitbieten</span>
+              <span class="lp-path-text">Für Firmen, die an Ausschreibungen teilnehmen und Angebote abgeben.</span>
               <ul class="lp-path-list">
                 <li>Ausschreibungen aus Vergabeportalen finden</li>
                 <li>Leistungsverzeichnis einlesen (GAEB, PDF)</li>
                 <li>Produkte mit Datenblatt-Abgleich</li>
                 <li>Kalkulieren, Bieterakte, Abgabe-Prüfung</li>
               </ul>
-              <span class="lp-path-go">Zum Bieter-Bereich <span aria-hidden="true">→</span></span>
+              <span class="lp-path-go ci-btn">Zum Bieter-Bereich <span aria-hidden="true">→</span></span>
             </a>
             <a class="lp-path lp-path-ag" href="ausschreiben/" data-testid="weg-auftraggeber">
               <span class="lp-path-kicker">Für Auftraggeber</span>
-              <span class="lp-path-title">Ich möchte eine Ausschreibung veröffentlichen</span>
-              <span class="lp-path-text">Für Unternehmen, Veranstalter, Agenturen und öffentliche Stellen, die etwas ausschreiben (Anbieter einer Ausschreibung).</span>
+              <span class="lp-path-title">Ich möchte eine Ausschreibung vorbereiten</span>
+              <span class="lp-path-text">Für Unternehmen, Veranstalter, Agenturen und öffentliche Stellen, die etwas ausschreiben.</span>
               <ul class="lp-path-list">
                 <li>Leistung und Lose beschreiben</li>
                 <li>Leistungsverzeichnis anlegen oder importieren</li>
                 <li>Eignung, Zuschlag und Fristen festlegen</li>
                 <li>Export als GAEB X83, Excel und PDF</li>
               </ul>
-              <span class="lp-path-go">Ausschreibung vorbereiten <span aria-hidden="true">→</span></span>
+              <span class="lp-path-go ci-btn">Ausschreibung vorbereiten <span aria-hidden="true">→</span></span>
             </a>
           </div>
         </div>
@@ -113,11 +134,11 @@
               <h3><span class="lp-tag lp-tag-bieter">Für Bieter</span></h3>
               <ol>
                 <li><strong>Finden.</strong> Im Markt passende Ausschreibungen suchen – oder eigene Unterlagen als Ordner oder ZIP importieren.</li>
-                <li><strong>Auswerten.</strong> Lospilot liest das Leistungsverzeichnis, trennt Positionen, Formblätter und Pläne und schlägt Produkte vor.</li>
+                <li><strong>Auswerten.</strong> LV Mania liest das Leistungsverzeichnis, trennt Positionen, Formblätter und Pläne und schlägt Produkte vor.</li>
                 <li><strong>Kalkulieren.</strong> Preise, Marge, MwSt. und Eigenleistung eintragen. Export als Excel und GAEB X84.</li>
                 <li><strong>Abgeben.</strong> Bieterakte mit Checkliste und Abgabe-Prüfung. Das Angebot laden Sie selbst im Vergabeportal hoch.</li>
               </ol>
-              <a class="lp-btn lp-btn-bieter" href="bieter/">Zum Bieter-Bereich</a>
+              <a class="ci-btn" href="bieter/">Zum Bieter-Bereich</a>
             </div>
             <div class="lp-steps lp-steps-ag">
               <h3><span class="lp-tag lp-tag-ag">Für Auftraggeber</span></h3>
@@ -125,9 +146,9 @@
                 <li><strong>Beschreiben.</strong> Wer schreibt aus, was wird gebraucht, und soll es Lose geben?</li>
                 <li><strong>LV anlegen.</strong> Positionen mit Menge, Einheit und Langtext – oder ein vorhandenes LV importieren.</li>
                 <li><strong>Kriterien und Fristen.</strong> Eignung, Zuschlag, Angebotsfrist, Bieterfragen und Bindefrist festlegen.</li>
-                <li><strong>Exportieren.</strong> Bekanntmachung und LV als GAEB X83, Excel und PDF in einem ZIP. Veröffentlichen in Lospilot: demnächst.</li>
+                <li><strong>Exportieren.</strong> Bekanntmachung und LV als GAEB X83, Excel und PDF in einem ZIP. Veröffentlichen in LV Mania: in Arbeit.</li>
               </ol>
-              <a class="lp-btn lp-btn-ag" href="ausschreiben/">Ausschreibung vorbereiten</a>
+              <a class="ci-btn" href="ausschreiben/">Ausschreibung vorbereiten</a>
             </div>
           </div>
         </div>
@@ -136,14 +157,14 @@
       <section class="lp-section lp-section-alt" id="funktionen" aria-labelledby="funktionen-h">
         <div class="lp-wrap">
           <h2 class="lp-h2" id="funktionen-h">Die wichtigsten Funktionen</h2>
-          <p class="lp-sub">Echte Ansichten aus Lospilot (Testversion): Bieter-Teil mit öffentlichen Ausschreibungen, z. B. Medientechnik im Rathaus Bocholt; Auftraggeber-Teil mit erfundenen Musterdaten.</p>
+          <p class="lp-sub">Echte Ansichten aus LV Mania (Testversion): Bieter-Teil mit öffentlichen Ausschreibungen, z. B. Medientechnik im Rathaus Bocholt; Auftraggeber-Teil mit erfundenen Musterdaten.</p>
 
           <div class="lp-feature">
-            <figure class="lp-shot"><img src="start/bieter-markt.webp" width="1200" height="750" loading="lazy" alt="Lospilot Markt: Liste öffentlicher Ausschreibungen mit Filtern nach Fachgebiet, Ort und Frist" /></figure>
+            <figure class="lp-shot"><img src="start/bieter-markt.webp" width="1200" height="750" loading="lazy" alt="LV Mania Markt: Liste öffentlicher Ausschreibungen mit Filtern nach Fachgebiet, Ort und Frist" /></figure>
             <div class="lp-feature-text">
               <span class="lp-tag lp-tag-bieter">Für Bieter</span>
               <h3>Markt: Ausschreibungen an einem Ort</h3>
-              <p>Lospilot ruft Bekanntmachungen aus mehreren Vergabeportalen ab. Sie filtern nach Fachgebiet, Ort und Frist und merken sich passende Verfahren mit einem Klick.</p>
+              <p>LV Mania ruft Bekanntmachungen aus mehreren Vergabeportalen ab. Sie filtern nach Fachgebiet, Ort und Frist und merken sich passende Verfahren mit einem Klick.</p>
             </div>
           </div>
 
@@ -152,7 +173,7 @@
             <div class="lp-feature-text">
               <span class="lp-tag lp-tag-bieter">Für Bieter</span>
               <h3>Leistungsverzeichnis und Produktabgleich</h3>
-              <p>Jede Position mit vollem Langtext. Lospilot prüft jedes Kriterium gegen das Herstellerdatenblatt. <strong>„Treffer“</strong> steht nur, wenn alle Kriterien belegt sind – sonst „Nächstbester Vorschlag – x von y belegt“.</p>
+              <p>Jede Position mit vollem Langtext. LV Mania prüft jedes Kriterium gegen das Herstellerdatenblatt. <strong>„Treffer“</strong> steht nur, wenn alle Kriterien belegt sind – sonst „Nächstbester Vorschlag – x von y belegt“.</p>
             </div>
           </div>
 
@@ -161,7 +182,7 @@
             <div class="lp-feature-text">
               <span class="lp-tag lp-tag-bieter">Für Bieter</span>
               <h3>Bieterakte, Checkliste und Abgabe-Prüfung</h3>
-              <p>Alle Unterlagen in einer festen Ordnerstruktur, eine Checkliste für die Abgabe und Exporte als Excel, GAEB X84 und ZIP. Lospilot gibt nichts für Sie ab – Sie behalten die Kontrolle.</p>
+              <p>Alle Unterlagen in einer festen Ordnerstruktur, eine Checkliste für die Abgabe und Exporte als Excel, GAEB X84 und ZIP. LV Mania gibt nichts für Sie ab – Sie behalten die Kontrolle.</p>
             </div>
           </div>
 
@@ -180,7 +201,7 @@
               <span class="lp-tag lp-tag-ag">Für Auftraggeber</span>
               <h3>Vorschau und Export-Paket</h3>
               <p>Sie sehen die Bekanntmachung, bevor sie jemand anderes sieht. Das Export-Paket enthält Bekanntmachung, LV als GAEB X83, Excel und PDF sowie Kriterien und Fristen.</p>
-              <p class="lp-note">Veröffentlichen direkt in Lospilot und eingehende Angebote kommen später. Öffentliche Auftraggeber machen ab den EU-Schwellenwerten über die offiziellen Wege bekannt.</p>
+              <p class="lp-note">Veröffentlichen direkt in LV Mania und eingehende Angebote kommen später. Öffentliche Auftraggeber machen ab den EU-Schwellenwerten über die offiziellen Wege bekannt.</p>
             </div>
           </div>
         </div>
@@ -190,27 +211,47 @@
         <div class="lp-wrap">
           <h2 class="lp-h2" id="vertrauen-h">Ehrlich und sicher</h2>
           <div class="lp-trust">
-            <div><h3>Ihre Daten bleiben bei Ihnen</h3><p>Ausschreibungen, Preise und Entwürfe speichert Lospilot nur in Ihrem Browser. Es gibt keinen Server für Ihre Daten.</p></div>
+            <div><h3>Ihre Daten bleiben bei Ihnen</h3><p>Ausschreibungen, Preise und Entwürfe speichert LV Mania nur in Ihrem Browser. Es gibt keinen Server für Ihre Daten.</p></div>
             <div><h3>Ohne Konto, ohne Tracking</h3><p>Keine Anmeldung, keine Cookies, keine Werbe- oder Statistik-Dienste. Schriften und Programmteile kommen von dieser Seite.</p></div>
-            <div><h3>Sie behalten die Kontrolle</h3><p>Lospilot meldet sich in keinem Portal an, lädt nichts hoch und sendet nichts in Ihrem Namen.</p></div>
+            <div><h3>Sie behalten die Kontrolle</h3><p>LV Mania meldet sich in keinem Portal an, lädt nichts hoch und sendet nichts in Ihrem Namen.</p></div>
             <div><h3>Treffer nur mit Beleg</h3><p>Ein Produkt heißt nur dann „Treffer“, wenn das Datenblatt alle Anforderungen belegt. Unsichere Vorschläge sind als solche markiert.</p></div>
           </div>
         </div>
       </section>
 
-      <section class="lp-section lp-section-alt" id="fragen" aria-labelledby="fragen-h">
+      <section class="lp-section lp-section-alt" id="daten" aria-labelledby="daten-h">
+        <div class="lp-wrap lp-wrap-narrow">
+          <h2 class="lp-h2" id="daten-h">Ihre Daten mitnehmen</h2>
+          <p class="lp-sub" data-testid="daten-zusage">Ihre Daten bleiben in Ihrem Browser, Rentalmania sieht sie nicht.</p>
+          <p class="lp-sub">Ihre Ausschreibungen, Preise und Entwürfe liegen nur in diesem Browser – und zwar pro Internet-Adresse. <span data-lp-vor-umzug>LV Mania zieht bald nach <strong>rentalmania.de/lv-mania</strong> um. Sichern Sie Ihre Daten deshalb vorher in einer Datei und lesen Sie sie an der neuen Adresse wieder ein.</span><span data-lp-nach-umzug hidden>Mit einer Sicherungsdatei nehmen Sie alles auf ein anderes Gerät oder in einen anderen Browser mit.</span></p>
+          <div class="lp-daten">
+            <div class="lp-daten-schritt">
+              <h3>1. Alle Daten sichern</h3>
+              <p>Eine Datei mit allen Ausschreibungen, Bieterakten, Entwürfen und Einstellungen. Sie bleibt auf Ihrem Gerät.</p>
+              <button type="button" class="ci-btn" data-lp-sichern data-testid="daten-sichern">Alle Daten sichern</button>
+            </div>
+            <div class="lp-daten-schritt">
+              <h3>2. Daten einlesen</h3>
+              <p>Sicherungsdatei wählen, Vorschau ansehen, dann einlesen. Vorhandene Daten werden nur nach Ihrer ausdrücklichen Bestätigung ersetzt.</p>
+              <button type="button" class="ci-btn ci-btn-zweit" data-lp-einlesen data-testid="daten-einlesen">Daten einlesen</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="lp-section" id="fragen" aria-labelledby="fragen-h">
         <div class="lp-wrap lp-wrap-narrow">
           <h2 class="lp-h2" id="fragen-h">Häufige Fragen</h2>
           <h3 class="lp-faq-group">Für Bieter</h3>
-          <div class="lp-faq"><details class="lp-faq-item" id="faq-was-ist-app"><summary>Was ist Lospilot?</summary><div class="lp-faq-body"><p>Lospilot hilft Ihnen, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten. Es bündelt Bekanntmachungen im <strong>Markt</strong>, lädt und sortiert Vergabeunterlagen, liest das Leistungsverzeichnis ein, recherchiert Produkte mit Datenblattprüfung und kalkuliert Preise. Außerdem erstellt es Bieterakte, Checkliste, Excel und GAEB X84. Die verbindliche Abgabe machen Sie selbst im Vergabeportal.</p></div></details>
-<details class="lp-faq-item" id="faq-abgabe-durch-app"><summary>Gibt Lospilot mein Angebot im Vergabeportal ab?</summary><div class="lp-faq-body"><p>Nein. Lospilot <strong>bereitet vor</strong>: GAEB-Datei, Excel, Formblätter, Checkliste und Bieterakte. Es meldet sich in keinem Portal an, lädt nichts hoch und gibt keine verbindliche Erklärung ab. Das Angebot laden Sie selbst im Vergabeportal hoch und senden es vor Fristende ab. Danach markieren Sie die Ausschreibung in Lospilot als „Abgegeben“.</p></div></details>
-<details class="lp-faq-item" id="faq-treffer-naechstbester"><summary>Was bedeuten „Treffer“ und „Nächstbester“ bei den Produktvorschlägen?</summary><div class="lp-faq-body"><p>Lospilot prüft jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben. <strong>Treffer</strong> heißt, dass alle Kriterien belegt sind. Sonst steht dort <strong>„Nächstbester Vorschlag – x von y belegt“</strong>. Sie bekommen Links zu Produkt, Datenblatt und Händler, und das Datenblatt wird in der Bieterakte abgelegt. Nicht jede Position erhält einen Produktvorschlag.</p></div></details>
-<details class="lp-faq-item" id="faq-lv-import-formate"><summary>Welche LV-Formate kann Lospilot einlesen?</summary><div class="lp-faq-body"><p>Lospilot liest Leistungsverzeichnisse aus <strong>GAEB-Dateien (X83, D83)</strong> und aus <strong>PDF</strong> ein. Danach sehen Sie jede Position mit Menge, Langtext und Preisfeldern. Bedarfs- und Alternativpositionen trennt Lospilot vom Hauptangebot, damit sie nicht versehentlich in die Summe einfließen. Prüfen Sie bei PDF-LVs die erkannten Positionen kurz gegen das Original.</p></div></details>
-<details class="lp-faq-item" id="faq-daten-speicherort"><summary>Wo werden meine Daten gespeichert?</summary><div class="lp-faq-body"><p>Ihre Ausschreibungen, Kalkulationen und Bieterakten bleiben <strong>in Ihrem Browser</strong> auf Ihrem Rechner. Löschen Sie die Browserdaten oder wechseln Sie den Rechner, sind sie dort nicht mehr vorhanden. Sichern Sie Ihre Daten deshalb regelmäßig unter <strong>Einstellungen → Daten</strong> mit „Daten sichern“ als Datei. Mit „Daten laden“ stellen Sie sie wieder her.</p></div></details>
-<details class="lp-faq-item" id="faq-keine-rechtsberatung"><summary>Sind diese Antworten eine Rechtsberatung?</summary><div class="lp-faq-body"><p>Nein. Die Hilfetexte von Lospilot sind <strong>allgemeine Informationen</strong> zum Vergaberecht, Stand Oktober 2026, und ersetzen keine Rechtsberatung. Maßgeblich sind immer die konkreten Vergabeunterlagen und die geltenden Gesetze von Bund und Land. Bei Fragen im Einzelfall wenden Sie sich an einen Fachanwalt für Vergaberecht, an eine Auftragsberatungsstelle oder an Ihre Kammer (IHK, HWK).</p></div></details></div>
+          <div class="lp-faq"><details class="lp-faq-item" id="faq-was-ist-app"><summary>Was ist LV Mania?</summary><div class="lp-faq-body"><p>LV Mania hilft Ihnen, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten. Es bündelt Bekanntmachungen im <strong>Markt</strong>, lädt und sortiert Vergabeunterlagen, liest das Leistungsverzeichnis ein, recherchiert Produkte mit Datenblattprüfung und kalkuliert Preise. Außerdem erstellt es Bieterakte, Checkliste, Excel und GAEB X84. Die verbindliche Abgabe machen Sie selbst im Vergabeportal.</p></div></details>
+<details class="lp-faq-item" id="faq-abgabe-durch-app"><summary>Gibt LV Mania mein Angebot im Vergabeportal ab?</summary><div class="lp-faq-body"><p>Nein. LV Mania <strong>bereitet vor</strong>: GAEB-Datei, Excel, Formblätter, Checkliste und Bieterakte. Es meldet sich in keinem Portal an, lädt nichts hoch und gibt keine verbindliche Erklärung ab. Das Angebot laden Sie selbst im Vergabeportal hoch und senden es vor Fristende ab. Danach markieren Sie die Ausschreibung in LV Mania als „Abgegeben“.</p></div></details>
+<details class="lp-faq-item" id="faq-treffer-naechstbester"><summary>Was bedeuten „Treffer“ und „Nächstbester“ bei den Produktvorschlägen?</summary><div class="lp-faq-body"><p>LV Mania prüft jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben. <strong>Treffer</strong> heißt, dass alle Kriterien belegt sind. Sonst steht dort <strong>„Nächstbester Vorschlag – x von y belegt“</strong>. Sie bekommen Links zu Produkt, Datenblatt und Händler, und das Datenblatt wird in der Bieterakte abgelegt. Nicht jede Position erhält einen Produktvorschlag.</p></div></details>
+<details class="lp-faq-item" id="faq-lv-import-formate"><summary>Welche LV-Formate kann LV Mania einlesen?</summary><div class="lp-faq-body"><p>LV Mania liest Leistungsverzeichnisse aus <strong>GAEB-Dateien (X83, D83)</strong> und aus <strong>PDF</strong> ein. Danach sehen Sie jede Position mit Menge, Langtext und Preisfeldern. Bedarfs- und Alternativpositionen trennt LV Mania vom Hauptangebot, damit sie nicht versehentlich in die Summe einfließen. Prüfen Sie bei PDF-LVs die erkannten Positionen kurz gegen das Original.</p></div></details>
+<details class="lp-faq-item" id="faq-daten-speicherort"><summary>Wo werden meine Daten gespeichert?</summary><div class="lp-faq-body"><p>Ihre Ausschreibungen, Kalkulationen und Bieterakten bleiben <strong>in Ihrem Browser</strong> auf Ihrem Rechner. Löschen Sie die Browserdaten oder wechseln Sie den Rechner, sind sie dort nicht mehr vorhanden. Sichern Sie Ihre Daten deshalb regelmäßig unter <strong>Einstellungen → Daten</strong> mit „Daten sichern“ als Datei. Mit „Daten laden“ stellen Sie sie wieder her. Ihre Daten bleiben in Ihrem Browser, Rentalmania sieht sie nicht.</p></div></details>
+<details class="lp-faq-item" id="faq-keine-rechtsberatung"><summary>Sind diese Antworten eine Rechtsberatung?</summary><div class="lp-faq-body"><p>Nein. Die Hilfetexte von LV Mania sind <strong>allgemeine Informationen</strong> zum Vergaberecht, Stand Oktober 2026, und ersetzen keine Rechtsberatung. Maßgeblich sind immer die konkreten Vergabeunterlagen und die geltenden Gesetze von Bund und Land. Bei Fragen im Einzelfall wenden Sie sich an einen Fachanwalt für Vergaberecht, an eine Auftragsberatungsstelle oder an Ihre Kammer (IHK, HWK).</p></div></details></div>
           <h3 class="lp-faq-group">Für Auftraggeber</h3>
-          <div class="lp-faq"><details class="lp-faq-item" id="faq-ag-veroeffentlichen"><summary>Kann ich meine Ausschreibung direkt in Lospilot veröffentlichen?</summary><div class="lp-faq-body"><p>Noch nicht. Lospilot hat zurzeit keinen Server, auf dem andere Nutzer Ihre Ausschreibung sehen könnten. Sie können heute Ihre Ausschreibung <strong>vorbereiten</strong>: Leistung, Lose, Leistungsverzeichnis, Kriterien und Fristen. Ihren Entwurf speichert Lospilot in Ihrem Browser. Als Export-Paket (ZIP) bekommen Sie den Bekanntmachungstext und das LV als GAEB X83, Excel und PDF. Das Veröffentlichen in Lospilot kommt später.</p></div></details>
-<details class="lp-faq-item" id="faq-ag-oeffentlich"><summary>Ich bin ein öffentlicher Auftraggeber. Ersetzt Lospilot die offizielle Bekanntmachung?</summary><div class="lp-faq-body"><p>Nein. Ab den EU-Schwellenwerten ist die Bekanntmachung über die offiziellen Wege Pflicht (eForms an TED, in Deutschland über den Bekanntmachungsservice bzw. Ihre Vergabeplattform). Auch darunter gelten die Regeln von Bund und Land. Lospilot hilft beim Vorbereiten der Unterlagen und ersetzt weder die Vergabeplattform noch eine Rechtsberatung.</p></div></details></div>
+          <div class="lp-faq"><details class="lp-faq-item" id="faq-ag-veroeffentlichen"><summary>Kann ich meine Ausschreibung direkt in LV Mania veröffentlichen?</summary><div class="lp-faq-body"><p>Noch nicht. LV Mania hat zurzeit keinen Server, auf dem andere Nutzer Ihre Ausschreibung sehen könnten. Sie können heute Ihre Ausschreibung <strong>vorbereiten</strong>: Leistung, Lose, Leistungsverzeichnis, Kriterien und Fristen. Ihren Entwurf speichert LV Mania in Ihrem Browser. Als Export-Paket (ZIP) bekommen Sie den Bekanntmachungstext und das LV als GAEB X83, Excel und PDF. Das Veröffentlichen in LV Mania kommt später.</p></div></details>
+<details class="lp-faq-item" id="faq-ag-oeffentlich"><summary>Ich bin ein öffentlicher Auftraggeber. Ersetzt LV Mania die offizielle Bekanntmachung?</summary><div class="lp-faq-body"><p>Nein. Ab den EU-Schwellenwerten ist die Bekanntmachung über die offiziellen Wege Pflicht (eForms an TED, in Deutschland über den Bekanntmachungsservice bzw. Ihre Vergabeplattform). Auch darunter gelten die Regeln von Bund und Land. LV Mania hilft beim Vorbereiten der Unterlagen und ersetzt weder die Vergabeplattform noch eine Rechtsberatung.</p></div></details></div>
           <p class="lp-faq-more"><a href="hilfe/">Alle Fragen und Antworten</a> · <a href="hilfe/anleitung/">Anleitung</a> · <a href="hilfe/glossar/">Glossar A–Z</a></p>
         </div>
       </section>
@@ -219,8 +260,8 @@
         <div class="lp-wrap">
           <h2>Bereit? Wählen Sie Ihren Weg.</h2>
           <div class="lp-cta-btns">
-            <a class="lp-btn lp-btn-bieter lp-btn-lg" href="bieter/">Ich bin Bieter</a>
-            <a class="lp-btn lp-btn-ag lp-btn-lg" href="ausschreiben/">Ich schreibe aus</a>
+            <a class="ci-btn" href="bieter/">Ich biete mit</a>
+            <a class="ci-btn ci-btn-zweit" href="ausschreiben/">Ich schreibe aus</a>
           </div>
         </div>
       </section>
@@ -229,14 +270,17 @@
     <footer class="lp-footer">
       <div class="lp-wrap lp-footer-in">
         <div>
-          <a class="lp-logo lp-logo-foot" href="./"><span class="lp-logo-mark" aria-hidden="true">L</span><span>Lospilot</span></a>
-          <p>Ausschreibungen finden, Angebote vorbereiten, selbst ausschreiben.<br />Testversion · Allgemeine Informationen, keine Rechtsberatung.</p>
+          <a class="lvm-logo lp-logo-foot" href="./"><span class="lvm-logo-lv" aria-hidden="true">LV</span><span class="lvm-logo-wort">Mania</span></a>
+          <p class="lp-marke" data-testid="marke">LV Mania – eine Marke der Rentalmania GmbH</p>
+          <p>Testversion, ohne Gewähr · Allgemeine Informationen, keine Rechtsberatung.</p>
         </div>
         <nav aria-label="Fußzeile">
           <a href="bieter/">Für Bieter</a>
           <a href="ausschreiben/">Für Auftraggeber</a>
           <a href="hilfe/">Hilfe</a>
           <a href="hilfe/anleitung/">Anleitung</a>
+          <a href="#daten">Daten sichern</a>
+          <a href="nutzungshinweise.html">Nutzungshinweise</a>
           <a href="impressum.html">Impressum</a>
           <a href="datenschutz.html">Datenschutz</a>
           <button type="button" class="lp-foot-fehler" data-lp-fehler>Fehler melden</button>

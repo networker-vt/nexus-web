@@ -105,7 +105,7 @@
   "id": "keine-rechtsberatung",
   "kategorie": "Grundlagen Vergabe",
   "frage": "Sind diese Antworten eine Rechtsberatung?",
-  "antwort": "Nein. Die Hilfetexte von Lospilot sind **allgemeine Informationen** zum Vergaberecht, Stand Oktober 2026, und ersetzen keine Rechtsberatung. Maßgeblich sind immer die konkreten Vergabeunterlagen und die geltenden Gesetze von Bund und Land. Bei Fragen im Einzelfall wenden Sie sich an einen Fachanwalt für Vergaberecht, an eine Auftragsberatungsstelle oder an Ihre Kammer (IHK, HWK).",
+  "antwort": "Nein. Die Hilfetexte von LV Mania sind **allgemeine Informationen** zum Vergaberecht, Stand Oktober 2026, und ersetzen keine Rechtsberatung. Maßgeblich sind immer die konkreten Vergabeunterlagen und die geltenden Gesetze von Bund und Land. Bei Fragen im Einzelfall wenden Sie sich an einen Fachanwalt für Vergaberecht, an eine Auftragsberatungsstelle oder an Ihre Kammer (IHK, HWK).",
   "suchbegriffe": [
    "vergaberecht beratung",
    "auftragsberatungsstelle"
@@ -115,7 +115,7 @@
   "id": "ausschreibungen-finden",
   "kategorie": "Ausschreibungen finden",
   "frage": "Wie finde ich passende öffentliche Ausschreibungen?",
-  "antwort": "Öffentliche Auftraggeber veröffentlichen ihre Bekanntmachungen auf Vergabeportalen von Bund, Ländern und Kommunen, EU-weite Verfahren zusätzlich im Supplement zum EU-Amtsblatt (TED). Weil es viele Portale gibt, hilft eine Suche, die mehrere Quellen bündelt. Lospilot ruft im **Markt** Bekanntmachungen von derzeit 10 Vergabeportalen ab, filtert nach Ihrem Fachgebiet und sortiert nach Frist.",
+  "antwort": "Öffentliche Auftraggeber veröffentlichen ihre Bekanntmachungen auf Vergabeportalen von Bund, Ländern und Kommunen, EU-weite Verfahren zusätzlich im Supplement zum EU-Amtsblatt (TED). Weil es viele Portale gibt, hilft eine Suche, die mehrere Quellen bündelt. LV Mania ruft im **Markt** Bekanntmachungen von derzeit 10 Vergabeportalen ab, filtert nach Ihrem Fachgebiet und sortiert nach Frist.",
   "suchbegriffe": [
    "ausschreibungen finden",
    "öffentliche ausschreibungen finden",
@@ -131,7 +131,7 @@
   "id": "vergabeportal",
   "kategorie": "Ausschreibungen finden",
   "frage": "Was ist ein Vergabeportal oder eine Vergabeplattform?",
-  "antwort": "Auf einem Vergabeportal veröffentlichen Vergabestellen ihre Ausschreibungen, stellen Unterlagen bereit, beantworten Bieterfragen und nehmen elektronische Angebote entgegen. Bund, viele Länder, Kommunen und Unternehmen der öffentlichen Hand betreiben eigene Plattformen. Lospilot ist **kein** Vergabeportal. Es zeigt Ausschreibungen mit Link („Im Portal öffnen“), und abgeben müssen Sie im jeweiligen Portal.",
+  "antwort": "Auf einem Vergabeportal veröffentlichen Vergabestellen ihre Ausschreibungen, stellen Unterlagen bereit, beantworten Bieterfragen und nehmen elektronische Angebote entgegen. Bund, viele Länder, Kommunen und Unternehmen der öffentlichen Hand betreiben eigene Plattformen. LV Mania ist **kein** Vergabeportal. Es zeigt Ausschreibungen mit Link („Im Portal öffnen“), und abgeben müssen Sie im jeweiligen Portal.",
   "suchbegriffe": [
    "vergabeplattform",
    "vergabeportal",
@@ -158,7 +158,7 @@
   "id": "ausschreibungen-kostenlos",
   "kategorie": "Ausschreibungen finden",
   "frage": "Kann ich öffentliche Ausschreibungen kostenlos einsehen?",
-  "antwort": "Ja. Bekanntmachungen öffentlicher Auftraggeber sind öffentlich und kostenlos einsehbar. Bei EU-weiten Verfahren müssen die Vergabeunterlagen in der Regel unentgeltlich, uneingeschränkt und direkt abrufbar sein. Der Aufwand liegt eher in der Suche über viele Portale. Manche Portale verlangen eine Anmeldung für den Download. Dann zeigt Lospilot nur den Link, und Sie importieren die Unterlagen selbst.",
+  "antwort": "Ja. Bekanntmachungen öffentlicher Auftraggeber sind öffentlich und kostenlos einsehbar. Bei EU-weiten Verfahren müssen die Vergabeunterlagen in der Regel unentgeltlich, uneingeschränkt und direkt abrufbar sein. Der Aufwand liegt eher in der Suche über viele Portale. Manche Portale verlangen eine Anmeldung für den Download. Dann zeigt LV Mania nur den Link, und Sie importieren die Unterlagen selbst.",
   "suchbegriffe": [
    "ausschreibungen kostenlos",
    "öffentliche ausschreibungen kostenlos einsehen",
@@ -180,7 +180,7 @@
  {
   "id": "markt-aktualitaet",
   "kategorie": "Ausschreibungen finden",
-  "frage": "Wie aktuell sind die Ausschreibungen im Markt von Lospilot?",
+  "frage": "Wie aktuell sind die Ausschreibungen im Markt von LV Mania?",
   "antwort": "Der Markt ruft öffentliche Bekanntmachungen **alle paar Stunden** automatisch ab, derzeit von 10 Vergabeportalen mit ca. 1.300 laufenden Ausschreibungen. Sie können filtern und nach Frist sortieren. Maßgeblich bleibt immer die Bekanntmachung im Vergabeportal. Prüfen Sie dort Fristen und Änderungen, bevor Sie abgeben.",
   "suchbegriffe": [
    "ausschreibungsdatenbank",
@@ -192,8 +192,8 @@
  {
   "id": "fachgebiet-einstellen",
   "kategorie": "Ausschreibungen finden",
-  "frage": "Wie stelle ich mein Fachgebiet in Lospilot ein?",
-  "antwort": "Unter **Einstellungen** wählen Sie Ihr Fachgebiet, zum Beispiel Bau, IT, Reinigung, Medientechnik oder Planung. Lospilot zeigt Ihnen im Markt und auf der Startseite dann vor allem passende Ausschreibungen. Zusätzlich können Sie mit Filtern (Ort, Frist, Stichwort) und der Suche eingrenzen.",
+  "frage": "Wie stelle ich mein Fachgebiet in LV Mania ein?",
+  "antwort": "Unter **Einstellungen** wählen Sie Ihr Fachgebiet, zum Beispiel Bau, IT, Reinigung, Medientechnik oder Planung. LV Mania zeigt Ihnen im Markt und auf der Startseite dann vor allem passende Ausschreibungen. Zusätzlich können Sie mit Filtern (Ort, Frist, Stichwort) und der Suche eingrenzen.",
   "suchbegriffe": [
    "ausschreibungen nach branche",
    "ausschreibungen filtern"
@@ -229,8 +229,8 @@
  {
   "id": "lv-import-formate",
   "kategorie": "Angebot & LV",
-  "frage": "Welche LV-Formate kann Lospilot einlesen?",
-  "antwort": "Lospilot liest Leistungsverzeichnisse aus **GAEB-Dateien (X83, D83)** und aus **PDF** ein. Danach sehen Sie jede Position mit Menge, Langtext und Preisfeldern. Bedarfs- und Alternativpositionen trennt Lospilot vom Hauptangebot, damit sie nicht versehentlich in die Summe einfließen. Prüfen Sie bei PDF-LVs die erkannten Positionen kurz gegen das Original.",
+  "frage": "Welche LV-Formate kann LV Mania einlesen?",
+  "antwort": "LV Mania liest Leistungsverzeichnisse aus **GAEB-Dateien (X83, D83)** und aus **PDF** ein. Danach sehen Sie jede Position mit Menge, Langtext und Preisfeldern. Bedarfs- und Alternativpositionen trennt LV Mania vom Hauptangebot, damit sie nicht versehentlich in die Summe einfließen. Prüfen Sie bei PDF-LVs die erkannten Positionen kurz gegen das Original.",
   "suchbegriffe": [
    "gaeb x83 öffnen",
    "lv einlesen",
@@ -242,7 +242,7 @@
   "id": "bedarfs-alternativpositionen",
   "kategorie": "Angebot & LV",
   "frage": "Was sind Bedarfs- und Alternativpositionen?",
-  "antwort": "Eine **Bedarfsposition** (Eventualposition) wird nur ausgeführt, wenn sie während des Auftrags gebraucht wird. Sie wird deshalb meist nur mit Einheitspreis angeboten und nicht in die Angebotssumme gerechnet. Eine **Alternativposition** (Wahlposition) beschreibt eine andere Ausführung, zwischen der der Auftraggeber wählen kann. Lospilot zeigt beide getrennt vom Hauptangebot.",
+  "antwort": "Eine **Bedarfsposition** (Eventualposition) wird nur ausgeführt, wenn sie während des Auftrags gebraucht wird. Sie wird deshalb meist nur mit Einheitspreis angeboten und nicht in die Angebotssumme gerechnet. Eine **Alternativposition** (Wahlposition) beschreibt eine andere Ausführung, zwischen der der Auftraggeber wählen kann. LV Mania zeigt beide getrennt vom Hauptangebot.",
   "suchbegriffe": [
    "bedarfsposition",
    "eventualposition",
@@ -269,7 +269,7 @@
   "id": "treffer-naechstbester",
   "kategorie": "Angebot & LV",
   "frage": "Was bedeuten „Treffer“ und „Nächstbester“ bei den Produktvorschlägen?",
-  "antwort": "Lospilot prüft jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben. **Treffer** heißt, dass alle Kriterien belegt sind. Sonst steht dort **„Nächstbester Vorschlag – x von y belegt“**. Sie bekommen Links zu Produkt, Datenblatt und Händler, und das Datenblatt wird in der Bieterakte abgelegt. Nicht jede Position erhält einen Produktvorschlag.",
+  "antwort": "LV Mania prüft jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben. **Treffer** heißt, dass alle Kriterien belegt sind. Sonst steht dort **„Nächstbester Vorschlag – x von y belegt“**. Sie bekommen Links zu Produkt, Datenblatt und Händler, und das Datenblatt wird in der Bieterakte abgelegt. Nicht jede Position erhält einen Produktvorschlag.",
   "suchbegriffe": [
    "produktvorschlag leistungsverzeichnis",
    "datenblatt prüfen",
@@ -280,8 +280,8 @@
  {
   "id": "marktpreise",
   "kategorie": "Angebot & LV",
-  "frage": "Woher kommen die Marktpreise in Lospilot?",
-  "antwort": "Marktpreise zeigt Lospilot nur **mit Quelle und Datum**, zum Beispiel aus öffentlich erreichbaren Shops. Liegt kein belegbarer Preis vor, steht dort „Preis prüfen“. Ein Preis, den Sie selbst eintragen, hat immer Vorrang. Marktpreise sind eine Orientierung für Ihre Kalkulation, Ihren Angebotspreis legen Sie selbst fest.",
+  "frage": "Woher kommen die Marktpreise in LV Mania?",
+  "antwort": "Marktpreise zeigt LV Mania nur **mit Quelle und Datum**, zum Beispiel aus öffentlich erreichbaren Shops. Liegt kein belegbarer Preis vor, steht dort „Preis prüfen“. Ein Preis, den Sie selbst eintragen, hat immer Vorrang. Marktpreise sind eine Orientierung für Ihre Kalkulation, Ihren Angebotspreis legen Sie selbst fest.",
   "suchbegriffe": [
    "marktpreis recherche",
    "einheitspreis kalkulieren"
@@ -292,7 +292,7 @@
   "id": "kalkulation-marge-eigenleistung",
   "kategorie": "Angebot & LV",
   "frage": "Wie kalkuliere ich Marge, MwSt. und Eigenleistung?",
-  "antwort": "Marge, MwSt. und Stundensatz stellen Sie in der Übersicht der Ausschreibung ein oder dauerhaft unter **Einstellungen → Preise**. Alle Preise rechnen sofort neu. Dienstleistungen und Montage kalkulieren Sie als **Eigenleistung**: Stunden je Einheit × Stundensatz. Lospilot errechnet daraus den Einheitspreis. Prüfen Sie am Ende, ob jede Position einen Preis hat.",
+  "antwort": "Marge, MwSt. und Stundensatz stellen Sie in der Übersicht der Ausschreibung ein oder dauerhaft unter **Einstellungen → Preise**. Alle Preise rechnen sofort neu. Dienstleistungen und Montage kalkulieren Sie als **Eigenleistung**: Stunden je Einheit × Stundensatz. LV Mania errechnet daraus den Einheitspreis. Prüfen Sie am Ende, ob jede Position einen Preis hat.",
   "suchbegriffe": [
    "angebot kalkulieren",
    "einheitspreis berechnen",
@@ -305,7 +305,7 @@
   "id": "b2b-partner",
   "kategorie": "Angebot & LV",
   "frage": "Wie nutze ich eigene Lieferanten als B2B-Partner?",
-  "antwort": "Unter **Einstellungen → B2B-Partner** legen Sie Großhändler und Lieferanten mit Name und Internetadresse an. Lospilot zeigt sie dann bei passenden Positionen, wenn das Produkt dort gefunden wurde. Ohne eigene Partner zeigt Lospilot die Händler, bei denen das Produkt online gefunden wurde, sortiert nach Preis.",
+  "antwort": "Unter **Einstellungen → B2B-Partner** legen Sie Großhändler und Lieferanten mit Name und Internetadresse an. LV Mania zeigt sie dann bei passenden Positionen, wenn das Produkt dort gefunden wurde. Ohne eigene Partner zeigt LV Mania die Händler, bei denen das Produkt online gefunden wurde, sortiert nach Preis.",
   "suchbegriffe": [
    "lieferanten für ausschreibungen",
    "großhändler angebot"
@@ -316,7 +316,7 @@
   "id": "formblaetter",
   "kategorie": "Angebot & LV",
   "frage": "Was sind Formblätter wie 124, 221 oder 223?",
-  "antwort": "Formblätter sind standardisierte Vordrucke der Vergabestelle, oft aus dem Vergabehandbuch des Bundes (VHB). Beispiele: **124** Eigenerklärung zur Eignung, **221/222** Preisermittlung, **223** Aufgliederung der Einheitspreise. Lospilot zeigt je Formblatt, ob es mit dem Angebot abzugeben ist (ja, nein oder auf Verlangen), mit Begründung aus den Unterlagen.",
+  "antwort": "Formblätter sind standardisierte Vordrucke der Vergabestelle, oft aus dem Vergabehandbuch des Bundes (VHB). Beispiele: **124** Eigenerklärung zur Eignung, **221/222** Preisermittlung, **223** Aufgliederung der Einheitspreise. LV Mania zeigt je Formblatt, ob es mit dem Angebot abzugeben ist (ja, nein oder auf Verlangen), mit Begründung aus den Unterlagen.",
   "suchbegriffe": [
    "formblatt 221",
    "formblatt 223",
@@ -330,7 +330,7 @@
   "id": "bieterfragen",
   "kategorie": "Angebot & LV",
   "frage": "Was sind Bieterfragen und wann sollte ich sie stellen?",
-  "antwort": "Mit einer Bieterfrage klären Sie Unklarheiten in den Vergabeunterlagen, etwa widersprüchliche Angaben, Signaturform oder Leitfabrikat. Fragen stellen Sie über das Vergabeportal, möglichst früh und vor der Fragefrist. Die Antwort geht in der Regel anonymisiert an alle Bieter. Bei Widersprüchen zur Abgabe- oder Signaturform schlägt Lospilot eine Bieterfrage als **Entwurf** vor, mit der KI-Hilfe auch zu anderen Themen. Absenden müssen Sie selbst.",
+  "antwort": "Mit einer Bieterfrage klären Sie Unklarheiten in den Vergabeunterlagen, etwa widersprüchliche Angaben, Signaturform oder Leitfabrikat. Fragen stellen Sie über das Vergabeportal, möglichst früh und vor der Fragefrist. Die Antwort geht in der Regel anonymisiert an alle Bieter. Bei Widersprüchen zur Abgabe- oder Signaturform schlägt LV Mania eine Bieterfrage als **Entwurf** vor, mit der KI-Hilfe auch zu anderen Themen. Absenden müssen Sie selbst.",
   "suchbegriffe": [
    "bieterfragen",
    "bieterfragen vergaberecht",
@@ -370,7 +370,7 @@
   "id": "gaeb-x84-erstellen",
   "kategorie": "GAEB",
   "frage": "Wie erstelle ich eine GAEB-X84-Angebotsdatei?",
-  "antwort": "Importieren Sie das LV der Vergabestelle (X83 oder D83) und kalkulieren Sie alle Positionen. Mit **„GAEB-Datei (X84, z. B. für WinGAEB)“** erzeugt Lospilot die X84-Datei. Dabei trägt es nur Ihre Einheitspreise in die Originalstruktur ein, Texte und Ordnungszahlen bleiben unverändert. Prüfen Sie die Datei in Ihrer GAEB-Software und laden Sie sie selbst im Vergabeportal hoch, sofern die Vergabestelle GAEB verlangt.",
+  "antwort": "Importieren Sie das LV der Vergabestelle (X83 oder D83) und kalkulieren Sie alle Positionen. Mit **„GAEB-Datei (X84, z. B. für WinGAEB)“** erzeugt LV Mania die X84-Datei. Dabei trägt es nur Ihre Einheitspreise in die Originalstruktur ein, Texte und Ordnungszahlen bleiben unverändert. Prüfen Sie die Datei in Ihrer GAEB-Software und laden Sie sie selbst im Vergabeportal hoch, sofern die Vergabestelle GAEB verlangt.",
   "suchbegriffe": [
    "gaeb x84 erstellen",
    "gaeb x84",
@@ -383,7 +383,7 @@
   "id": "gaeb-oeffnen",
   "kategorie": "GAEB",
   "frage": "Wie öffne ich eine GAEB-Datei ohne AVA-Software?",
-  "antwort": "GAEB-Dateien sind Fachformate und lassen sich nicht direkt mit Word oder Excel öffnen. Sie brauchen einen GAEB-Viewer oder ein Programm mit GAEB-Import. Lospilot liest X83- und D83-Dateien ein und zeigt das LV übersichtlich mit Positionen, Langtexten und Mengen, sodass Sie direkt kalkulieren können.",
+  "antwort": "GAEB-Dateien sind Fachformate und lassen sich nicht direkt mit Word oder Excel öffnen. Sie brauchen einen GAEB-Viewer oder ein Programm mit GAEB-Import. LV Mania liest X83- und D83-Dateien ein und zeigt das LV übersichtlich mit Positionen, Langtexten und Mengen, sodass Sie direkt kalkulieren können.",
   "suchbegriffe": [
    "gaeb datei öffnen",
    "gaeb viewer",
@@ -397,7 +397,7 @@
   "id": "gaeb-excel",
   "kategorie": "GAEB",
   "frage": "Kann ich ein GAEB-LV als Excel speichern?",
-  "antwort": "Ja. In der LV-Auswertung speichert Lospilot das Leistungsverzeichnis mit **„Excel exportieren“** als Tabelle, mit Positionen, Preisen, Quellen, Produkten und Händler-Links. Das eignet sich gut für interne Abstimmung und Lieferantenanfragen. Verlangt die Vergabestelle eine GAEB-Datei, reichen Sie die X84 ein und nicht die Excel-Tabelle.",
+  "antwort": "Ja. In der LV-Auswertung speichert LV Mania das Leistungsverzeichnis mit **„Excel exportieren“** als Tabelle, mit Positionen, Preisen, Quellen, Produkten und Händler-Links. Das eignet sich gut für interne Abstimmung und Lieferantenanfragen. Verlangt die Vergabestelle eine GAEB-Datei, reichen Sie die X84 ein und nicht die Excel-Tabelle.",
   "suchbegriffe": [
    "gaeb in excel umwandeln",
    "gaeb x83 in excel umwandeln",
@@ -425,7 +425,7 @@
   "id": "textform-signatur",
   "kategorie": "Fristen & Abgabe",
   "frage": "Reicht Textform oder brauche ich eine qualifizierte elektronische Signatur?",
-  "antwort": "Bei elektronischer Abgabe genügt oft die **Textform**, also eine lesbare Erklärung mit Namen der erklärenden Person. Der Auftraggeber kann aber eine fortgeschrittene oder **qualifizierte elektronische Signatur (QES)** verlangen. Welche Form gilt, steht in den Vergabeunterlagen. Lospilot zeigt die geforderte Form mit Quelle an und schlägt bei Widersprüchen eine Bieterfrage vor.",
+  "antwort": "Bei elektronischer Abgabe genügt oft die **Textform**, also eine lesbare Erklärung mit Namen der erklärenden Person. Der Auftraggeber kann aber eine fortgeschrittene oder **qualifizierte elektronische Signatur (QES)** verlangen. Welche Form gilt, steht in den Vergabeunterlagen. LV Mania zeigt die geforderte Form mit Quelle an und schlägt bei Widersprüchen eine Bieterfrage vor.",
   "suchbegriffe": [
    "elektronische angebotsabgabe in textform",
    "qualifizierte elektronische signatur ausschreibung",
@@ -437,8 +437,8 @@
  {
   "id": "unterschreiben-in-app",
   "kategorie": "Fristen & Abgabe",
-  "frage": "Kann ich mein Angebot in Lospilot unterschreiben?",
-  "antwort": "Lospilot kann eine **einfache elektronische Signatur** setzen. Das reicht, wenn die Vergabeunterlagen Textform verlangen. Ist eine qualifizierte elektronische Signatur gefordert, erstellen Sie diese mit Ihrer eigenen Signaturkarte oder über einen externen Vertrauensdiensteanbieter. Die unterschriebenen Dokumente legt Lospilot im Abgabe-Ordner der Bieterakte ab.",
+  "frage": "Kann ich mein Angebot in LV Mania unterschreiben?",
+  "antwort": "LV Mania kann eine **einfache elektronische Signatur** setzen. Das reicht, wenn die Vergabeunterlagen Textform verlangen. Ist eine qualifizierte elektronische Signatur gefordert, erstellen Sie diese mit Ihrer eigenen Signaturkarte oder über einen externen Vertrauensdiensteanbieter. Die unterschriebenen Dokumente legt LV Mania im Abgabe-Ordner der Bieterakte ab.",
   "suchbegriffe": [
    "angebot elektronisch unterschreiben",
    "elektronische signatur angebot",
@@ -449,8 +449,8 @@
  {
   "id": "abgabe-durch-app",
   "kategorie": "Fristen & Abgabe",
-  "frage": "Gibt Lospilot mein Angebot im Vergabeportal ab?",
-  "antwort": "Nein. Lospilot **bereitet vor**: GAEB-Datei, Excel, Formblätter, Checkliste und Bieterakte. Es meldet sich in keinem Portal an, lädt nichts hoch und gibt keine verbindliche Erklärung ab. Das Angebot laden Sie selbst im Vergabeportal hoch und senden es vor Fristende ab. Danach markieren Sie die Ausschreibung in Lospilot als „Abgegeben“.",
+  "frage": "Gibt LV Mania mein Angebot im Vergabeportal ab?",
+  "antwort": "Nein. LV Mania **bereitet vor**: GAEB-Datei, Excel, Formblätter, Checkliste und Bieterakte. Es meldet sich in keinem Portal an, lädt nichts hoch und gibt keine verbindliche Erklärung ab. Das Angebot laden Sie selbst im Vergabeportal hoch und senden es vor Fristende ab. Danach markieren Sie die Ausschreibung in LV Mania als „Abgegeben“.",
   "suchbegriffe": [
    "angebot abgeben vergabeportal",
    "ausschreibung angebot abgeben",
@@ -462,7 +462,7 @@
   "id": "abgabe-checkliste",
   "kategorie": "Fristen & Abgabe",
   "frage": "Wie vermeide ich, dass mein Angebot ausgeschlossen wird?",
-  "antwort": "Häufige Ausschlussgründe sind ein verspäteter Eingang, fehlende Preise oder Erklärungen, Änderungen an den Vergabeunterlagen und eine falsche Signaturform. Fehlende Unterlagen können zwar teils nachgefordert werden, darauf sollten Sie sich aber nicht verlassen. Die **Abgabe-Checkliste** in Lospilot zeigt, welche Formblätter und Nachweise einzureichen sind, was ausgefüllt und unterschrieben ist und was noch fehlt.",
+  "antwort": "Häufige Ausschlussgründe sind ein verspäteter Eingang, fehlende Preise oder Erklärungen, Änderungen an den Vergabeunterlagen und eine falsche Signaturform. Fehlende Unterlagen können zwar teils nachgefordert werden, darauf sollten Sie sich aber nicht verlassen. Die **Abgabe-Checkliste** in LV Mania zeigt, welche Formblätter und Nachweise einzureichen sind, was ausgefüllt und unterschrieben ist und was noch fehlt.",
   "suchbegriffe": [
    "ausschluss angebot",
    "ausschluss unvollständiges angebot",
@@ -474,7 +474,7 @@
  {
   "id": "bieterakte",
   "kategorie": "Fristen & Abgabe",
-  "frage": "Was ist die Bieterakte in Lospilot?",
+  "frage": "Was ist die Bieterakte in LV Mania?",
   "antwort": "Die Bieterakte ist ein geordneter Ordner je Ausschreibung, mit Bereichen von Bekanntmachung über Vergabeunterlagen, Kalkulation, Datenblätter und Nachweise bis zur Abgabe. Datenblätter aus der Produktrecherche landen automatisch darin. Sie können die ganze Akte als ZIP speichern, für Ihr Archiv oder für Kollegen.",
   "suchbegriffe": [
    "angebotsunterlagen ordnen",
@@ -567,7 +567,7 @@
  {
   "id": "branchen-allgemein",
   "kategorie": "Branchen",
-  "frage": "Für welche Branchen eignet sich Lospilot?",
+  "frage": "Für welche Branchen eignet sich LV Mania?",
   "antwort": "Für jede Branche, die an öffentlichen Ausschreibungen teilnimmt, zum Beispiel Bau und Handwerk, IT und Software, Gebäudereinigung, Medien- und Veranstaltungstechnik, Catering, Sicherheitsdienst, Planung, Beratung oder Lieferleistungen. Ihr Fachgebiet wählen Sie in den Einstellungen. Danach zeigt der Markt vor allem passende Ausschreibungen.",
   "suchbegriffe": [
    "ausschreibungen dienstleistungen",
@@ -595,7 +595,7 @@
   "id": "ausschreibungen-it",
   "kategorie": "Branchen",
   "frage": "Was ist bei IT-Ausschreibungen zu beachten?",
-  "antwort": "IT-Leistungen wie Hardware, Software, Entwicklung oder Betrieb sind Liefer- und Dienstleistungen. Es gelten UVgO bzw. VgV, EU-weit ab 216.000 € netto (Bundesbehörden ab 140.000 €). Öffentliche Auftraggeber nutzen oft die **EVB-IT**-Vertragsbedingungen. Achten Sie auf Anforderungen an Datenschutz, IT-Sicherheit und Zertifikate. Entwicklungsleistungen kalkulieren Sie in Lospilot als Eigenleistung mit Stunden und Stundensatz.",
+  "antwort": "IT-Leistungen wie Hardware, Software, Entwicklung oder Betrieb sind Liefer- und Dienstleistungen. Es gelten UVgO bzw. VgV, EU-weit ab 216.000 € netto (Bundesbehörden ab 140.000 €). Öffentliche Auftraggeber nutzen oft die **EVB-IT**-Vertragsbedingungen. Achten Sie auf Anforderungen an Datenschutz, IT-Sicherheit und Zertifikate. Entwicklungsleistungen kalkulieren Sie in LV Mania als Eigenleistung mit Stunden und Stundensatz.",
   "suchbegriffe": [
    "ausschreibungen it",
    "ausschreibungen it dienstleistungen",
@@ -609,7 +609,7 @@
   "id": "ausschreibungen-reinigung",
   "kategorie": "Branchen",
   "frage": "Wie finde und kalkuliere ich Ausschreibungen für Gebäudereinigung?",
-  "antwort": "Reinigungsaufträge sind Dienstleistungen, oft als Rahmenvertrag über mehrere Jahre. Das LV enthält meist Flächen, Raumgruppen und Reinigungsintervalle. Grundlage Ihrer Kalkulation sind Leistungswerte (m² pro Stunde) und der Stundensatz. Achten Sie auf Mindestlohn, Tariftreue-Vorgaben des Landes und Ortsbesichtigungen. Im Markt von Lospilot wählen Sie Reinigung als Fachgebiet.",
+  "antwort": "Reinigungsaufträge sind Dienstleistungen, oft als Rahmenvertrag über mehrere Jahre. Das LV enthält meist Flächen, Raumgruppen und Reinigungsintervalle. Grundlage Ihrer Kalkulation sind Leistungswerte (m² pro Stunde) und der Stundensatz. Achten Sie auf Mindestlohn, Tariftreue-Vorgaben des Landes und Ortsbesichtigungen. Im Markt von LV Mania wählen Sie Reinigung als Fachgebiet.",
   "suchbegriffe": [
    "ausschreibungen reinigung",
    "ausschreibungen gebäudereinigung",
@@ -623,7 +623,7 @@
   "id": "ausschreibungen-medientechnik",
   "kategorie": "Branchen",
   "frage": "Was ist bei Ausschreibungen für Medien- und Veranstaltungstechnik wichtig?",
-  "antwort": "Ausschreibungen für Displays, LED-Wände, Konferenz-, Audio- und Videotechnik nennen oft ein Leitfabrikat „oder gleichwertig“ mit vielen technischen Kriterien. Entscheidend ist, dass Ihr Produkt jedes Kriterium nachweislich erfüllt. Lospilot prüft Kriterien gegen das Herstellerdatenblatt und zeigt „Treffer“ nur, wenn alles belegt ist. Montage und Programmierung kalkulieren Sie als Eigenleistung.",
+  "antwort": "Ausschreibungen für Displays, LED-Wände, Konferenz-, Audio- und Videotechnik nennen oft ein Leitfabrikat „oder gleichwertig“ mit vielen technischen Kriterien. Entscheidend ist, dass Ihr Produkt jedes Kriterium nachweislich erfüllt. LV Mania prüft Kriterien gegen das Herstellerdatenblatt und zeigt „Treffer“ nur, wenn alles belegt ist. Montage und Programmierung kalkulieren Sie als Eigenleistung.",
   "suchbegriffe": [
    "ausschreibungen medientechnik",
    "ausschreibungen veranstaltungstechnik",
@@ -637,7 +637,7 @@
   "id": "ausschreibungen-dienstleistungen",
   "kategorie": "Branchen",
   "frage": "Was gilt für Catering, Sicherheitsdienst, Planung und Beratung?",
-  "antwort": "Diese Aufträge sind **Dienstleistungen** und werden nach UVgO bzw. VgV vergeben. Architekten- und Ingenieurleistungen haben in der VgV eigene Regeln, bei Planung spielen Qualität und Konzept oft eine große Rolle. Bei Catering und Sicherheitsdienst zählen Personal, Qualifikationen, Konzepte und Tariftreue. Personalkosten kalkulieren Sie in Lospilot als Stunden × Stundensatz.",
+  "antwort": "Diese Aufträge sind **Dienstleistungen** und werden nach UVgO bzw. VgV vergeben. Architekten- und Ingenieurleistungen haben in der VgV eigene Regeln, bei Planung spielen Qualität und Konzept oft eine große Rolle. Bei Catering und Sicherheitsdienst zählen Personal, Qualifikationen, Konzepte und Tariftreue. Personalkosten kalkulieren Sie in LV Mania als Stunden × Stundensatz.",
   "suchbegriffe": [
    "ausschreibungen catering",
    "ausschreibungen sicherheitsdienst",
@@ -652,7 +652,7 @@
   "id": "kleine-unternehmen",
   "kategorie": "Branchen",
   "frage": "Lohnen sich öffentliche Ausschreibungen für kleine Unternehmen?",
-  "antwort": "Oft ja. Öffentliche Auftraggeber gelten als verlässliche Zahler, und Aufträge werden häufig in Lose aufgeteilt. Viele kleinere Aufträge laufen außerdem regional oder in vereinfachten Verfahren. Entscheidend ist eine gezielte Auswahl: nur Ausschreibungen, deren Eignungsanforderungen Sie erfüllen und deren Frist realistisch ist. Der Markt in Lospilot hilft beim Filtern nach Fachgebiet, Ort und Frist.",
+  "antwort": "Oft ja. Öffentliche Auftraggeber gelten als verlässliche Zahler, und Aufträge werden häufig in Lose aufgeteilt. Viele kleinere Aufträge laufen außerdem regional oder in vereinfachten Verfahren. Entscheidend ist eine gezielte Auswahl: nur Ausschreibungen, deren Eignungsanforderungen Sie erfüllen und deren Frist realistisch ist. Der Markt in LV Mania hilft beim Filtern nach Fachgebiet, Ort und Frist.",
   "suchbegriffe": [
    "ausschreibungen für kleine unternehmen",
    "öffentliche aufträge bekommen",
@@ -663,9 +663,9 @@
  },
  {
   "id": "was-ist-app",
-  "kategorie": "Lospilot nutzen",
-  "frage": "Was ist Lospilot?",
-  "antwort": "Lospilot hilft Ihnen, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten. Es bündelt Bekanntmachungen im **Markt**, lädt und sortiert Vergabeunterlagen, liest das Leistungsverzeichnis ein, recherchiert Produkte mit Datenblattprüfung und kalkuliert Preise. Außerdem erstellt es Bieterakte, Checkliste, Excel und GAEB X84. Die verbindliche Abgabe machen Sie selbst im Vergabeportal.",
+  "kategorie": "LV Mania nutzen",
+  "frage": "Was ist LV Mania?",
+  "antwort": "LV Mania hilft Ihnen, öffentliche Ausschreibungen zu finden und Angebote vorzubereiten. Es bündelt Bekanntmachungen im **Markt**, lädt und sortiert Vergabeunterlagen, liest das Leistungsverzeichnis ein, recherchiert Produkte mit Datenblattprüfung und kalkuliert Preise. Außerdem erstellt es Bieterakte, Checkliste, Excel und GAEB X84. Die verbindliche Abgabe machen Sie selbst im Vergabeportal.",
   "suchbegriffe": [
    "ausschreibungssoftware",
    "software für öffentliche ausschreibungen",
@@ -676,8 +676,8 @@
  },
  {
   "id": "bereiche-app",
-  "kategorie": "Lospilot nutzen",
-  "frage": "Welche Bereiche hat Lospilot?",
+  "kategorie": "LV Mania nutzen",
+  "frage": "Welche Bereiche hat LV Mania?",
   "antwort": "- **Start:** neue passende Ausschreibungen und direkter Import\n- **Markt:** alle abgerufenen Ausschreibungen mit Filtern und Suche\n- **Meine Ausschreibungen:** gemerkte und importierte Verfahren mit Fristen\n- **Einstellungen:** Fachgebiet, Preise, B2B-Partner, Daten sowie FAQ und Anleitung\n- **Hilfe** (oben rechts): Rundgang, Anleitung und Antworten\n- **Vorschlag senden:** Ihre Idee oder Ihr Fehlerhinweis an das Team",
   "suchbegriffe": [
    "ausschreibungssoftware funktionen"
@@ -686,7 +686,7 @@
  },
  {
   "id": "merken",
-  "kategorie": "Lospilot nutzen",
+  "kategorie": "LV Mania nutzen",
   "frage": "Wie merke ich mir eine Ausschreibung?",
   "antwort": "Klicken Sie im Markt bei der Ausschreibung auf **„Merken“**. Sie erscheint dann unter **Meine Ausschreibungen** mit Frist und Status. Dort laden Sie die Unterlagen, kalkulieren und bereiten die Abgabe vor. Ausschreibungen, die Sie selbst als Ordner oder ZIP importieren, landen ebenfalls dort.",
   "suchbegriffe": [
@@ -697,9 +697,9 @@
  },
  {
   "id": "unterlagen-laden",
-  "kategorie": "Lospilot nutzen",
-  "frage": "Wie bekomme ich die Vergabeunterlagen in Lospilot?",
-  "antwort": "Wo ein Portal die Unterlagen ohne Anmeldung anbietet, holt **„Unterlagen laden“** sie mit einem Klick. Verlangt das Portal eine Anmeldung, laden Sie die Unterlagen dort selbst herunter, meist als ZIP. Dann ziehen Sie den Ordner oder die ZIP-Datei in Lospilot. Es sortiert die Dateien selbst in LV, Formblätter, Pläne/Zeichnungen, Bekanntmachung und Zusatzinfos. Prüfen Sie die Zuordnung kurz.",
+  "kategorie": "LV Mania nutzen",
+  "frage": "Wie bekomme ich die Vergabeunterlagen in LV Mania?",
+  "antwort": "Wo ein Portal die Unterlagen ohne Anmeldung anbietet, holt **„Unterlagen laden“** sie mit einem Klick. Verlangt das Portal eine Anmeldung, laden Sie die Unterlagen dort selbst herunter, meist als ZIP. Dann ziehen Sie den Ordner oder die ZIP-Datei in LV Mania. Es sortiert die Dateien selbst in LV, Formblätter, Pläne/Zeichnungen, Bekanntmachung und Zusatzinfos. Prüfen Sie die Zuordnung kurz.",
   "suchbegriffe": [
    "vergabeunterlagen herunterladen",
    "vergabeunterlagen",
@@ -710,7 +710,7 @@
  },
  {
   "id": "abgegeben-archivieren",
-  "kategorie": "Lospilot nutzen",
+  "kategorie": "LV Mania nutzen",
   "frage": "Wie markiere ich ein Angebot als abgegeben und räume auf?",
   "antwort": "Wenn Sie im Vergabeportal abgegeben haben, klicken Sie in **Meine Ausschreibungen** bei der Ausschreibung auf „Abgegeben“. Erledigte Verfahren können Sie **archivieren**, wenn Sie Unterlagen und Kalkulation behalten möchten, oder **löschen**. Im Vergabeportal ändert sich dadurch nichts.",
   "suchbegriffe": [
@@ -721,9 +721,9 @@
  },
  {
   "id": "hilfe-ki-geplant",
-  "kategorie": "Lospilot nutzen",
+  "kategorie": "LV Mania nutzen",
   "frage": "Gibt es eine Hilfe-Funktion mit KI?",
-  "antwort": "Ja, in zwei Stufen. Oben rechts öffnet **„Hilfe“** den Rundgang, die Schritt-für-Schritt-Anleitung und Antworten aus diesen Hilfetexten – kostenlos und ohne KI-Dienst im Internet. Eine KI für freie Fragen, Formulierungsentwürfe, Zeichnungen und Produktsuche können Sie nur mit Ihrem **eigenen Schlüssel** von xAI oder OpenAI nutzen (Einstellungen → Hilfe & KI). Die Kosten berechnet der Anbieter direkt mit Ihnen. Ein KI-Guthaben direkt bei Lospilot ist noch nicht verfügbar. Die Suche im Markt nutzt zusätzlich ein kleines Suchmodell, das vollständig in Ihrem Browser läuft und nichts verschickt.",
+  "antwort": "Ja, in zwei Stufen. Oben rechts öffnet **„Hilfe“** den Rundgang, die Schritt-für-Schritt-Anleitung und Antworten aus diesen Hilfetexten – kostenlos und ohne KI-Dienst im Internet. Eine KI für freie Fragen, Formulierungsentwürfe, Zeichnungen und Produktsuche können Sie nur mit Ihrem **eigenen Schlüssel** von xAI oder OpenAI nutzen (Einstellungen → Hilfe & KI). Die Kosten berechnet der Anbieter direkt mit Ihnen. Ein KI-Guthaben direkt bei LV Mania ist noch nicht verfügbar. Die Suche im Markt nutzt zusätzlich ein kleines Suchmodell, das vollständig in Ihrem Browser läuft und nichts verschickt.",
   "suchbegriffe": [
    "ausschreibungen finden mit ki",
    "ausschreibungen ki",
@@ -739,7 +739,7 @@
   "id": "daten-speicherort",
   "kategorie": "Datenschutz & Sicherheit",
   "frage": "Wo werden meine Daten gespeichert?",
-  "antwort": "Ihre Ausschreibungen, Kalkulationen und Bieterakten bleiben **in Ihrem Browser** auf Ihrem Rechner. Löschen Sie die Browserdaten oder wechseln Sie den Rechner, sind sie dort nicht mehr vorhanden. Sichern Sie Ihre Daten deshalb regelmäßig unter **Einstellungen → Daten** mit „Daten sichern“ als Datei. Mit „Daten laden“ stellen Sie sie wieder her.",
+  "antwort": "Ihre Ausschreibungen, Kalkulationen und Bieterakten bleiben **in Ihrem Browser** auf Ihrem Rechner. Löschen Sie die Browserdaten oder wechseln Sie den Rechner, sind sie dort nicht mehr vorhanden. Sichern Sie Ihre Daten deshalb regelmäßig unter **Einstellungen → Daten** mit „Daten sichern“ als Datei. Mit „Daten laden“ stellen Sie sie wieder her. Ihre Daten bleiben in Ihrem Browser, Rentalmania sieht sie nicht.",
   "suchbegriffe": [
    "datenschutz ausschreibungssoftware",
    "daten sichern"
@@ -749,8 +749,8 @@
  {
   "id": "portal-zugangsdaten",
   "kategorie": "Datenschutz & Sicherheit",
-  "frage": "Braucht Lospilot meine Zugangsdaten zum Vergabeportal?",
-  "antwort": "Nein. Lospilot meldet sich in keinem Vergabeportal an und speichert keine Portal-Passwörter. Bekanntmachungen und frei zugängliche Unterlagen werden ohne Login abgerufen. Alles, was eine Anmeldung erfordert, also Download geschützter Unterlagen, Bieterfragen und Angebotsabgabe, erledigen Sie selbst im Portal.",
+  "frage": "Braucht LV Mania meine Zugangsdaten zum Vergabeportal?",
+  "antwort": "Nein. LV Mania meldet sich in keinem Vergabeportal an und speichert keine Portal-Passwörter. Bekanntmachungen und frei zugängliche Unterlagen werden ohne Login abgerufen. Alles, was eine Anmeldung erfordert, also Download geschützter Unterlagen, Bieterfragen und Angebotsabgabe, erledigen Sie selbst im Portal.",
   "suchbegriffe": [
    "vergabeportal login",
    "evergabe login"
@@ -760,7 +760,7 @@
   "id": "vertraulichkeit-preise",
   "kategorie": "Datenschutz & Sicherheit",
   "frage": "Kann jemand meine Preise und Kalkulation sehen?",
-  "antwort": "Ihre Preise, Margen und Bieterakten werden nur lokal in Ihrem Browser gespeichert (im Browser-Speicher „IndexedDB“ auf Ihrem Rechner) und nicht mit anderen Nutzern geteilt. Lospilot hat keinen eigenen Server für Ihre Daten: Lospilot speichert und protokolliert keine Inhalte Ihrer Ausschreibungen, Preise oder Angebote. Die Produktrecherche lädt nur vorbereitete Daten von der Lospilot-Seite, Ihr Browser fragt dabei keine Shops an. Ausnahme ist die **KI-Hilfe mit eigenem Schlüssel**: Dann gehen Ihre Frage und Auszüge der geöffneten Ausschreibung direkt von Ihrem Browser an xAI oder OpenAI, und für die Produktprüfung ruft Ihr Browser die genannten Datenblätter direkt ab. Was dort mit den Daten geschieht, regelt der jeweilige Anbieter. Exporte (Excel, GAEB, ZIP) verlassen Ihren Rechner nur, wenn Sie sie weitergeben. Wenn Sie die Browserdaten löschen, sind auch Ihre Angaben weg – sichern Sie wichtige Stände als Export.",
+  "antwort": "Ihre Preise, Margen und Bieterakten werden nur lokal in Ihrem Browser gespeichert (im Browser-Speicher „IndexedDB“ auf Ihrem Rechner) und nicht mit anderen Nutzern geteilt. LV Mania hat keinen eigenen Server für Ihre Daten: LV Mania speichert und protokolliert keine Inhalte Ihrer Ausschreibungen, Preise oder Angebote. Die Produktrecherche lädt nur vorbereitete Daten von der LV Mania-Seite, Ihr Browser fragt dabei keine Shops an. Ausnahme ist die **KI-Hilfe mit eigenem Schlüssel**: Dann gehen Ihre Frage und Auszüge der geöffneten Ausschreibung direkt von Ihrem Browser an xAI oder OpenAI, und für die Produktprüfung ruft Ihr Browser die genannten Datenblätter direkt ab. Was dort mit den Daten geschieht, regelt der jeweilige Anbieter. Exporte (Excel, GAEB, ZIP) verlassen Ihren Rechner nur, wenn Sie sie weitergeben. Wenn Sie die Browserdaten löschen, sind auch Ihre Angaben weg – sichern Sie wichtige Stände als Export.",
   "suchbegriffe": [
    "angebot vertraulich",
    "kalkulation vertraulich",

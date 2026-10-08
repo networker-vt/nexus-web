@@ -1,23 +1,23 @@
-# Lospilot (Web)
+# LV Mania (Web)
 
-Lospilot im Browser: öffentliche Ausschreibungen für Medientechnik finden, die Unterlagen auswerten, das Leistungsverzeichnis kalkulieren und das Angebot vorbereiten – als Excel, „GAEB-Datei (X84, z. B. für WinGAEB)“ und geordneter Abgabe-Ordner.
+LV Mania im Browser: öffentliche Ausschreibungen für Medientechnik finden, die Unterlagen auswerten, das Leistungsverzeichnis kalkulieren und das Angebot vorbereiten – als Excel, „GAEB-Datei (X84, z. B. für WinGAEB)“ und geordneter Abgabe-Ordner.
 
 **App öffnen:** https://networker-vt.github.io/nexus-web/
 
-## Was Lospilot macht
+## Was LV Mania macht
 
 - **Ausschreibungen finden:** aus öffentlichen Bekanntmachungen der Vergabeportale, gefiltert nach Ihrem Fachgebiet.
-- **Unterlagen laden:** Wo ein Portal die Vergabeunterlagen ohne Anmeldung anbietet, lädt Lospilot sie mit einem Klick. Andere Dateien importieren Sie selbst (Datei, Ordner oder ZIP). Was im Portal bleibt, steht mit direktem Link da.
+- **Unterlagen laden:** Wo ein Portal die Vergabeunterlagen ohne Anmeldung anbietet, lädt LV Mania sie mit einem Klick. Andere Dateien importieren Sie selbst (Datei, Ordner oder ZIP). Was im Portal bleibt, steht mit direktem Link da.
 - **Struktur:** Leistungsverzeichnis (auch GAEB), Anforderungen (wörtlich aus den Unterlagen, gleiche Aussagen nur einmal, mit Quelle und LV-Position), Formblätter mit „mit dem Angebot einreichen: ja / nein / bitte prüfen“ samt Begründung, Pläne und weitere Informationen.
-- **Kalkulation:** Marktpreise nur mit Quelle und Datum; wo keiner vorliegt, steht „Preis prüfen“. Marge und Brutto rechnet Lospilot aus.
-- **Produktvorschläge:** Lospilot prüft jedes Kriterium des Leistungstextes gegen das Herstellerdatenblatt (✓ belegt, ✗ widerspricht, ? nicht angegeben). „Treffer“ heißt nur: alle Kriterien belegt. Sonst zeigt Lospilot den „Nächstbesten Vorschlag – x von y belegt“. Fabrikat/Typ trägt Lospilot erst ein, wenn Sie den Vorschlag übernehmen.
+- **Kalkulation:** Marktpreise nur mit Quelle und Datum; wo keiner vorliegt, steht „Preis prüfen“. Marge und Brutto rechnet LV Mania aus.
+- **Produktvorschläge:** LV Mania prüft jedes Kriterium des Leistungstextes gegen das Herstellerdatenblatt (✓ belegt, ✗ widerspricht, ? nicht angegeben). „Treffer“ heißt nur: alle Kriterien belegt. Sonst zeigt LV Mania den „Nächstbesten Vorschlag – x von y belegt“. Fabrikat/Typ trägt LV Mania erst ein, wenn Sie den Vorschlag übernehmen.
 - **Bieterakte & Abgabe:** geordneter Ordner (Bekanntmachung, Vergabeunterlagen, Nachrichten, Kalkulation, Datenblätter, Nachweise, Abgabe) mit Checkliste: was einzureichen ist, was ausgefüllt und unterschrieben ist.
-- **Abgabeform und Signatur:** Lospilot übernimmt die Abgabeform und Signaturform nur aus den Unterlagen – mit Datei, Seite und Zitat. Angekreuzte Kästchen in Formblättern liest Lospilot aus dem Seitenbild; ist ein Kästchen nicht sicher erkennbar, bleibt es „unklar“. Widersprüche (z. B. Formblatt „schriftlich“, Portal elektronisch) zeigt Lospilot rot an, mit einem Vorschlag für eine Bieterfrage.
+- **Abgabeform und Signatur:** LV Mania übernimmt die Abgabeform und Signaturform nur aus den Unterlagen – mit Datei, Seite und Zitat. Angekreuzte Kästchen in Formblättern liest LV Mania aus dem Seitenbild; ist ein Kästchen nicht sicher erkennbar, bleibt es „unklar“. Widersprüche (z. B. Formblatt „schriftlich“, Portal elektronisch) zeigt LV Mania rot an, mit einem Vorschlag für eine Bieterfrage.
 
-## Was Lospilot nicht macht
+## Was LV Mania nicht macht
 
 - Kein Login in Portale, kein Versand von Bieterfragen, keine Angebotsabgabe. Die verbindliche Abgabe machen Sie immer selbst im Vergabeportal.
-- Keine erfundenen Angaben: Was nicht in den Unterlagen oder im Datenblatt steht, zeigt Lospilot als offen an.
+- Keine erfundenen Angaben: Was nicht in den Unterlagen oder im Datenblatt steht, zeigt LV Mania als offen an.
 
 ## Daten und Technik
 

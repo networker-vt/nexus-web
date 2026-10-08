@@ -1,6 +1,6 @@
 ---
 name: Fehler melden
-about: Fehler aus Lospilot (wird normalerweise direkt aus der App ausgefüllt)
+about: Fehler aus LV Mania (wird normalerweise direkt aus der App ausgefüllt)
 title: "Fehler: "
 labels: fehler
 ---
