@@ -1,0 +1,7 @@
+{
+  "hinweis": "Hosts, die der Portal-Abruf NIE aufruft (Nutzungsbedingungen verbieten den automatischen Abruf oder rechtliche Prüfung offen). Ein Eintrag sperrt den Host und alle Subdomains. Pflege: Legal Weappon / Mirco.",
+  "stand": "2026-10-08",
+  "hosts": [
+    { "host": "rib.de", "grund": "RIB Tender (meinauftrag.rib.de): Nutzungsbedingungen verbieten automatischen Abruf" }
+  ]
+}
