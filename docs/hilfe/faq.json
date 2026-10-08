@@ -115,7 +115,7 @@
   "id": "ausschreibungen-finden",
   "kategorie": "Ausschreibungen finden",
   "frage": "Wie finde ich passende öffentliche Ausschreibungen?",
-  "antwort": "Öffentliche Auftraggeber veröffentlichen ihre Bekanntmachungen auf Vergabeportalen von Bund, Ländern und Kommunen, EU-weite Verfahren zusätzlich im Supplement zum EU-Amtsblatt (TED). Weil es viele Portale gibt, hilft eine Suche, die mehrere Quellen bündelt. Lospilot ruft im **Markt** Bekanntmachungen von derzeit 11 Vergabeportalen ab, filtert nach Ihrem Fachgebiet und sortiert nach Frist.",
+  "antwort": "Öffentliche Auftraggeber veröffentlichen ihre Bekanntmachungen auf Vergabeportalen von Bund, Ländern und Kommunen, EU-weite Verfahren zusätzlich im Supplement zum EU-Amtsblatt (TED). Weil es viele Portale gibt, hilft eine Suche, die mehrere Quellen bündelt. Lospilot ruft im **Markt** Bekanntmachungen von derzeit 10 Vergabeportalen ab, filtert nach Ihrem Fachgebiet und sortiert nach Frist.",
   "suchbegriffe": [
    "ausschreibungen finden",
    "öffentliche ausschreibungen finden",
@@ -181,7 +181,7 @@
   "id": "markt-aktualitaet",
   "kategorie": "Ausschreibungen finden",
   "frage": "Wie aktuell sind die Ausschreibungen im Markt von Lospilot?",
-  "antwort": "Der Markt ruft öffentliche Bekanntmachungen **alle paar Stunden** automatisch ab, derzeit von 11 Vergabeportalen mit ca. 1.400 laufenden Ausschreibungen. Sie können filtern und nach Frist sortieren. Maßgeblich bleibt immer die Bekanntmachung im Vergabeportal. Prüfen Sie dort Fristen und Änderungen, bevor Sie abgeben.",
+  "antwort": "Der Markt ruft öffentliche Bekanntmachungen **alle paar Stunden** automatisch ab, derzeit von 10 Vergabeportalen mit ca. 1.300 laufenden Ausschreibungen. Sie können filtern und nach Frist sortieren. Maßgeblich bleibt immer die Bekanntmachung im Vergabeportal. Prüfen Sie dort Fristen und Änderungen, bevor Sie abgeben.",
   "suchbegriffe": [
    "ausschreibungsdatenbank",
    "aktuelle ausschreibungen",

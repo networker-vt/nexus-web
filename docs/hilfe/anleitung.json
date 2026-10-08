@@ -11,7 +11,7 @@
  {
   "id": "schritt-markt",
   "titel": "2. Markt: Ausschreibungen finden und filtern",
-  "text": "<a id=\"schritt-markt\"></a> <sub>App-Ziel: `markt`</sub>\n\n1. Öffnen Sie den **Markt**. Hier sammelt Lospilot öffentliche Bekanntmachungen von derzeit 11 Vergabeportalen. Der Abruf läuft automatisch alle paar Stunden.\n2. Grenzen Sie mit **Filtern** (Ort, Frist, Stichwort) und der **Suche** ein.\n3. Sortieren Sie **nach Frist**, damit Sie knappe Termine zuerst sehen.\n4. Öffnen Sie eine Ausschreibung und lesen Sie die Zusammenfassung: Auftraggeber, Leistung, Verfahrensart, Fristen und Eignung.\n\n**Hinweis:** Maßgeblich ist immer die Bekanntmachung im Vergabeportal. Über **„Im Portal öffnen“** gelangen Sie direkt dorthin.",
+  "text": "<a id=\"schritt-markt\"></a> <sub>App-Ziel: `markt`</sub>\n\n1. Öffnen Sie den **Markt**. Hier sammelt Lospilot öffentliche Bekanntmachungen von derzeit 10 Vergabeportalen. Der Abruf läuft automatisch alle paar Stunden.\n2. Grenzen Sie mit **Filtern** (Ort, Frist, Stichwort) und der **Suche** ein.\n3. Sortieren Sie **nach Frist**, damit Sie knappe Termine zuerst sehen.\n4. Öffnen Sie eine Ausschreibung und lesen Sie die Zusammenfassung: Auftraggeber, Leistung, Verfahrensart, Fristen und Eignung.\n\n**Hinweis:** Maßgeblich ist immer die Bekanntmachung im Vergabeportal. Über **„Im Portal öffnen“** gelangen Sie direkt dorthin.",
   "app_ziel": [
    "markt"
   ]
