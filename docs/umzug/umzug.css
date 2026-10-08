@@ -1,0 +1,68 @@
+/* LV Mania – Umzug: Banner (A) in der alten App + Weiterleitungsseite (B). Nur Systemschriften, keine fremden Hosts.
+   Alle Regeln mit Präfix .lvu-, damit nichts mit der App-CSS kollidiert. */
+.lvu-banner, .lvu-banner *, .lvu-seite, .lvu-seite * { box-sizing: border-box; }
+.lvu-banner {
+  background: #eef1f8; color: #000; border-bottom: 4px solid #5979B9;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  font-size: 19px; line-height: 1.55; text-align: left; position: relative; z-index: 60;
+}
+.lvu-in { max-width: 1120px; margin: 0 auto; padding: 18px 20px 14px; }
+.lvu-titel { margin: 0 0 12px; font-size: 22px; line-height: 1.4; font-weight: 400; }
+.lvu-titel strong { font-weight: 700; }
+.lvu-aktion { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; margin: 0 0 6px; }
+.lvu-klein { margin: 0; font-size: 17px; color: #333; }
+.lvu-btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 12px 26px;
+  border-radius: 0; font: inherit; font-size: 19px; font-weight: 700; line-height: 1.25; letter-spacing: .01em;
+  background: #5979B9; color: #fff !important; border: 2px solid #5979B9; text-decoration: none !important; cursor: pointer;
+}
+.lvu-btn:hover { background: #4a68a6; }
+.lvu-btn:disabled { opacity: .6; cursor: progress; }
+.lvu-btn-zweit { background: #fff; color: #000 !important; }
+.lvu-btn-zweit:hover { background: #e3e8f3; }
+.lvu-status { display: block; margin: 10px 0 4px; padding: 12px 16px; background: #fff; border-left: 4px solid #5979B9; }
+.lvu-status[hidden] { display: none; }
+.lvu-ok { border-left-color: #1d6f42; background: #e6f4ec; }
+.lvu-fehler { border-left-color: #a42828; background: #fbeaea; }
+.lvu-zeile { display: block; margin-top: 6px; }
+.lvu-knoepfe { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
+.lvu-links { margin: 6px 0 0; font-size: 17px; }
+.lvu-banner a:not(.lvu-btn), .lvu-seite a:not(.lvu-btn) {
+  color: #000; text-decoration: underline; text-decoration-color: #5979B9; text-decoration-thickness: 2px; text-underline-offset: 4px;
+}
+/* Links, die allein stehen: Tippfläche ≥ 44 px (Links im Fließtext bleiben normal im Satz) */
+.lvu-links a, .lvu-allein a, .lvu-beta a, .lvu-fuss a { display: inline-block; padding: 10px 0; }
+.lvu-banner :focus-visible, .lvu-seite :focus-visible { outline: 3px solid #5979B9; outline-offset: 3px; }
+@media (max-width: 640px) {
+  .lvu-in { padding: 14px 16px 10px; }
+  .lvu-titel { font-size: 20px; }
+  .lvu-aktion .lvu-btn, .lvu-knoepfe .lvu-btn { width: 100%; }
+}
+
+/* ---------- B) eigenständige Weiterleitungsseite ---------- */
+html.lvu-html { background: #fff; }
+.lvu-seite { margin: 0; color: #000; background: #fff; font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Arial, sans-serif; font-size: 19px; line-height: 1.6; }
+.lvu-beta { background: #eef1f8; border-bottom: 2px solid #5979B9; }
+.lvu-beta-in { max-width: 760px; margin: 0 auto; padding: 4px 20px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; font-size: 16px; }
+.lvu-beta-label { font-weight: 700; background: #000; color: #fff; padding: 3px 10px; white-space: nowrap; }
+.lvu-kopf { border-bottom: 1px solid #DCDEE1; }
+.lvu-kopf-in { max-width: 760px; margin: 0 auto; padding: 14px 20px; display: flex; align-items: center; gap: 10px; }
+.lvu-logo-lv { background: #5979B9; color: #fff; font-weight: 700; font-size: 26px; padding: 0 .3em; line-height: 1.3; }
+.lvu-logo-wort { font-weight: 700; font-size: 26px; line-height: 1.1; }
+.lvu-logo-sub { display: block; font-weight: 400; font-size: 14px; color: #595959; }
+.lvu-main { max-width: 760px; margin: 0 auto; padding: 22px 20px 36px; }
+.lvu-main h1 { font-size: 30px; line-height: 1.25; margin: 0 0 12px; font-weight: 700; }
+.lvu-main p { margin: 0 0 14px; }
+.lvu-main ol { margin: 0 0 16px; padding-left: 1.4em; }
+.lvu-main li { margin: 0 0 8px; }
+.lvu-main .lvu-klein { margin: 10px 0 14px; }
+.lvu-kasten { background: #eef1f8; border-left: 4px solid #5979B9; padding: 12px 16px; margin: 0 0 16px; }
+.lvu-fuss { border-top: 1px solid #DCDEE1; }
+.lvu-fuss-in { max-width: 760px; margin: 0 auto; padding: 8px 20px 20px; font-size: 17px; color: #333; }
+.lvu-fuss-in p { margin: 0; }
+.lvu-seite [hidden], .lvu-banner [hidden] { display: none !important; }
+@media (max-width: 640px) {
+  .lvu-main, .lvu-kopf-in, .lvu-fuss-in, .lvu-beta-in { padding-left: 16px; padding-right: 16px; }
+  .lvu-main h1 { font-size: 26px; }
+  .lvu-main .lvu-btn { width: 100%; }
+}
