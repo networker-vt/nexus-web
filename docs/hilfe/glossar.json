@@ -1,0 +1,317 @@
+[
+ {
+  "begriff": "Alternativposition",
+  "erklaerung": "Auch Wahlposition. LV-Position mit einer anderen Ausführung, zwischen der der Auftraggeber wählen kann. Sie wird neben der Grundposition angeboten und in der Regel nicht in die Angebotssumme gerechnet.",
+  "slug": "alternativposition"
+ },
+ {
+  "begriff": "Angebotsfrist",
+  "erklaerung": "Zeitpunkt, bis zu dem das Angebot bei der Vergabestelle eingegangen sein muss. Verspätete Angebote werden ausgeschlossen. Im EU-weiten offenen Verfahren gilt nach VgV grundsätzlich eine Mindestfrist von 35 Tagen.",
+  "slug": "angebotsfrist"
+ },
+ {
+  "begriff": "Auftragsberatungsstelle",
+  "erklaerung": "Beratungsstelle für Unternehmen rund um öffentliche Aufträge, die es in mehreren Bundesländern gibt, oft im Umfeld von IHK und Handwerkskammern.",
+  "slug": "auftragsberatungsstelle"
+ },
+ {
+  "begriff": "AVPQ",
+  "erklaerung": "Amtliches Verzeichnis präqualifizierter Unternehmen für Liefer- und Dienstleistungen, geführt über die Industrie- und Handelskammern. Ersetzt viele Einzelnachweise zur Eignung.",
+  "slug": "avpq"
+ },
+ {
+  "begriff": "Bedarfsposition",
+  "erklaerung": "Auch Eventualposition. LV-Position, die nur bei Bedarf ausgeführt wird. Meist nur mit Einheitspreis anzubieten und nicht Teil der Angebotssumme. Nach VOB/A sollen Bedarfspositionen grundsätzlich nicht ausgeschrieben werden.",
+  "slug": "bedarfsposition"
+ },
+ {
+  "begriff": "Bekanntmachung",
+  "erklaerung": "Öffentliche Veröffentlichung einer Ausschreibung mit Auftraggeber, Gegenstand, Verfahrensart, Fristen, Eignungs- und Zuschlagskriterien sowie dem Link zu den Vergabeunterlagen.",
+  "slug": "bekanntmachung"
+ },
+ {
+  "begriff": "Beschränkte Ausschreibung",
+  "erklaerung": "Nationales Verfahren, bei dem nur ausgewählte Unternehmen zur Angebotsabgabe aufgefordert werden, mit oder ohne vorgeschalteten öffentlichen Teilnahmewettbewerb.",
+  "slug": "beschraenkte-ausschreibung"
+ },
+ {
+  "begriff": "Bieterakte",
+  "erklaerung": "In Nexus: geordneter Ordner je Ausschreibung mit Bekanntmachung, Vergabeunterlagen, Kalkulation, Datenblättern, Nachweisen und Abgabedokumenten.",
+  "slug": "bieterakte"
+ },
+ {
+  "begriff": "Bieterfrage",
+  "erklaerung": "Frage eines Bieters zu den Vergabeunterlagen, gestellt über das Vergabeportal vor der Fragefrist. Die Antwort erhalten in der Regel alle Bieter anonymisiert.",
+  "slug": "bieterfrage"
+ },
+ {
+  "begriff": "Bietergemeinschaft",
+  "erklaerung": "Zusammenschluss mehrerer Unternehmen, die gemeinsam ein Angebot abgeben und gemeinsam haften. So können auch kleinere Firmen größere Aufträge stemmen.",
+  "slug": "bietergemeinschaft"
+ },
+ {
+  "begriff": "Bindefrist",
+  "erklaerung": "Zeitraum nach Ablauf der Angebotsfrist, in dem der Bieter an sein Angebot gebunden ist und der Zuschlag erteilt werden kann.",
+  "slug": "bindefrist"
+ },
+ {
+  "begriff": "CPV-Code",
+  "erklaerung": "Common Procurement Vocabulary: EU-weit einheitlicher Code für Beschaffungsgegenstände, mit dem Ausschreibungen nach Leistungsart eingeordnet werden.",
+  "slug": "cpv-code"
+ },
+ {
+  "begriff": "Direktauftrag",
+  "erklaerung": "Beschaffung ohne förmliches Vergabeverfahren bis zu einer Wertgrenze. Für den Bund seit 1. Juli 2026 bis 50.000 € netto. Für Bauleistungen nach VOB/A Abschnitt 1 seit 1. Januar 2026 ebenfalls bis 50.000 € netto. Länder und Kommunen können abweichen.",
+  "slug": "direktauftrag"
+ },
+ {
+  "begriff": "eForms",
+  "erklaerung": "EU-Standard für elektronische Bekanntmachungen, seit 25. Oktober 2023 für EU-weite Bekanntmachungen verpflichtend.",
+  "slug": "eforms"
+ },
+ {
+  "begriff": "Eigenerklärung",
+  "erklaerung": "Erklärung des Bieters über die eigene Eignung und das Fehlen von Ausschlussgründen. Belege werden meist erst vom Bestbieter verlangt.",
+  "slug": "eigenerklaerung"
+ },
+ {
+  "begriff": "Eignung",
+  "erklaerung": "Fähigkeit eines Unternehmens, den Auftrag auszuführen: Befähigung zur Berufsausübung, wirtschaftliche und finanzielle sowie technische und berufliche Leistungsfähigkeit.",
+  "slug": "eignung"
+ },
+ {
+  "begriff": "Eignungsleihe",
+  "erklaerung": "Ein Bieter stützt sich zum Nachweis seiner Eignung auf die Kapazitäten eines anderen Unternehmens, das ihm diese verbindlich zur Verfügung stellt.",
+  "slug": "eignungsleihe"
+ },
+ {
+  "begriff": "Einheitliche Europäische Eigenerklärung (EEE)",
+  "erklaerung": "EU-weit einheitliches Formular für die vorläufige Eignungserklärung in Verfahren oberhalb der EU-Schwellenwerte.",
+  "slug": "einheitliche-europaeische-eigenerklaerung"
+ },
+ {
+  "begriff": "Einheitspreis (EP)",
+  "erklaerung": "Preis je Mengeneinheit einer LV-Position. Einheitspreis × Menge ergibt den Gesamtpreis der Position.",
+  "slug": "einheitspreis"
+ },
+ {
+  "begriff": "EU-Schwellenwert",
+  "erklaerung": "Netto-Auftragswert, ab dem EU-weit ausgeschrieben werden muss. 2026/2027: 5.404.000 € Bau, 216.000 € Liefer- und Dienstleistungen, 140.000 € oberste und obere Bundesbehörden, 432.000 € Sektoren sowie Verteidigung und Sicherheit.",
+  "slug": "eu-schwellenwert"
+ },
+ {
+  "begriff": "EVB-IT",
+  "erklaerung": "Ergänzende Vertragsbedingungen für die Beschaffung von IT-Leistungen. Musterverträge, die öffentliche Auftraggeber bei IT-Ausschreibungen häufig verwenden.",
+  "slug": "evb-it"
+ },
+ {
+  "begriff": "eVergabe",
+  "erklaerung": "Elektronische Durchführung von Vergabeverfahren, von der Bekanntmachung bis zur Angebotsabgabe. Oberhalb der EU-Schwellenwerte seit Oktober 2018 verpflichtend.",
+  "slug": "evergabe"
+ },
+ {
+  "begriff": "Formblatt",
+  "erklaerung": "Standardisierter Vordruck der Vergabestelle, etwa 124 (Eigenerklärung zur Eignung), 221/222 (Preisermittlung) oder 223 (Aufgliederung der Einheitspreise) aus dem Vergabehandbuch des Bundes.",
+  "slug": "formblatt"
+ },
+ {
+  "begriff": "Freihändige Vergabe",
+  "erklaerung": "Vereinfachtes Verfahren für Bauleistungen nach VOB/A Abschnitt 1, bei dem der Auftraggeber mit ausgewählten Unternehmen verhandelt. In der Bundesfassung seit 2026 bis 100.000 € netto zulässig. Länder können abweichen.",
+  "slug": "freihaendige-vergabe"
+ },
+ {
+  "begriff": "GAEB",
+  "erklaerung": "Gemeinsamer Ausschuss Elektronik im Bauwesen. Standard für den elektronischen Austausch von Leistungsverzeichnissen (GAEB 90, GAEB 2000, GAEB DA XML).",
+  "slug": "gaeb"
+ },
+ {
+  "begriff": "GAEB X83",
+  "erklaerung": "Austauschphase Angebotsaufforderung: das Leistungsverzeichnis der Vergabestelle ohne Preise.",
+  "slug": "gaeb-x83"
+ },
+ {
+  "begriff": "GAEB X84",
+  "erklaerung": "Austauschphase Angebotsabgabe: das Leistungsverzeichnis mit den Preisen des Bieters.",
+  "slug": "gaeb-x84"
+ },
+ {
+  "begriff": "GWB",
+  "erklaerung": "Gesetz gegen Wettbewerbsbeschränkungen. Teil 4 regelt die Vergabe öffentlicher Aufträge oberhalb der EU-Schwellenwerte, einschließlich Rechtsschutz.",
+  "slug": "gwb"
+ },
+ {
+  "begriff": "Leistungsbeschreibung",
+  "erklaerung": "Teil der Vergabeunterlagen, der die geforderte Leistung eindeutig und vollständig beschreibt, als Leistungsverzeichnis oder funktional als Leistungsprogramm.",
+  "slug": "leistungsbeschreibung"
+ },
+ {
+  "begriff": "Leistungsverzeichnis (LV)",
+  "erklaerung": "Gliederung der Leistung in Positionen mit Ordnungszahl, Text, Menge und Einheit, in die der Bieter seine Preise einträgt.",
+  "slug": "leistungsverzeichnis"
+ },
+ {
+  "begriff": "Leitfabrikat",
+  "erklaerung": "Beispielhaft genanntes Produkt im LV, immer mit dem Zusatz „oder gleichwertig“. Gleichwertige Produkte sind zulässig, wenn ihre Eigenschaften nachgewiesen sind.",
+  "slug": "leitfabrikat"
+ },
+ {
+  "begriff": "Los",
+  "erklaerung": "Teil eines Auftrags, getrennt nach Menge (Teillos) oder Fachgebiet (Fachlos). Der Losgrundsatz steht seit Juli 2026 in § 97a GWB.",
+  "slug": "los"
+ },
+ {
+  "begriff": "Nachforderung",
+  "erklaerung": "Möglichkeit der Vergabestelle, fehlende oder unvollständige Unterlagen nachzufordern. Fehlende Preise können in der Regel nicht nachgereicht werden.",
+  "slug": "nachforderung"
+ },
+ {
+  "begriff": "Nachprüfungsverfahren",
+  "erklaerung": "Rechtsschutzverfahren vor der Vergabekammer bei Vergaben oberhalb der EU-Schwellenwerte. Ihm muss in der Regel eine Rüge vorausgehen.",
+  "slug": "nachpruefungsverfahren"
+ },
+ {
+  "begriff": "Nachunternehmer",
+  "erklaerung": "Subunternehmer, der Teile der Leistung im Auftrag des Bieters ausführt. Häufig ist er schon im Angebot zu benennen.",
+  "slug": "nachunternehmer"
+ },
+ {
+  "begriff": "Nebenangebot",
+  "erklaerung": "Abweichende technische oder wirtschaftliche Lösung neben dem Hauptangebot, nur zulässig, wenn der Auftraggeber Nebenangebote ausdrücklich zulässt. GAEB-Phase X85.",
+  "slug": "nebenangebot"
+ },
+ {
+  "begriff": "Nicht offenes Verfahren",
+  "erklaerung": "EU-Verfahren mit vorgeschaltetem Teilnahmewettbewerb. Nur ausgewählte geeignete Unternehmen werden zur Angebotsabgabe aufgefordert.",
+  "slug": "nicht-offenes-verfahren"
+ },
+ {
+  "begriff": "Offenes Verfahren",
+  "erklaerung": "EU-Verfahren, in dem jedes interessierte Unternehmen ein Angebot abgeben darf. Entspricht national der Öffentlichen Ausschreibung.",
+  "slug": "offenes-verfahren"
+ },
+ {
+  "begriff": "Öffentliche Ausschreibung",
+  "erklaerung": "Nationales Standardverfahren unterhalb der EU-Schwellenwerte, in dem jedes Unternehmen ein Angebot abgeben kann.",
+  "slug": "oeffentliche-ausschreibung"
+ },
+ {
+  "begriff": "PQ-VOB",
+  "erklaerung": "Präqualifikationsverzeichnis für Bauunternehmen, geführt vom Verein für die Präqualifikation von Bauunternehmen e. V.",
+  "slug": "pq-vob"
+ },
+ {
+  "begriff": "Präqualifikation",
+  "erklaerung": "Vorab geprüfter Eignungsnachweis in einem Verzeichnis (PQ-VOB oder AVPQ). Statt Einzelnachweisen genügt oft die Registriernummer.",
+  "slug": "praequalifikation"
+ },
+ {
+  "begriff": "Qualifizierte elektronische Signatur (QES)",
+  "erklaerung": "Elektronische Signatur, die der handschriftlichen Unterschrift rechtlich gleichsteht. Erstellt mit Signaturkarte oder über einen Vertrauensdiensteanbieter.",
+  "slug": "qualifizierte-elektronische-signatur"
+ },
+ {
+  "begriff": "Rahmenvereinbarung",
+  "erklaerung": "Vertrag über Bedingungen und Preise für Einzelaufträge, die während der Laufzeit abgerufen werden, im Oberschwellenbereich in der Regel höchstens vier Jahre.",
+  "slug": "rahmenvereinbarung"
+ },
+ {
+  "begriff": "Rüge",
+  "erklaerung": "Formale Beanstandung eines Vergabeverstoßes gegenüber der Vergabestelle, Voraussetzung für ein Nachprüfungsverfahren.",
+  "slug": "ruege"
+ },
+ {
+  "begriff": "Sektorenauftraggeber",
+  "erklaerung": "Auftraggeber in den Bereichen Wasser, Energie und Verkehr. Für sie gelten die SektVO und eigene Schwellenwerte (2026/2027: 432.000 € für Liefer- und Dienstleistungen).",
+  "slug": "sektorenauftraggeber"
+ },
+ {
+  "begriff": "Submission",
+  "erklaerung": "Öffnung der eingegangenen Angebote nach Ablauf der Angebotsfrist, bei Bauvergaben auch Eröffnungstermin genannt.",
+  "slug": "submission"
+ },
+ {
+  "begriff": "Tariftreue",
+  "erklaerung": "Vorgaben mehrerer Landesvergabegesetze, nach denen Auftragnehmer bestimmte Tarif- oder Mindestentgelte zahlen müssen.",
+  "slug": "tariftreue"
+ },
+ {
+  "begriff": "TED",
+  "erklaerung": "Tenders Electronic Daily: Online-Version des Supplements zum Amtsblatt der EU, in dem EU-weite Ausschreibungen veröffentlicht werden.",
+  "slug": "ted"
+ },
+ {
+  "begriff": "Teilnahmewettbewerb",
+  "erklaerung": "Vorgeschaltete Phase, in der Unternehmen ihre Eignung nachweisen. Danach fordert der Auftraggeber ausgewählte Bewerber zur Angebotsabgabe auf.",
+  "slug": "teilnahmewettbewerb"
+ },
+ {
+  "begriff": "Textform",
+  "erklaerung": "Lesbare Erklärung auf einem dauerhaften Datenträger, in der die erklärende Person genannt ist (§ 126b BGB). Bei elektronischen Angeboten häufig ausreichend.",
+  "slug": "textform"
+ },
+ {
+  "begriff": "Ungewöhnlich niedriges Angebot",
+  "erklaerung": "Angebot, dessen Preis im Verhältnis zur Leistung auffällig niedrig ist. Die Vergabestelle muss nachfragen und kann es ausschließen, wenn der Bieter den Preis nicht erklären kann.",
+  "slug": "ungewoehnlich-niedriges-angebot"
+ },
+ {
+  "begriff": "UVgO",
+  "erklaerung": "Unterschwellenvergabeordnung: Regeln für Liefer- und Dienstleistungsaufträge unterhalb der EU-Schwellenwerte, in Kraft beim Bund und in vielen Ländern.",
+  "slug": "uvgo"
+ },
+ {
+  "begriff": "Vergabekammer",
+  "erklaerung": "Unabhängige Stelle bei Bund und Ländern, die Vergaben oberhalb der EU-Schwellenwerte im Nachprüfungsverfahren überprüft.",
+  "slug": "vergabekammer"
+ },
+ {
+  "begriff": "Vergabeportal",
+  "erklaerung": "Online-Plattform, auf der Vergabestellen Ausschreibungen veröffentlichen, Unterlagen bereitstellen und elektronische Angebote entgegennehmen. Auch Vergabeplattform genannt.",
+  "slug": "vergabeportal"
+ },
+ {
+  "begriff": "Vergabestelle",
+  "erklaerung": "Organisationseinheit des öffentlichen Auftraggebers, die das Vergabeverfahren durchführt.",
+  "slug": "vergabestelle"
+ },
+ {
+  "begriff": "Vergabeunterlagen",
+  "erklaerung": "Alle Unterlagen, die Bieter für ihr Angebot brauchen: Anschreiben, Bewerbungsbedingungen, Leistungsbeschreibung bzw. LV, Vertragsbedingungen und Formblätter.",
+  "slug": "vergabeunterlagen"
+ },
+ {
+  "begriff": "Verhandlungsverfahren",
+  "erklaerung": "EU-Verfahren, in dem der Auftraggeber mit ausgewählten Unternehmen über den Auftragsinhalt verhandelt, in der Regel nach einem Teilnahmewettbewerb.",
+  "slug": "verhandlungsverfahren"
+ },
+ {
+  "begriff": "Verhandlungsvergabe",
+  "erklaerung": "Verfahren nach UVgO, in dem der Auftraggeber mit ausgewählten Unternehmen über die Angebote verhandeln darf, mit oder ohne Teilnahmewettbewerb.",
+  "slug": "verhandlungsvergabe"
+ },
+ {
+  "begriff": "VgV",
+  "erklaerung": "Vergabeverordnung: Regeln für Liefer-, Dienstleistungs- sowie Architekten- und Ingenieuraufträge oberhalb der EU-Schwellenwerte.",
+  "slug": "vgv"
+ },
+ {
+  "begriff": "VOB/A",
+  "erklaerung": "Vergabe- und Vertragsordnung für Bauleistungen, Teil A. Abschnitt 1 gilt für nationale Bauvergaben, Abschnitt 2 (VOB/A-EU) für EU-weite.",
+  "slug": "vob-a"
+ },
+ {
+  "begriff": "Wartefrist",
+  "erklaerung": "Frist nach der Information unterlegener Bieter im Oberschwellenbereich, vor deren Ablauf der Zuschlag nicht erteilt werden darf (§ 134 GWB).",
+  "slug": "wartefrist"
+ },
+ {
+  "begriff": "Zuschlag",
+  "erklaerung": "Annahme des Angebots durch den Auftraggeber. Mit dem Zuschlag kommt der Vertrag zustande.",
+  "slug": "zuschlag"
+ },
+ {
+  "begriff": "Zuschlagskriterien",
+  "erklaerung": "Vorab bekannt gemachte Kriterien und Gewichtung, nach denen das wirtschaftlichste Angebot ermittelt wird, etwa Preis, Qualität oder Konzept.",
+  "slug": "zuschlagskriterien"
+ }
+]

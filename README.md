@@ -1,6 +1,6 @@
 # Nexus (Web)
 
-Nexus im Browser: öffentliche Ausschreibungen für Medientechnik finden, die Unterlagen auswerten, das Leistungsverzeichnis kalkulieren und das Angebot vorbereiten – als Excel, GAEB (WinGAEB) und geordneter Abgabe-Ordner.
+Nexus im Browser: öffentliche Ausschreibungen für Medientechnik finden, die Unterlagen auswerten, das Leistungsverzeichnis kalkulieren und das Angebot vorbereiten – als Excel, „GAEB-Datei (X84, z. B. für WinGAEB)“ und geordneter Abgabe-Ordner.
 
 **App öffnen:** https://networker-vt.github.io/nexus-web/
 

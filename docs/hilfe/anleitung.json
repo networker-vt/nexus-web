@@ -1,0 +1,97 @@
+[
+ {
+  "id": "schritt-start",
+  "titel": "1. Start: Fachgebiet einstellen",
+  "text": "<a id=\"schritt-start\"></a> <sub>App-Ziel: `einstellungen`, `start`</sub>\n\n1. Öffnen Sie **Einstellungen** und wählen Sie Ihr **Fachgebiet**, zum Beispiel Bau, IT, Reinigung, Medientechnik oder Planung.\n2. Legen Sie unter **Einstellungen → Preise** Ihre Standardwerte fest: Marge, MwSt. (Standard 19 %) und Stundensätze.\n3. Auf **Start** sehen Sie danach neue passende Ausschreibungen und können Unterlagen direkt importieren.\n\n**Tipp:** Hinterlegen Sie gleich Ihre Lieferanten unter **Einstellungen → B2B-Partner** (siehe Schritt 6).",
+  "app_ziel": [
+   "einstellungen",
+   "start"
+  ]
+ },
+ {
+  "id": "schritt-markt",
+  "titel": "2. Markt: Ausschreibungen finden und filtern",
+  "text": "<a id=\"schritt-markt\"></a> <sub>App-Ziel: `markt`</sub>\n\n1. Öffnen Sie den **Markt**. Hier sammelt Nexus öffentliche Bekanntmachungen von derzeit 11 Vergabeportalen. Der Abruf läuft automatisch alle paar Stunden.\n2. Grenzen Sie mit **Filtern** (Ort, Frist, Stichwort) und der **Suche** ein.\n3. Sortieren Sie **nach Frist**, damit Sie knappe Termine zuerst sehen.\n4. Öffnen Sie eine Ausschreibung und lesen Sie die Zusammenfassung: Auftraggeber, Leistung, Verfahrensart, Fristen und Eignung.\n\n**Hinweis:** Maßgeblich ist immer die Bekanntmachung im Vergabeportal. Über **„Im Portal öffnen“** gelangen Sie direkt dorthin.",
+  "app_ziel": [
+   "markt"
+  ]
+ },
+ {
+  "id": "schritt-merken",
+  "titel": "3. Ausschreibung merken",
+  "text": "<a id=\"schritt-merken\"></a> <sub>App-Ziel: `meine`</sub>\n\n1. Klicken Sie bei einer passenden Ausschreibung auf **„Merken“**.\n2. Sie finden sie danach unter **Meine Ausschreibungen**, mit Frist und Status.\n\n**Prüfen Sie früh:** Erfüllen Sie die geforderte Eignung (Referenzen, Umsatz, Zertifikate, Präqualifikation)? Wenn nicht, sparen Sie sich den Aufwand oder prüfen Sie eine Bietergemeinschaft.",
+  "app_ziel": [
+   "meine"
+  ]
+ },
+ {
+  "id": "schritt-unterlagen",
+  "titel": "4. Vergabeunterlagen laden oder importieren",
+  "text": "<a id=\"schritt-unterlagen\"></a> <sub>App-Ziel: `import`</sub>\n\n- **Portal ohne Anmeldung:** Klicken Sie auf **„Unterlagen laden“**. Nexus holt die Unterlagen mit einem Klick, sofern das Portal den Download öffentlich erlaubt.\n- **Portal mit Anmeldung:** Nexus zeigt nur den Link. Melden Sie sich selbst im Portal an, laden Sie die Unterlagen herunter (meist als ZIP) und ziehen Sie den **Ordner oder die ZIP-Datei** in Nexus („Unterlagen hier importieren“).\n\nNexus sortiert die Dateien automatisch in **LV**, **Formblätter**, **Pläne/Zeichnungen**, **Bekanntmachung** und **Zusatzinfos**. Prüfen Sie die Zuordnung kurz in der Liste.",
+  "app_ziel": [
+   "import"
+  ]
+ },
+ {
+  "id": "schritt-lv",
+  "titel": "5. Leistungsverzeichnis prüfen",
+  "text": "<a id=\"schritt-lv\"></a> <sub>App-Ziel: `lv`</sub>\n\n1. Nexus liest das LV aus der **GAEB-Datei (X83/D83)** oder aus dem **PDF** ein.\n2. In der **LV-Auswertung** sehen Sie jede Position mit Menge, Einheit und Langtext (aufklappen mit ▸).\n3. **Bedarfs- und Alternativpositionen** stehen getrennt vom Hauptangebot. Sie zählen nicht zur Angebotssumme, brauchen aber meist trotzdem einen Einheitspreis.\n4. Gleichen Sie bei PDF-LVs die erkannten Positionen kurz mit dem Original ab.",
+  "app_ziel": [
+   "lv"
+  ]
+ },
+ {
+  "id": "schritt-kalkulation",
+  "titel": "6. Produkte, Preise und Kalkulation",
+  "text": "<a id=\"schritt-kalkulation\"></a> <sub>App-Ziel: `produkte`, `kalkulation`, `partner`</sub>\n\n**Produktvorschläge mit Datenblattprüfung**\n- Für Positionen mit Produkten prüft Nexus jedes Kriterium aus dem LV-Text gegen das Herstellerdatenblatt: ✓ belegt, ✗ widerspricht, ? nicht angegeben.\n- **„Treffer“** erscheint nur, wenn **alle** Kriterien belegt sind. Sonst steht **„Nächstbester Vorschlag – x von y belegt“**. Prüfen Sie die offenen Punkte dann selbst.\n- Sie erhalten Links zu Produkt, Datenblatt und Händler. Das Datenblatt legt Nexus in der Bieterakte ab.\n- Nicht jede Position bekommt einen Produktvorschlag.\n\n**Preise**\n- Marktpreise stehen nur **mit Quelle und Datum** da. Ohne belegbaren Preis steht „Preis prüfen“.\n- Ihr eigener Preis hat immer Vorrang. Tragen Sie ihn über „ändern“ ein.\n\n**Kalkulation**\n- Marge, MwSt. und Stundensatz stellen Sie in der Übersicht der Ausschreibung ein. Alle Preise rechnen sofort neu.\n- Dienstleistungen, Montage und Programmierung kalkulieren Sie als **Eigenleistung**: Stunden je Einheit × €/h, dann „Übernehmen“.\n\n**B2B-Partner**\n- Ihre eigenen Lieferanten (Einstellungen → B2B-Partner) erscheinen bei passenden Positionen. Ohne eigene Partner zeigt Nexus die Händler, bei denen das Produkt online gefunden wurde.",
+  "app_ziel": [
+   "produkte",
+   "kalkulation",
+   "partner"
+  ]
+ },
+ {
+  "id": "schritt-bieterfragen",
+  "titel": "7. Bieterfragen vorbereiten",
+  "text": "<a id=\"schritt-bieterfragen\"></a>\n\n1. Sind Abgabe- oder Signaturform in den Unterlagen widersprüchlich, schlägt Nexus eine **Bieterfrage als Entwurf** vor. Mit der KI-Hilfe (eigener Schlüssel) können Sie auch andere Fragen als Entwurf formulieren lassen, etwa zu Leitfabrikat oder Mengen.\n2. Prüfen und ergänzen Sie den Text.\n3. Stellen Sie die Frage **selbst im Vergabeportal**, rechtzeitig vor der Fragefrist. Nexus sendet nichts.",
+  "app_ziel": []
+ },
+ {
+  "id": "schritt-abgabe-ordner",
+  "titel": "8. Abgabe-Ordner: Bieterakte und Checkliste",
+  "text": "<a id=\"schritt-abgabe-ordner\"></a> <sub>App-Ziel: `checkliste`</sub>\n\n1. Die **Bieterakte** ordnet alles je Ausschreibung: Bekanntmachung, Vergabeunterlagen, Kalkulation, Datenblätter, Nachweise und Abgabe. Sie können sie als ZIP speichern.\n2. Die **Abgabe-Checkliste** zeigt, welche Formblätter und Nachweise einzureichen sind (ja / nein / auf Verlangen, mit Begründung aus den Unterlagen), was schon ausgefüllt und unterschrieben ist und was noch fehlt.\n3. **Exportieren** Sie Ihr Angebot:\n   - **„GAEB-Datei (X84, z. B. für WinGAEB)“**: Ihre Einheitspreise in der Originalstruktur des LV, für die Abgabe, wenn GAEB verlangt ist.\n   - **Excel**: das LV mit Preisen, Quellen, Produkten und Händler-Links, für die interne Abstimmung.",
+  "app_ziel": [
+   "checkliste"
+  ]
+ },
+ {
+  "id": "schritt-abgabe",
+  "titel": "9. Unterschreiben und selbst im Vergabeportal abgeben",
+  "text": "<a id=\"schritt-abgabe\"></a> <sub>App-Ziel: `checkliste`</sub>\n\n1. Bei **„Abgabe“** zeigt Nexus die geforderte Form, mit Quelle aus den Unterlagen: Textform, fortgeschrittene oder qualifizierte elektronische Signatur.\n2. **Textform:** Nutzen Sie **„Unterschreiben“** in Nexus (einfache elektronische Signatur). Die Dokumente landen im Abgabe-Ordner der Bieterakte.\n3. **Qualifizierte elektronische Signatur (QES):** Signieren Sie mit Ihrer eigenen Signaturkarte oder über einen externen Vertrauensdiensteanbieter.\n4. **Geben Sie selbst ab:** Melden Sie sich im Vergabeportal an, laden Sie GAEB-Datei, Formblätter und Nachweise hoch und senden Sie das Angebot **vor Fristende** ab. Planen Sie Puffer für Upload und Signatur ein.\n\n> **Sie geben ab, nicht Nexus.** Nexus lädt nichts hoch und sendet nichts.",
+  "app_ziel": [
+   "checkliste"
+  ]
+ },
+ {
+  "id": "schritt-nach-abgabe",
+  "titel": "10. Nach der Abgabe",
+  "text": "<a id=\"schritt-nach-abgabe\"></a> <sub>App-Ziel: `meine`</sub>\n\n1. Markieren Sie die Ausschreibung in **Meine Ausschreibungen** als **„Abgegeben“**.\n2. Behalten Sie die Bindefrist und Nachrichten der Vergabestelle im Portal im Blick.\n3. Erledigte Verfahren können Sie **archivieren** (Unterlagen und Kalkulation bleiben erhalten) oder **löschen**. Im Vergabeportal ändert sich dadurch nichts.\n\n---",
+  "app_ziel": [
+   "meine"
+  ]
+ },
+ {
+  "id": "daten-sichern",
+  "titel": "Daten sichern",
+  "text": "<sub>App-Ziel: `einstellungen`</sub>\n\nIhre Daten bleiben in Ihrem Browser auf Ihrem Rechner. Sichern Sie sie regelmäßig unter **Einstellungen → Daten** mit **„Daten sichern“** als Datei. Mit **„Daten laden“** stellen Sie sie wieder her, zum Beispiel auf einem neuen Rechner.",
+  "app_ziel": [
+   "einstellungen"
+  ]
+ },
+ {
+  "id": "feedback",
+  "titel": "Feedback",
+  "text": "Fehlt Ihnen etwas? Nutzen Sie **„Vorschlag senden“**. Bitte schicken Sie dabei keine vertraulichen Angebotspreise mit.",
+  "app_ziel": []
+ }
+]

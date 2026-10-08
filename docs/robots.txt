@@ -1,0 +1,3 @@
+# Indexierung derzeit aus (SEO_INDEX=false): Hilfeseiten tragen noindex, keine Sitemap angegeben.
+User-agent: *
+Allow: /
